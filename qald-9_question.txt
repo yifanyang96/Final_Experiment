@@ -1,0 +1,141 @@
+In which U.S. state is Area 51 located?
+ res:Area_51 dbo:location ?uri . ?uri dbo:country res:United_States.  . 
+
+Which movies starring Brad Pitt were directed by Guy Ritchie?
+ ?uri rdf:type dbo:Film ; dbo:starring res:Brad_Pitt ; dbo:director res:Guy_Ritchie  . 
+
+Give me a list of all trumpet players that were bandleaders.
+ ?uri dbo:occupation res:Bandleader ; dbo:instrument res:Trumpet  . 
+
+Give me all cosmonauts.
+ ?uri a <dbo:Astronaut> { ?uri <dbo:nationality> <dbr:Russia>  .  ?uri <dbo:nationality> <dbr:Russia>  .  ?uri <dbo:nationality> <dbr:Soviet_Union>  . 
+
+In which films directed by Garry Marshall was Julia Roberts starring?
+ ?uri a <dbo:Film> ; <dbo:starring> <dbr:Julia_Roberts> ; <dbo:director> <dbr:Garry_Marshall>  . 
+
+Which movies star both Liz Taylor and Richard Burton?
+ ?uri <dbo:starring> <dbr:Elizabeth_Taylor> ; <dbo:starring> <dbr:Richard_Burton>  . 
+
+Which beer originated in Ireland?
+ ?uri <dbp:type> <dbr:Beer> ; <dbo:origin> <dbr:Beer_in_Ireland>  . 
+
+Was Margaret Thatcher a chemist?
+ <dbr:Margaret_Thatcher> <dbo:profession> <dbr:Chemist>  . 
+
+Is Christian Bale starring in Batman Begins?
+ res:Batman_Begins dbo:starring res:Christian_Bale  . 
+
+How many politicians graduated from Columbia University?
+ ?uri <dbo:profession> <dbr:Politician> ; <dbo:almaMater> <dbr:Columbia_University>  . 
+
+Which telecommunications organizations are located in Belgium?
+ ?uri a <dbo:Organisation> { ?uri <dbo:industry> <dbr:Telecommunication>  .  ?uri <dbo:industry> <dbr:Telecommunication>  .  ?uri <dbp:industry> ?industry  .  ?uri <dbo:location> <dbr:Belgium>  .  ?uri <dbp:locationCountry> "Belgium"@en  . 
+
+Show me all English Gothic buildings in Kent.
+ ?uri a <dbo:Building> ; <dbo:architecturalStyle> <dbr:English_Gothic_architecture> ; <dbo:location> <dbr:Kent>  . 
+
+Does the new Battlestar Galactica series have more episodes than the old one?
+ <dbr:Battlestar_Galactica_%281978_TV_series%29> dbo:numberOfEpisodes ?x . <dbr:Battlestar_Galactica_%282004_TV_series%29> dbo:numberOfEpisodes ?y  . 
+
+Which Greek parties are pro-European?
+ ?uri a <dbo:PoliticalParty> ; <dbo:country> <dbr:Greece> ; <dbo:ideology> <dbr:Pro-Europeanism>  . 
+
+Give me a list of all bandleaders that play trumpet.
+ ?uri <dbo:occupation> <dbr:Bandleader> ; <dbo:instrument> <dbr:Trumpet>  . 
+
+In which U.S. state is Fort Knox located?
+ res:Fort_Knox dbo:location ?uri . ?uri dbo:country res:United_States  . 
+
+Give me all people that were born in Vienna and died in Berlin.
+ ?uri <dbo:birthPlace> <dbr:Vienna> ; <dbo:deathPlace> <dbr:Berlin>  . 
+
+Is Darth Vader Luke’s father?
+ <dbr:Darth_Vader> <dbo:child> <dbr:Luke_Skywalker>  . 
+
+Was the Cuban Missile Crisis earlier than the Bay of Pigs Invasion?
+ res:Cuban_Missile_Crisis dbo:date ?x . res:Bay_of_Pigs_Invasion dbo:date ?y  . 
+
+Who is the coach of Ankara's ice hockey team?
+ ?x dbo:city res:Ankara ; dbo:league res:Turkish_Ice_Hockey_First_League ; dbo:coach ?uri  . 
+
+Are tree frogs a type of amphibian?
+ res:Hylidae dbo:class res:Amphibian  . 
+
+Which electronics companies were founded in Beijing?
+ ?uri rdf:type dbo:Company ; dbo:industry res:Electronics ; dbo:foundationPlace res:Beijing  . 
+
+Is Barack Obama a democrat?
+ res:Barack_Obama dbo:party <dbr:Democratic_Party_(United_States)>  . 
+
+Did Kaurismäki ever win the Grand Prix at Cannes?
+ res:Aki_Kaurismäki dbo:award <dbr:Grand_Prix_(Cannes_Film_Festival)>  . 
+
+Is Christian Bale starring in Velvet Goldmine?
+ res:Velvet_Goldmine dbo:starring res:Christian_Bale  . 
+
+Who is the son of Sonny and Cher?
+ ?uri dbo:parent res:Cher ; dbo:parent res:Sonny_Bono  . 
+
+Was Natalie Portman born in the United States?
+ res:Natalie_Portman dbo:birthPlace ?city . ?city dbo:country res:United_States  . 
+
+Did Tesla win a nobel prize in physics?
+ res:Nikola_Tesla dbo:award res:Nobel_Prize_in_Physics  . 
+
+Which scientist is known for the Manhattan Project and the Nobel Peace Prize?
+ ?uri dbo:knownFor res:Manhattan_Project ; rdf:type dbo:Scientist ; dbo:knownFor res:Nobel_Peace_Prize  . 
+
+Does Neymar play for Real Madrid?
+ res:Neymar dbo:team <dbr:Real_Madrid_C.F.>  . 
+
+Do Prince Harry and Prince William have the same parents?
+ <dbr:Prince_William,_Duke_of_Cambridge> dbo:parent ?x . res:Prince_Harry dbo:parent ?x  . 
+
+Does Breaking Bad have more episodes than Game of Thrones?
+ res:Breaking_Bad dbo:numberOfEpisodes ?x . res:Game_of_Thrones dbo:numberOfEpisodes ?y  . 
+
+Do Urdu and Persian have a common root?
+ dbr:Urdu dbo:languageFamily ?uri . dbr:Persian_language dbo:languageFamily ?uri  . 
+
+Who is starring in Spanish movies produced by Benicio del Toro?
+ ?film rdf:type dbo:Film ; dbo:country res:Spain ; dbo:producer res:Benicio_del_Toro ; dbo:starring ?uri . ?uri rdf:type dbo:Person  . 
+
+Is Lake Baikal bigger than the Great Bear Lake?
+ res:Lake_Baikal dbo:areaTotal ?a1 . res:Great_Bear_Lake dbo:areaTotal ?a2  . 
+
+Does the Ford Motor Company have a manufacturing plant in Malaysia?
+ ?uri dbo:assembly dbr:Malaysia ; dbo:manufacturer dbr:Ford_Motor_Company  . 
+
+Did Socrates influence Aristotle?
+ res:Aristotle dbo:influencedBy res:Socrates  . 
+
+In which UK city are the headquarters of the MI6?
+ res:Secret_Intelligence_Service dbo:headquarter ?uri . ?uri dbo:country res:United_Kingdom  . 
+
+Is Michelle Obama the wife of Barack Obama?
+ res:Barack_Obama dbo:spouse res:Michelle_Obama  . 
+
+Which books by Kerouac were published by Viking Press?
+ ?uri rdf:type dbo:Book ; dbo:publisher res:Viking_Press ; dbo:author res:Jack_Kerouac  . 
+
+Where in France is sparkling wine produced?
+ ?uri dbo:wineProduced res:Sparkling_wine ; dbo:location res:France  . 
+
+Which movies starring Mickey Rourke were directed by Guy Ritchie?
+ ?uri rdf:type dbo:Film ; dbo:starring res:Mickey_Rourke ; dbo:director res:Guy_Ritchie  . 
+
+In which films did Julia Roberts as well as Richard Gere play?
+ ?uri rdf:type dbo:Film ; dbo:starring res:Julia_Roberts ; dbo:starring res:Richard_Gere  . 
+
+Show me Hemingway's autobiography.
+ ?uri dbo:author res:Ernest_Hemingway ; dbo:literaryGenre res:Autobiography  . 
+
+Give me all Canadian Grunge record labels.
+ ?uri rdf:type dbo:RecordLabel ; dbo:genre res:Grunge ; dbo:country res:Canada  . 
+
+Give me all Swedish oceanographers.
+ ?uri dbo:field res:Oceanography ; dbo:birthPlace res:Sweden  . 
+
+Is Rita Wilson the wife of Tom Hanks?
+ res:Tom_Hanks dbo:spouse res:Rita_Wilson  . 
+

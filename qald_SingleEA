@@ -1,0 +1,3061 @@
+0
+sim: 0.2327240624832788
+relations: http://dbpedia.org/ontology/country
+true relations: dbo:country
+answers: 
+http://dbpedia.org/resource/Gustavus_Adolphus_Day
+http://dbpedia.org/resource/St._Knut's_Day
+http://dbpedia.org/resource/Veterans_Day_(Sweden)
+1
+sim: 0.36512215481528326
+relations: http://dbpedia.org/property/prizes
+true relations: dbo:award dbo:birthDate
+answers: 
+http://dbpedia.org/resource/Donald_Justice
+http://dbpedia.org/resource/Bert_H%C3%B6lldobler
+http://dbpedia.org/resource/John_Kaplan
+2
+sim: 0.4885514188570803
+relations: http://dbpedia.org/property/placeOfBirth
+true relations: dbo:birthPlace
+answers: 
+http://dbpedia.org/resource/Adrian_Mifsud
+http://dbpedia.org/resource/Jonathan_Holland
+http://dbpedia.org/resource/Luke_Dimech
+http://dbpedia.org/resource/Gilbert_Agius
+http://dbpedia.org/resource/Ian_Stevens_(footballer)
+http://dbpedia.org/resource/John_McNeill_(footballer)
+http://dbpedia.org/resource/John_Buttigieg_(footballer)
+http://dbpedia.org/resource/Clayton_Failla
+http://dbpedia.org/resource/Roderick_Briffa
+http://dbpedia.org/resource/Reuben_Gauci
+http://dbpedia.org/resource/Gareth_Sciberras
+http://dbpedia.org/resource/Paul_Fenech_(footballer)
+http://dbpedia.org/resource/Terence_Vella
+http://dbpedia.org/resource/Kevin_Sammut
+http://dbpedia.org/resource/Malcolm_Licari
+http://dbpedia.org/resource/William_Camenzuli
+http://dbpedia.org/resource/Michael_Degiorgio
+http://dbpedia.org/resource/Alex_Muscat
+http://dbpedia.org/resource/Andrei_Agius
+http://dbpedia.org/resource/Andrew_Cohen_(footballer)
+http://dbpedia.org/resource/Joe_Brincat
+http://dbpedia.org/resource/Silvio_Vella
+http://dbpedia.org/resource/Hubert_Suda
+http://dbpedia.org/resource/Kristian_Laferla
+http://dbpedia.org/resource/Stefan_Sultana
+http://dbpedia.org/resource/Michael_Galea
+http://dbpedia.org/resource/Ivan_Zammit
+http://dbpedia.org/resource/John_Cutbush_(footballer)
+http://dbpedia.org/resource/Ian_Azzopardi
+http://dbpedia.org/resource/Edward_Azzopardi
+http://dbpedia.org/resource/Adrian_Pulis
+http://dbpedia.org/resource/Edmond_Agius
+http://dbpedia.org/resource/Joe_Cini
+http://dbpedia.org/resource/Jesmond_Delia
+http://dbpedia.org/resource/David_Cluett
+http://dbpedia.org/resource/David_Camilleri
+http://dbpedia.org/resource/Lino_Galea
+http://dbpedia.org/resource/Salvinu_Schembri
+http://dbpedia.org/resource/Aaron_Xuereb
+http://dbpedia.org/resource/Karl_Sacco
+http://dbpedia.org/resource/Adrian_Ciantar
+http://dbpedia.org/resource/Jeffrey_Chetcuti
+http://dbpedia.org/resource/Rachel_Cuschieri
+http://dbpedia.org/resource/Antoine_Zahra_(footballer_born_1977)
+http://dbpedia.org/resource/Antoine_Zahra_(footballer_born_1981)
+http://dbpedia.org/resource/Reginald_Cini
+http://dbpedia.org/resource/Mario_Farrugia
+http://dbpedia.org/resource/Denis_Cauchi
+http://dbpedia.org/resource/Charles_Azzopardi
+http://dbpedia.org/resource/Michael_Cutajar
+http://dbpedia.org/resource/Daniel_Theuma
+http://dbpedia.org/resource/Roderick_Bajada
+http://dbpedia.org/resource/Ian_Ciantar
+http://dbpedia.org/resource/Pierre_Aquilina
+http://dbpedia.org/resource/Brian_Strutt
+http://dbpedia.org/resource/Cornelius_Hogan
+http://dbpedia.org/resource/John_Bonello
+http://dbpedia.org/resource/Simon_Tortell
+http://dbpedia.org/resource/Dennis_Mizzi
+http://dbpedia.org/resource/Lolly_Vella
+http://dbpedia.org/resource/Jonathan_Magri_Overend
+http://dbpedia.org/resource/Charles_Micallef
+http://dbpedia.org/resource/Vincent_Borg_Bonaci
+3
+sim: 0.20341345036073522
+relations: http://dbpedia.org/property/almaMater
+true relations: dbo:almaMater
+answers: 
+http://dbpedia.org/resource/University_of_Wisconsin%E2%80%93Superior
+http://dbpedia.org/resource/Santa_Monica_College
+http://dbpedia.org/resource/University_of_Wisconsin_System
+4
+sim: 1.0
+relations: http://dbpedia.org/ontology/influencedBy
+true relations: dbo:influencedBy dbo:influenced
+answers: 
+http://dbpedia.org/resource/C_(programming_language)
+http://dbpedia.org/resource/C++
+http://dbpedia.org/resource/Lisp_(programming_language)
+http://dbpedia.org/resource/Eiffel_(programming_language)
+http://dbpedia.org/resource/Ruby_(programming_language)
+http://dbpedia.org/resource/Pascal_(programming_language)
+http://dbpedia.org/resource/Smalltalk
+http://dbpedia.org/resource/BASIC
+http://dbpedia.org/resource/AWK
+http://dbpedia.org/resource/Sed
+http://dbpedia.org/resource/JavaScript
+http://dbpedia.org/resource/Python_(programming_language)
+http://dbpedia.org/resource/Perl_6
+http://dbpedia.org/resource/PHP
+http://dbpedia.org/resource/Windows_PowerShell
+http://dbpedia.org/resource/ECMAScript
+http://dbpedia.org/resource/LPC_(programming_language)
+http://dbpedia.org/resource/Julia_(programming_language)
+http://dbpedia.org/resource/CoffeeScript
+http://dbpedia.org/resource/Groovy_(programming_language)
+http://dbpedia.org/resource/Falcon_(programming_language)
+http://dbpedia.org/resource/Perl_Data_Language
+http://dbpedia.org/resource/Frink
+http://dbpedia.org/resource/MIVA_Script
+http://dbpedia.org/resource/Judoscript
+http://dbpedia.org/resource/Nemo_(programming_language)
+http://dbpedia.org/resource/P*
+5
+sim: 0.4990228203946403
+relations: http://dbpedia.org/property/candidate
+true relations: dbo:party
+answers: 
+http://dbpedia.org/resource/Texas
+http://dbpedia.org/resource/Barack_Obama_presidential_campaign,_2008
+http://dbpedia.org/resource/Barack_Obama_presidential_campaign,_2012
+http://dbpedia.org/resource/Denton_County,_Texas
+http://dbpedia.org/resource/Centralia,_Washington
+http://dbpedia.org/resource/United_States_presidential_election_in_Oregon,_2012
+http://dbpedia.org/resource/United_States_presidential_election_in_Pennsylvania,_2012
+http://dbpedia.org/resource/Barack_Obama_presidential_primary_campaign,_2008
+http://dbpedia.org/resource/Illinois'_1st_congressional_district_election,_2000
+http://dbpedia.org/resource/United_States_presidential_election_in_Montana,_2012
+http://dbpedia.org/resource/Oklahoma_state_elections,_2012
+6
+sim: 0.35200403778403566
+relations: http://dbpedia.org/ontology/spouse
+true relations: dbp:children
+answers: 
+http://dbpedia.org/resource/Tracey_Edmonds
+7
+sim: 1.0000000000000002
+relations: http://dbpedia.org/ontology/child
+true relations: dbo:child dbo:birthDate
+answers: 
+http://dbpedia.org/resource/Mamie_Gummer
+http://dbpedia.org/resource/Grace_Gummer
+http://dbpedia.org/resource/Henry_Wolfe_Gummer
+8
+sim: 0.18947610547969806
+relations: http://dbpedia.org/property/aliases
+true relations: dbp:conviction
+answers: 
+http://dbpedia.org/resource/John_the_Skrull
+9
+sim: 0.5544620655856334
+relations: http://dbpedia.org/property/headquarters
+true relations: dbo:headquarter
+answers: 
+http://dbpedia.org/resource/Beijing
+http://dbpedia.org/resource/Shunyi_District
+10
+11
+12
+sim: 0.2203117855392257
+relations: http://dbpedia.org/property/regions
+true relations: dbo:growingGrape
+answers: 
+http://dbpedia.org/resource/Pinot_noir
+http://dbpedia.org/resource/Melon_de_Bourgogne
+http://dbpedia.org/resource/Baco_noir
+13
+sim: 1.0
+relations: http://dbpedia.org/property/manager
+true relations: dbo:manager
+answers: 
+http://dbpedia.org/resource/Carlo_Ancelotti
+14
+sim: 1.0
+relations: http://dbpedia.org/ontology/currency
+true relations: dbo:currency
+answers: 
+http://dbpedia.org/resource/Renminbi
+15
+16
+17
+sim: 0.724327729164128
+relations: http://dbpedia.org/property/futureMembers
+true relations: dbo:alliance
+answers: 
+http://dbpedia.org/resource/Air_India
+http://dbpedia.org/resource/Avianca_Brazil
+18
+sim: 0.22127420727366562
+relations: http://dbpedia.org/property/flybyOf
+true relations: dbp:planet
+answers: 
+http://dbpedia.org/resource/Dawn_(spacecraft)
+http://dbpedia.org/resource/Mariner_6_and_7
+19
+sim: 0.0
+relations: http://dbpedia.org/property/universo
+true relations: dbo:birthDate dbp:birthDate dbp:date
+answers: 
+http://dbpedia.org/resource/Laurie_Strode
+20
+sim: 0.3051694908977388
+relations: http://dbpedia.org/property/membership
+true relations: dbo:locationCountry dbo:location dbo:country
+answers: 
+http://dbpedia.org/resource/European_Go_Federation
+21
+sim: 0.20410516030652118
+relations: http://dbpedia.org/ontology/country
+true relations: dbo:country
+answers: 
+http://dbpedia.org/resource/Saudi_Arabia
+22
+sim: 1.0000000000000007
+relations: http://dbpedia.org/property/netIncome
+true relations: dbo:netIncome
+answers: 
+US$ 37.037 billion
+23
+sim: 0.59306675209935
+relations: http://dbpedia.org/ontology/knownFor
+true relations: dbp:name
+answers: 
+http://dbpedia.org/resource/Harold_Mayne-Nicholls
+24
+sim: 0.5096342442539339
+relations: http://dbpedia.org/ontology/dissolutionDate
+true relations: dbo:dissolutionDate
+answers: 
+25
+26
+sim: 0.5428494054389492
+relations: http://dbpedia.org/ontology/locatedInArea
+true relations: dbo:locatedInArea dbo:elevation
+answers: 
+http://dbpedia.org/resource/Ischia
+http://dbpedia.org/resource/Mont_Blanc
+http://dbpedia.org/resource/Matterhorn
+http://dbpedia.org/resource/Gran_Paradiso
+http://dbpedia.org/resource/Rocciamelone
+http://dbpedia.org/resource/Monte_Rosa
+http://dbpedia.org/resource/Grandes_Jorasses
+http://dbpedia.org/resource/Piz_Bernina
+http://dbpedia.org/resource/Ortler
+http://dbpedia.org/resource/Dent_d'H%C3%A9rens
+http://dbpedia.org/resource/Monte_Falterona
+http://dbpedia.org/resource/Tre_Cime_di_Lavaredo
+http://dbpedia.org/resource/Mount_Circeo
+http://dbpedia.org/resource/Mount_Etna
+http://dbpedia.org/resource/Phlegraean_Fields
+http://dbpedia.org/resource/Tifata
+http://dbpedia.org/resource/Mount_Capanne
+http://dbpedia.org/resource/Gran_Sasso_d'Italia
+http://dbpedia.org/resource/Monte_Viso
+http://dbpedia.org/resource/Rocca_Bernauda
+http://dbpedia.org/resource/Monte_Terminillo
+http://dbpedia.org/resource/Monti_della_Meta
+http://dbpedia.org/resource/Breithorn
+http://dbpedia.org/resource/Monte_Amiata
+http://dbpedia.org/resource/Ortobene
+http://dbpedia.org/resource/Matajur
+http://dbpedia.org/resource/Fineilspitze
+http://dbpedia.org/resource/Maiella
+http://dbpedia.org/resource/Grenzgipfel
+http://dbpedia.org/resource/Mont_Dolent
+http://dbpedia.org/resource/Piz_Lad
+http://dbpedia.org/resource/Hyblaean_Mountains
+http://dbpedia.org/resource/Punta_La_Marmora
+http://dbpedia.org/resource/Monte_Rasu
+http://dbpedia.org/resource/Mount_Fumaiolo
+http://dbpedia.org/resource/Monte_Toc
+http://dbpedia.org/resource/Monte_Musin%C3%A8
+http://dbpedia.org/resource/Solfatara_(volcano)
+http://dbpedia.org/resource/Schlern
+http://dbpedia.org/resource/Lyskamm
+http://dbpedia.org/resource/Piz_Pal%C3%BC
+http://dbpedia.org/resource/Dent_du_G%C3%A9ant
+http://dbpedia.org/resource/Mont_Blanc_de_Courmayeur
+http://dbpedia.org/resource/Signalkuppe
+http://dbpedia.org/resource/Zumsteinspitze
+http://dbpedia.org/resource/Cristallo_(mountain)
+http://dbpedia.org/resource/Monte_Cavo
+http://dbpedia.org/resource/Marmolada
+http://dbpedia.org/resource/Presolana
+http://dbpedia.org/resource/Monte_Resegone
+http://dbpedia.org/resource/Mount_Adamello
+http://dbpedia.org/resource/Mont_Maudit
+http://dbpedia.org/resource/D%C3%B4me_du_Go%C3%BBter
+http://dbpedia.org/resource/Pollino
+http://dbpedia.org/resource/Taburnus
+http://dbpedia.org/resource/Paganella
+http://dbpedia.org/resource/Mount_Somma
+http://dbpedia.org/resource/Mount_Epomeo
+http://dbpedia.org/resource/Monte_Argentera
+http://dbpedia.org/resource/Melette
+http://dbpedia.org/resource/Monte_Zebio
+http://dbpedia.org/resource/Monte_Vettore
+http://dbpedia.org/resource/Monte_Conero
+http://dbpedia.org/resource/Monte_Generoso
+http://dbpedia.org/resource/Monte_Cistella
+http://dbpedia.org/resource/Monte_Leone
+http://dbpedia.org/resource/Bas%C3%B2dino
+http://dbpedia.org/resource/Helsenhorn
+http://dbpedia.org/resource/Blinnenhorn
+http://dbpedia.org/resource/Wasenhorn
+http://dbpedia.org/resource/Scherbadung
+http://dbpedia.org/resource/Ofenhorn
+http://dbpedia.org/resource/Hohsandhorn
+http://dbpedia.org/resource/Punta_Valgrande
+http://dbpedia.org/resource/Pizzo_Campanile
+http://dbpedia.org/resource/Piz_Corbet
+http://dbpedia.org/resource/Pizzo_Cavregasco
+http://dbpedia.org/resource/Pizzo_Tamb%C3%B2
+http://dbpedia.org/resource/Monte_Matto
+http://dbpedia.org/resource/Cime_du_G%C3%A9las
+http://dbpedia.org/resource/Enciastraia
+http://dbpedia.org/resource/Monte_Clapier
+http://dbpedia.org/resource/J%C3%A4gerhorn
+http://dbpedia.org/resource/Castor_(mountain)
+http://dbpedia.org/resource/Pollux_(mountain)
+http://dbpedia.org/resource/Parrotspitze
+http://dbpedia.org/resource/Mont_V%C3%A9lan
+http://dbpedia.org/resource/Grand_Golliat
+http://dbpedia.org/resource/Mont_Gel%C3%A9_(3518_m)
+http://dbpedia.org/resource/Mont_Avril
+http://dbpedia.org/resource/T%C3%AAte_Blanche
+http://dbpedia.org/resource/Cima_di_Jazzi
+http://dbpedia.org/resource/Latelhorn
+http://dbpedia.org/resource/Bouquetins
+http://dbpedia.org/resource/Monte_Bo
+http://dbpedia.org/resource/Monte_Tagliaferro
+http://dbpedia.org/resource/Corno_Bianco
+http://dbpedia.org/resource/Monte_Granero
+http://dbpedia.org/resource/Monte_Meidassa
+http://dbpedia.org/resource/Aiguille_de_Scolette
+http://dbpedia.org/resource/Punta_Bagn%C3%A0
+http://dbpedia.org/resource/Punta_Sommeiller
+http://dbpedia.org/resource/Rognosa_d'Etiache
+http://dbpedia.org/resource/Monte_Orsiera
+http://dbpedia.org/resource/Punta_Ramiere
+http://dbpedia.org/resource/Monte_Civetta
+http://dbpedia.org/resource/Schiara
+http://dbpedia.org/resource/Antelao
+http://dbpedia.org/resource/Rosengartenspitze
+http://dbpedia.org/resource/Kesselkogel
+http://dbpedia.org/resource/Rosengarten_group
+http://dbpedia.org/resource/Sass_Rigais
+http://dbpedia.org/resource/Cimon_della_Pala
+http://dbpedia.org/resource/Tofane
+http://dbpedia.org/resource/Vezzana
+http://dbpedia.org/resource/Dreischusterspitze
+http://dbpedia.org/resource/Grohmannspitze
+http://dbpedia.org/resource/Langkofel
+http://dbpedia.org/resource/Vajolet_Towers
+http://dbpedia.org/resource/Zw%C3%B6lferkofel
+http://dbpedia.org/resource/Piz_Bo%C3%A8
+http://dbpedia.org/resource/Cima_d'Asta
+http://dbpedia.org/resource/Piz_Badile
+http://dbpedia.org/resource/Piz_Roseg
+http://dbpedia.org/resource/Cima_di_Castello
+http://dbpedia.org/resource/Piz_Paradisin
+http://dbpedia.org/resource/Piz_Murtar%C3%B6l
+http://dbpedia.org/resource/Aiguille_de_Bionnassay
+http://dbpedia.org/resource/Grivola
+http://dbpedia.org/resource/Aiguille_des_Glaciers
+http://dbpedia.org/resource/Aiguille_de_Triolet
+http://dbpedia.org/resource/Levanna
+http://dbpedia.org/resource/Uia_di_Ciamarella
+http://dbpedia.org/resource/Aiguille_de_la_Grande_Sassi%C3%A8re
+http://dbpedia.org/resource/Herb%C3%A9tet
+http://dbpedia.org/resource/Torre_del_Gran_San_Pietro
+http://dbpedia.org/resource/Campo_dei_Fiori_di_Varese
+http://dbpedia.org/resource/Wei%C3%9Fkugel
+http://dbpedia.org/resource/Hintere_Schw%C3%A4rze
+http://dbpedia.org/resource/Hochfeiler
+http://dbpedia.org/resource/Marzellspitze
+http://dbpedia.org/resource/Wei%C3%9Fseespitze
+http://dbpedia.org/resource/Monte_Soratte
+http://dbpedia.org/resource/Presanella
+http://dbpedia.org/resource/Hoher_Angelus
+http://dbpedia.org/resource/Vertainspitze
+http://dbpedia.org/resource/Monte_Cevedale
+http://dbpedia.org/resource/Palon_de_la_Mare
+http://dbpedia.org/resource/Monte_Zebr%C3%B9
+http://dbpedia.org/resource/Piz_Timun
+http://dbpedia.org/resource/Pizz_Gallagiun
+http://dbpedia.org/resource/Dreiherrnspitze
+http://dbpedia.org/resource/Rocca_dei_Tre_Vescovi
+http://dbpedia.org/resource/Monte_Disgrazia
+http://dbpedia.org/resource/Piz_Zup%C3%B2
+http://dbpedia.org/resource/Piz_Cengalo
+http://dbpedia.org/resource/Piz_Scerscen
+http://dbpedia.org/resource/Aiguille_Blanche_de_Peuterey
+http://dbpedia.org/resource/Bellavista_(mountain)
+http://dbpedia.org/resource/Portjengrat
+http://dbpedia.org/resource/Hochgall
+http://dbpedia.org/resource/Gro%C3%9Fer_L%C3%B6ffler
+http://dbpedia.org/resource/R%C3%B6tspitze
+http://dbpedia.org/resource/Vincent_Pyramid
+http://dbpedia.org/resource/Monte_Moro
+http://dbpedia.org/resource/Matese
+http://dbpedia.org/resource/Monte_Subasio
+http://dbpedia.org/resource/Monte_Vulture
+http://dbpedia.org/resource/Monti_Li_Foj
+http://dbpedia.org/resource/Monte_Alpi
+http://dbpedia.org/resource/Monte_Carmine
+http://dbpedia.org/resource/Toppa_Pizzuta
+http://dbpedia.org/resource/Pointe_Helbronner
+http://dbpedia.org/resource/Monte_Mutria
+http://dbpedia.org/resource/Col_di_Lana
+http://dbpedia.org/resource/Monte_Cimone
+http://dbpedia.org/resource/Alpe_di_Succiso
+http://dbpedia.org/resource/Monte_Cusna
+http://dbpedia.org/resource/Mount_Barbaro
+http://dbpedia.org/resource/Wilder_Freiger
+http://dbpedia.org/resource/Hirzer_(Sarntal_Alps)
+http://dbpedia.org/resource/Monte_Solaro
+http://dbpedia.org/resource/Monte_Penna
+http://dbpedia.org/resource/Corno_Grande
+http://dbpedia.org/resource/Monte_Maggiorasca
+http://dbpedia.org/resource/Monte_Catria
+http://dbpedia.org/resource/Monte_Prado
+http://dbpedia.org/resource/Montagne_del_Morrone
+http://dbpedia.org/resource/Monte_Nerone
+http://dbpedia.org/resource/Monte_Velino
+http://dbpedia.org/resource/Monte_Pisanino
+http://dbpedia.org/resource/Monte_Zoncolan
+http://dbpedia.org/resource/Theodulhorn
+http://dbpedia.org/resource/Pizzo_Bianco
+http://dbpedia.org/resource/Rocca_Busambra
+http://dbpedia.org/resource/Kanin_(mountain)
+http://dbpedia.org/resource/J%C3%B4f_di_Montasio
+http://dbpedia.org/resource/Grigna_(monte)
+http://dbpedia.org/resource/Furchetta
+http://dbpedia.org/resource/Sas_dla_Crusc
+http://dbpedia.org/resource/Pic_Tyndall
+http://dbpedia.org/resource/Pointe_de_Dr%C3%B4ne
+http://dbpedia.org/resource/Mont_Mort
+http://dbpedia.org/resource/Coglians
+http://dbpedia.org/resource/Cima_dei_Preti
+http://dbpedia.org/resource/Monte_Maddalena
+http://dbpedia.org/resource/Sonnighorn
+http://dbpedia.org/resource/Monte_Penice
+http://dbpedia.org/resource/Pomagagnon
+http://dbpedia.org/resource/Pizzoc
+http://dbpedia.org/resource/Monte_Baldo
+http://dbpedia.org/resource/Monte_Grappa
+http://dbpedia.org/resource/Gobba_di_Rollin
+http://dbpedia.org/resource/Monte_Prel%C3%A0
+http://dbpedia.org/resource/Monte_Lauro
+http://dbpedia.org/resource/Monte_Arcibessi
+http://dbpedia.org/resource/Cinque_Torri
+http://dbpedia.org/resource/Croda_da_Lago
+http://dbpedia.org/resource/Monte_Nuovo
+http://dbpedia.org/resource/Vulsini
+http://dbpedia.org/resource/Picco_Luigi_Amedeo
+http://dbpedia.org/resource/Central_Breithorn
+http://dbpedia.org/resource/Eastern_Breithorn
+http://dbpedia.org/resource/Breithornzwillinge
+http://dbpedia.org/resource/Roccia_Nera
+http://dbpedia.org/resource/Mottarone
+http://dbpedia.org/resource/Cervati
+http://dbpedia.org/resource/Mont_Brouillard
+http://dbpedia.org/resource/Plose
+http://dbpedia.org/resource/Hochwilde
+http://dbpedia.org/resource/Hinterer_Seelenkogel
+http://dbpedia.org/resource/Lagaunspitze
+http://dbpedia.org/resource/Tribulaun
+http://dbpedia.org/resource/Sonklarspitze
+http://dbpedia.org/resource/Ludwigsh%C3%B6he_(mountain)
+http://dbpedia.org/resource/Punta_Marguareis
+http://dbpedia.org/resource/Pilone
+http://dbpedia.org/resource/Pizzo_Coca
+http://dbpedia.org/resource/Monte_Zucco
+http://dbpedia.org/resource/Monte_Spina
+http://dbpedia.org/resource/Concarena
+http://dbpedia.org/resource/Piz_Chaschauna
+http://dbpedia.org/resource/Piz_da_l'Acqua
+http://dbpedia.org/resource/Monte_Pizzocolo
+http://dbpedia.org/resource/Monte_Gavia
+http://dbpedia.org/resource/Monte_Sobretta
+http://dbpedia.org/resource/Cima_Piazzi
+http://dbpedia.org/resource/Helm_(mountain)
+http://dbpedia.org/resource/Monte_Cavallino
+http://dbpedia.org/resource/Pointe_Walker
+http://dbpedia.org/resource/Grand_Pilier_d'Angle
+http://dbpedia.org/resource/Schneebiger_Nock
+http://dbpedia.org/resource/Campanile_Basso
+http://dbpedia.org/resource/Cima_Tosa
+http://dbpedia.org/resource/Cima_Brenta
+http://dbpedia.org/resource/La_Spedla
+http://dbpedia.org/resource/Monte_Altissimo
+http://dbpedia.org/resource/Monte_Petrella
+http://dbpedia.org/resource/Crast'_Ag%C3%BCzza
+http://dbpedia.org/resource/Piz_da_las_Trais_Linguas
+http://dbpedia.org/resource/Monte_Piana
+http://dbpedia.org/resource/Penegal
+http://dbpedia.org/resource/Monte_Calvo_(Picentini)
+http://dbpedia.org/resource/Monte_Carmo_di_Loano
+http://dbpedia.org/resource/Monte_Front%C3%A8
+http://dbpedia.org/resource/Monte_Galero
+http://dbpedia.org/resource/Monte_Settepani
+http://dbpedia.org/resource/Monte_Saccarello
+http://dbpedia.org/resource/Schwarzberghorn
+http://dbpedia.org/resource/Pizzo_Tre_Signori
+http://dbpedia.org/resource/Aouille_Tseuque
+http://dbpedia.org/resource/La_Singla
+http://dbpedia.org/resource/Mont_Brul%C3%A9
+http://dbpedia.org/resource/Wandfluhhorn
+http://dbpedia.org/resource/Gridone
+http://dbpedia.org/resource/Surettahorn
+http://dbpedia.org/resource/Piz_Sena
+http://dbpedia.org/resource/Scima_da_Saoseo
+http://dbpedia.org/resource/Grigna
+http://dbpedia.org/resource/Ohrenspitzen
+http://dbpedia.org/resource/Wilder_Pfaff
+http://dbpedia.org/resource/Roteck
+http://dbpedia.org/resource/Schwarzenstein_(Zillertal_Alps)
+http://dbpedia.org/resource/Pizzo_Scalino
+http://dbpedia.org/resource/Cima_Viola
+http://dbpedia.org/resource/Cima_Dodici
+http://dbpedia.org/resource/Aiguille_Noire_de_Peuterey
+http://dbpedia.org/resource/Aiguille_de_Leschaux
+http://dbpedia.org/resource/Col_Nudo
+http://dbpedia.org/resource/Monte_Bondone
+http://dbpedia.org/resource/Pania_della_Croce
+http://dbpedia.org/resource/Alburni
+http://dbpedia.org/resource/Piz_Umbrail
+http://dbpedia.org/resource/Hasen%C3%B6hrl_(Ortler_Alps)
+http://dbpedia.org/resource/Tschenglser_Hochwand
+http://dbpedia.org/resource/Corno_dei_Tre_Signori
+http://dbpedia.org/resource/Monte_Vioz
+http://dbpedia.org/resource/Pizzo_del_Becco
+http://dbpedia.org/resource/Monte_Gleno
+http://dbpedia.org/resource/Monte_Legnone
+http://dbpedia.org/resource/Pizzo_Recastello
+http://dbpedia.org/resource/Corno_Stella
+http://dbpedia.org/resource/Piz_Argient
+http://dbpedia.org/resource/Piz_Varuna
+http://dbpedia.org/resource/Piz_dal_Teo
+http://dbpedia.org/resource/Munt_Cotschen
+http://dbpedia.org/resource/Piz_Lavirun
+http://dbpedia.org/resource/Piz_Terza
+http://dbpedia.org/resource/Turnerkamp
+http://dbpedia.org/resource/Montalto_(Aspromonte)
+http://dbpedia.org/resource/Piz_Bles
+http://dbpedia.org/resource/Cima_da_L%C3%A4gh
+http://dbpedia.org/resource/Piz_Miez
+http://dbpedia.org/resource/Pizzo_Stella
+http://dbpedia.org/resource/Grande_T%C3%AAte_de_By
+http://dbpedia.org/resource/Furgghorn
+http://dbpedia.org/resource/Monte_Rocchetta
+http://dbpedia.org/resource/Monte_Reale
+http://dbpedia.org/resource/Monte_Raione
+http://dbpedia.org/resource/Monte_Ripalta
+http://dbpedia.org/resource/Monte_Massico
+http://dbpedia.org/resource/Monte_Colombano
+http://dbpedia.org/resource/D%C3%B4me_de_Rochefort
+http://dbpedia.org/resource/Pic_Eccles
+http://dbpedia.org/resource/Aiguille_de_Rochefort
+http://dbpedia.org/resource/Monte_Pelpi_(Emilia_Romagna)
+http://dbpedia.org/resource/Polveracchio
+http://dbpedia.org/resource/Monte_Sirente
+http://dbpedia.org/resource/Kronplatz
+http://dbpedia.org/resource/Piz_Chavalatsch
+http://dbpedia.org/resource/Monte_Faito
+http://dbpedia.org/resource/Sella_Towers
+http://dbpedia.org/resource/Monte_Consolino
+http://dbpedia.org/resource/Monte_Stella_(Calabria)
+http://dbpedia.org/resource/Cornizzolo
+http://dbpedia.org/resource/Corni_di_Canzo
+http://dbpedia.org/resource/Monte_Torena
+http://dbpedia.org/resource/Kastelhorn
+http://dbpedia.org/resource/Monte_Ferro
+http://dbpedia.org/resource/Monte_Tremalzo
+http://dbpedia.org/resource/Monte_Crostis
+http://dbpedia.org/resource/Montagna_dei_Fiori
+http://dbpedia.org/resource/Monte_Gorzano
+http://dbpedia.org/resource/Terminio
+http://dbpedia.org/resource/Monte_Paterno
+http://dbpedia.org/resource/Monte_Beigua
+http://dbpedia.org/resource/Bulgheria
+http://dbpedia.org/resource/Monte_Gelbison
+http://dbpedia.org/resource/Monte_Pruno
+http://dbpedia.org/resource/Monte_Stella_(Cilento)
+http://dbpedia.org/resource/Mont_Glacier
+http://dbpedia.org/resource/Mont_Avic
+http://dbpedia.org/resource/Monte_Cocuzzo
+http://dbpedia.org/resource/Monte_Lera
+http://dbpedia.org/resource/Colma_di_Mombarone
+http://dbpedia.org/resource/Punta_Tre_Vescovi
+http://dbpedia.org/resource/Rocca_la_Meja
+http://dbpedia.org/resource/Monte_Pracaban
+http://dbpedia.org/resource/Monte_Carmo
+http://dbpedia.org/resource/Monte_Penna_(Liguria)
+http://dbpedia.org/resource/Monte_Bisbino
+http://dbpedia.org/resource/Sighignola
+http://dbpedia.org/resource/Monte_Sernio
+http://dbpedia.org/resource/Pizzocco
+http://dbpedia.org/resource/Monte_Rua
+http://dbpedia.org/resource/Monte_Venda
+http://dbpedia.org/resource/Monte_Alfeo
+http://dbpedia.org/resource/Monte_Sillara
+http://dbpedia.org/resource/Monte_Carpegna
+http://dbpedia.org/resource/Monte_San_Vicino
+http://dbpedia.org/resource/Monte_Sibilla
+http://dbpedia.org/resource/Monte_Morello
+http://dbpedia.org/resource/Monte_Arcosu
+http://dbpedia.org/resource/Monte_Pecoraro
+http://dbpedia.org/resource/Grieshorn
+http://dbpedia.org/resource/Monte_San_Martino_(Lecco)
+http://dbpedia.org/resource/Glockenkarkopf
+http://dbpedia.org/resource/Monte_Reixa
+http://dbpedia.org/resource/Pizzo_del_Diavolo_di_Tenda
+http://dbpedia.org/resource/Pizes_de_Cir
+http://dbpedia.org/resource/Zinseler
+http://dbpedia.org/resource/Cima_della_Bondasca
+http://dbpedia.org/resource/Monte_Sissone
+http://dbpedia.org/resource/Cima_di_Rosso
+http://dbpedia.org/resource/Monte_del_Forno
+http://dbpedia.org/resource/Monte_Taccone
+http://dbpedia.org/resource/Monte_Antola
+http://dbpedia.org/resource/Monte_Barone
+http://dbpedia.org/resource/Rittner_Horn
+http://dbpedia.org/resource/Speikboden_(South_Tyrol)
+http://dbpedia.org/resource/Monte_Pora
+http://dbpedia.org/resource/Monte_Bove
+http://dbpedia.org/resource/Monte_Solarolo
+http://dbpedia.org/resource/Cornone_di_Blumone
+http://dbpedia.org/resource/Monte_Sasso
+http://dbpedia.org/resource/Schwarzhorn_(Monte_Rosa_Massif)
+http://dbpedia.org/resource/Massiccio_del_Sirino
+http://dbpedia.org/resource/Monte_Martica
+http://dbpedia.org/resource/Picco_Muzio
+http://dbpedia.org/resource/Punta_Baretti
+http://dbpedia.org/resource/Pizzo_di_Gino
+http://dbpedia.org/resource/Monte_Lesima
+http://dbpedia.org/resource/Monte_Ramaceto
+http://dbpedia.org/resource/Monte_Mars
+http://dbpedia.org/resource/Monte_Cresto
+http://dbpedia.org/resource/Denti_della_Vecchia
+http://dbpedia.org/resource/Creta_Forata
+http://dbpedia.org/resource/Monte_Raci
+http://dbpedia.org/resource/Bortelhorn
+http://dbpedia.org/resource/Pizzo_Badile_Camuno
+http://dbpedia.org/resource/Sextener_Rotwand
+http://dbpedia.org/resource/Grande_Roch%C3%A8re
+http://dbpedia.org/resource/Bec_d'Epicoune
+http://dbpedia.org/resource/T%C3%AAte_de_Valpelline
+http://dbpedia.org/resource/Furggen
+http://dbpedia.org/resource/Spechhorn
+http://dbpedia.org/resource/Jazzihorn
+http://dbpedia.org/resource/Pizzo_Straciugo
+http://dbpedia.org/resource/Marchhorn
+http://dbpedia.org/resource/Pointe_Allobrogia
+http://dbpedia.org/resource/Pizzo_Carbonara
+http://dbpedia.org/resource/Piz_Fora
+http://dbpedia.org/resource/Piz_Tremoggia
+http://dbpedia.org/resource/Piz_Sella
+http://dbpedia.org/resource/Corno_Campascio
+http://dbpedia.org/resource/Piz_Canfinal
+http://dbpedia.org/resource/Piz_Cancian
+http://dbpedia.org/resource/Piz_Combul
+http://dbpedia.org/resource/Piz_Trevisina
+http://dbpedia.org/resource/Piz_la_Stretta
+http://dbpedia.org/resource/Piz_Saliente
+http://dbpedia.org/resource/Piz_Serra
+http://dbpedia.org/resource/Cima_del_Serraglio
+http://dbpedia.org/resource/Piz_Tea_Fondada
+http://dbpedia.org/resource/Piz_Schumbraida
+http://dbpedia.org/resource/Piz_Minschuns
+http://dbpedia.org/resource/Piz_Costainas
+http://dbpedia.org/resource/Piz_Starlex
+http://dbpedia.org/resource/Camoscellahorn
+http://dbpedia.org/resource/Cima_del_Rosso
+http://dbpedia.org/resource/Cima_Verosso
+http://dbpedia.org/resource/Pointe_de_Barasson
+http://dbpedia.org/resource/T%C3%AAte_de_Ferret
+http://dbpedia.org/resource/Aiguille_des_Angroniettes
+http://dbpedia.org/resource/Schwarzhorn_(Binntal)
+http://dbpedia.org/resource/Gross_Schinhorn
+http://dbpedia.org/resource/Albrunhorn
+http://dbpedia.org/resource/Pizzo_Fior%C3%A8ra
+http://dbpedia.org/resource/Martschenspitz
+http://dbpedia.org/resource/Pizzo_Quadro
+http://dbpedia.org/resource/Pizzo_dell'Alpe_Gelato
+http://dbpedia.org/resource/Pizzo_di_Porcaresc
+http://dbpedia.org/resource/Pizzo_di_Mad%C3%A9i
+http://dbpedia.org/resource/Gazzirola
+http://dbpedia.org/resource/Vetta_del_Vallone
+http://dbpedia.org/resource/Motto_della_Tappa
+http://dbpedia.org/resource/Marmontana
+http://dbpedia.org/resource/Cima_di_Cugn
+http://dbpedia.org/resource/Cima_dello_Stagn
+http://dbpedia.org/resource/Piz_de_Cressim
+http://dbpedia.org/resource/Piz_della_Forcola
+http://dbpedia.org/resource/Piz_de_Setag
+http://dbpedia.org/resource/Pizzo_del_Torto
+http://dbpedia.org/resource/Piz_Pombi
+http://dbpedia.org/resource/Piz_di_Pian
+http://dbpedia.org/resource/Cima_de_Barna
+http://dbpedia.org/resource/Monte_Lema
+http://dbpedia.org/resource/Monte_Boglia
+http://dbpedia.org/resource/Cima_di_Fojorina
+http://dbpedia.org/resource/Poncione_d'Arzo
+http://dbpedia.org/resource/Piz_di_Sassiglion
+http://dbpedia.org/resource/Monte_Chiadenis
+http://dbpedia.org/resource/Petit_Gr%C3%A9pillon
+http://dbpedia.org/resource/Klein_Grieshorn
+http://dbpedia.org/resource/Testa_Grigia
+http://dbpedia.org/resource/Monte_Sagro
+http://dbpedia.org/resource/Monte_Tambura
+http://dbpedia.org/resource/Monte_Forato
+http://dbpedia.org/resource/Hoher_Wei%C3%9Fzint
+http://dbpedia.org/resource/Agglsspitze
+http://dbpedia.org/resource/Barmer_Spitze
+http://dbpedia.org/resource/Birkenkofel
+http://dbpedia.org/resource/Botzer
+http://dbpedia.org/resource/D%C3%BCrrenstein_(South_Tyrol)
+http://dbpedia.org/resource/Endkopf
+http://dbpedia.org/resource/Fenneregg
+http://dbpedia.org/resource/Feuerstein_(Stubai_Alps)
+http://dbpedia.org/resource/Gitschberg
+http://dbpedia.org/resource/%C3%84u%C3%9Ferer_B%C3%A4renbartkogel
+http://dbpedia.org/resource/Brunecker_Turm
+http://dbpedia.org/resource/Piz_dles_Cunturines
+http://dbpedia.org/resource/Im_Hinteren_Eis
+http://dbpedia.org/resource/Gantkofel_(Mendelkamm)
+http://dbpedia.org/resource/Geierwand
+http://dbpedia.org/resource/Grawand
+http://dbpedia.org/resource/Haunold
+http://dbpedia.org/resource/Nauderer_Hennesiglspitze
+http://dbpedia.org/resource/Hochfernerspitze
+http://dbpedia.org/resource/III._Hornspitze
+http://dbpedia.org/resource/Ifinger
+http://dbpedia.org/resource/Jakobsspitze
+http://dbpedia.org/resource/Karlesspitze
+http://dbpedia.org/resource/Kassianspitze
+http://dbpedia.org/resource/Klopaierspitze
+http://dbpedia.org/resource/K%C3%B6nigsangerspitze
+http://dbpedia.org/resource/Crusc_de_Rit
+http://dbpedia.org/resource/Langtauferer_Spitze
+http://dbpedia.org/resource/Lenkstein
+http://dbpedia.org/resource/Laugenspitze
+http://dbpedia.org/resource/Lodner
+http://dbpedia.org/resource/Hohe_Weisse
+http://dbpedia.org/resource/Gro%C3%9Fer_Moosstock
+http://dbpedia.org/resource/Sas_dles_N%C3%BC
+http://dbpedia.org/resource/Laaser_Spitze
+http://dbpedia.org/resource/Patscher_Spitze
+http://dbpedia.org/resource/Peitlerkofel
+http://dbpedia.org/resource/Penser_Wei%C3%9Fhorn
+http://dbpedia.org/resource/Plattkofel
+http://dbpedia.org/resource/Hintereisspitzen
+http://dbpedia.org/resource/Schwemser_Spitze
+http://dbpedia.org/resource/Kolbenspitze
+http://dbpedia.org/resource/Gfallwand
+http://dbpedia.org/resource/Texelspitze
+http://dbpedia.org/resource/Saldurspitze
+http://dbpedia.org/resource/Hochfirst_(%C3%96tztal_Alps)
+http://dbpedia.org/resource/Liebenerspitze
+http://dbpedia.org/resource/Rabenkopf_(%C3%96tztal_Alps)
+http://dbpedia.org/resource/Schildspitze
+http://dbpedia.org/resource/Hintere_Sch%C3%B6ntaufspitze
+http://dbpedia.org/resource/Schwarze_Wand_(Rieserferner_group)
+http://dbpedia.org/resource/Valvelspitze
+http://dbpedia.org/resource/Hochalt
+http://dbpedia.org/resource/Mastaunspitze
+http://dbpedia.org/resource/Remsspitze
+http://dbpedia.org/resource/Schwarzhorn_(South_Tyrol)
+http://dbpedia.org/resource/Spronser_R%C3%B6telspitze
+http://dbpedia.org/resource/Tagewaldhorn
+http://dbpedia.org/resource/Vigiljoch
+http://dbpedia.org/resource/Villanderer_Berg
+http://dbpedia.org/resource/Wei%C3%9Fhorn_(South_Tyrol)
+http://dbpedia.org/resource/Wei%C3%9Fwandspitze
+http://dbpedia.org/resource/Wilde_Kreuzspitze
+http://dbpedia.org/resource/Wollbachspitze
+http://dbpedia.org/resource/Wurmaulspitze
+http://dbpedia.org/resource/Sas_dles_Diesc
+http://dbpedia.org/resource/Monte_Barro
+http://dbpedia.org/resource/Pizzo_Camino
+http://dbpedia.org/resource/Cimone_della_Bagozza
+http://dbpedia.org/resource/Cervialto
+http://dbpedia.org/resource/Colle_La_Croce
+http://dbpedia.org/resource/Monte_Cornaccione
+http://dbpedia.org/resource/Punta_di_Valloprare
+http://dbpedia.org/resource/Monte_Cardosa
+http://dbpedia.org/resource/Monte_Prata
+http://dbpedia.org/resource/Porche_di_Vallinfante
+http://dbpedia.org/resource/Monte_Bicco
+http://dbpedia.org/resource/Spina_di_Gualdo
+http://dbpedia.org/resource/Monte_Lieto
+http://dbpedia.org/resource/Monte_Pian_Falcone
+http://dbpedia.org/resource/Monte_delle_Figne
+http://dbpedia.org/resource/Monte_Costa_Calda
+http://dbpedia.org/resource/Pizzo_Arera
+http://dbpedia.org/resource/Cima_Valmora
+http://dbpedia.org/resource/Monte_Bignone
+http://dbpedia.org/resource/Bric_Agnellino
+http://dbpedia.org/resource/Bric_delle_Camere
+http://dbpedia.org/resource/Bric_del_Terma
+http://dbpedia.org/resource/Monte_Bano
+http://dbpedia.org/resource/Monte_Castello_(Liguria)
+http://dbpedia.org/resource/Monte_Buio
+http://dbpedia.org/resource/Monte_Caucaso_(Liguria)
+http://dbpedia.org/resource/Monte_Colma
+http://dbpedia.org/resource/Monte_Fasce
+http://dbpedia.org/resource/Monte_Colombin
+http://dbpedia.org/resource/Monte_Figogna
+http://dbpedia.org/resource/Monte_Grammondo
+http://dbpedia.org/resource/Monte_Groppo_Rosso
+http://dbpedia.org/resource/Punta_Martin
+http://dbpedia.org/resource/Monte_Penello
+http://dbpedia.org/resource/Monte_Leco
+http://dbpedia.org/resource/Monte_delle_Tre_Croci
+http://dbpedia.org/resource/Monte_Orditano
+http://dbpedia.org/resource/Piani_di_Praglia
+http://dbpedia.org/resource/Rocche_del_Reopasso
+http://dbpedia.org/resource/Monte_Rama
+http://dbpedia.org/resource/Monte_Porale
+http://dbpedia.org/resource/Monte_Roncalla
+http://dbpedia.org/resource/Ronco_di_Maglio
+http://dbpedia.org/resource/Monte_Santa_Croce
+http://dbpedia.org/resource/Monte_Sciguello
+http://dbpedia.org/resource/Pizzo_Bellavista
+http://dbpedia.org/resource/Corno_Baitone
+http://dbpedia.org/resource/Monte_Berlinghera
+http://dbpedia.org/resource/Bollettone
+http://dbpedia.org/resource/Monte_Budellone
+http://dbpedia.org/resource/Pizzo_Cassandra
+http://dbpedia.org/resource/Monte_Caplone
+http://dbpedia.org/resource/Monte_Ceresino
+http://dbpedia.org/resource/Monte_Bregagno
+http://dbpedia.org/resource/Colle_di_Brianza
+http://dbpedia.org/resource/Monte_Canto
+http://dbpedia.org/resource/Corna_Mara
+http://dbpedia.org/resource/Monte_Chiusarella
+http://dbpedia.org/resource/Pizzo_della_Croce
+http://dbpedia.org/resource/Monte_Due_Mani
+http://dbpedia.org/resource/Monte_Colombine
+http://dbpedia.org/resource/Monte_Ferone
+http://dbpedia.org/resource/Monte_Galbiga
+http://dbpedia.org/resource/Monte_Frerone
+http://dbpedia.org/resource/Monte_Grona
+http://dbpedia.org/resource/Pizzo_Groppera
+http://dbpedia.org/resource/Monte_Guglielmo
+http://dbpedia.org/resource/Monte_Manos
+http://dbpedia.org/resource/Monte_Minisfreddo
+http://dbpedia.org/resource/Monte_Monarco
+http://dbpedia.org/resource/Monte_Tombea
+http://dbpedia.org/resource/Monte_Nudo
+http://dbpedia.org/resource/Palanzone
+http://dbpedia.org/resource/Monte_Padrio
+http://dbpedia.org/resource/Monte_Pian_Nave
+http://dbpedia.org/resource/Pizzo_Ligoncio
+http://dbpedia.org/resource/Monte_Piambello
+http://dbpedia.org/resource/Poncione_di_Ganna
+http://dbpedia.org/resource/Pizzo_di_Rodes
+http://dbpedia.org/resource/Monte_Re_di_Castello
+http://dbpedia.org/resource/Monte_Rogoria
+http://dbpedia.org/resource/Scioscia
+http://dbpedia.org/resource/Vetta_di_Ron
+http://dbpedia.org/resource/Suretta
+http://dbpedia.org/resource/Monte_Stino
+http://dbpedia.org/resource/Monte_San_Primo
+http://dbpedia.org/resource/Monte_Tonale
+http://dbpedia.org/resource/Sasso_del_Ferro
+http://dbpedia.org/resource/Sasso_Gordona
+http://dbpedia.org/resource/Monte_Tredenus
+http://dbpedia.org/resource/Corna_Trentapassi
+http://dbpedia.org/resource/Cime_di_Val_Loga
+http://dbpedia.org/resource/Monte_Vesta
+http://dbpedia.org/resource/Pizzo_Zup%C3%B2
+http://dbpedia.org/resource/Monte_di_Tremezzo
+http://dbpedia.org/resource/Pizzo_Ferr%C3%A8
+http://dbpedia.org/resource/Monte_Aga
+http://dbpedia.org/resource/Dente_di_Coca
+http://dbpedia.org/resource/Monte_Avaro
+http://dbpedia.org/resource/Canto_Alto
+http://dbpedia.org/resource/Cime_di_Caronella
+http://dbpedia.org/resource/Monte_Cabianca
+http://dbpedia.org/resource/Monte_Cavallo_(Orobie)
+http://dbpedia.org/resource/Monte_Cornagera
+http://dbpedia.org/resource/Monte_Costone
+http://dbpedia.org/resource/Pizzo_del_Diavolo_della_Malgina
+http://dbpedia.org/resource/Monte_Farno
+http://dbpedia.org/resource/Monte_Chierico
+http://dbpedia.org/resource/Pizzo_Farno
+http://dbpedia.org/resource/Monte_Linzone
+http://dbpedia.org/resource/Pizzo_Strinato
+http://dbpedia.org/resource/Monte_Trobio
+http://dbpedia.org/resource/Monte_Elto
+http://dbpedia.org/resource/Cime_di_Lemma
+http://dbpedia.org/resource/Cima_del_Fop
+http://dbpedia.org/resource/Pizzo_Formico
+http://dbpedia.org/resource/Corno_Guazza
+http://dbpedia.org/resource/Monte_Ferrante
+http://dbpedia.org/resource/Monte_Grabiasca
+http://dbpedia.org/resource/Monte_Negrino
+http://dbpedia.org/resource/Monte_Misma
+http://dbpedia.org/resource/Monte_Masoni
+http://dbpedia.org/resource/Monte_Madonnino
+http://dbpedia.org/resource/Monte_Ponteranica
+http://dbpedia.org/resource/Monte_Pegherolo
+http://dbpedia.org/resource/Pizzo_Redorta
+http://dbpedia.org/resource/Pizzo_Rotondo_(Orobie)
+http://dbpedia.org/resource/Monte_Scanap%C3%A0
+http://dbpedia.org/resource/Monte_Secco
+http://dbpedia.org/resource/Punta_Scais
+http://dbpedia.org/resource/Monte_Tesoro
+http://dbpedia.org/resource/Pizzo_Zerna
+http://dbpedia.org/resource/Monte_Triomen
+http://dbpedia.org/resource/Monte_Valletto
+http://dbpedia.org/resource/Monte_Venerocolo
+http://dbpedia.org/resource/Corno_Zuccone
+http://dbpedia.org/resource/Pizzo_dei_Tre_Confini
+http://dbpedia.org/resource/Coccovello
+http://dbpedia.org/resource/Monte_Calvario_(Colobraro)
+http://dbpedia.org/resource/Serra_di_Castrocucco
+http://dbpedia.org/resource/Monte_San_Biagio_(Maratea)
+http://dbpedia.org/resource/Monte_Volturino
+http://dbpedia.org/resource/Monte_Caruso
+http://dbpedia.org/resource/Monti_la_Spina_%E2%80%93_Zaccana
+http://dbpedia.org/resource/Monte_Molaro
+http://dbpedia.org/resource/Monte_Miletto
+http://dbpedia.org/resource/Monte_Litto
+http://dbpedia.org/resource/Monte_Acellica
+http://dbpedia.org/resource/Chiunzi
+http://dbpedia.org/resource/Monte_Acero
+http://dbpedia.org/resource/Faliesi
+http://dbpedia.org/resource/Monte_Iulio
+http://dbpedia.org/resource/Pizzo_San_Michele
+http://dbpedia.org/resource/Monte_Nero_(Picentini)
+http://dbpedia.org/resource/Monte_San_Salvatore_(Picentini)
+http://dbpedia.org/resource/Vesole
+http://dbpedia.org/resource/Monte_Argentella
+http://dbpedia.org/resource/Cima_del_Redentore_(Sibillini_Mountains)
+http://dbpedia.org/resource/Monte_Bove_Sud
+http://dbpedia.org/resource/Croce_di_Monte_Bove
+http://dbpedia.org/resource/Monte_Igno
+http://dbpedia.org/resource/Monte_Vermenone
+http://dbpedia.org/resource/Monte_Sant'Angelo_(Marche)
+http://dbpedia.org/resource/Monte_Porche
+http://dbpedia.org/resource/Monte_Rotondo_(Monti_Sibillini)
+http://dbpedia.org/resource/Palazzo_Borghese_(mountain)
+http://dbpedia.org/resource/Monte_Tabor_(Recanati)
+http://dbpedia.org/resource/Monte_Montiego
+http://dbpedia.org/resource/Monte_Strega
+http://dbpedia.org/resource/Monte_Priora
+http://dbpedia.org/resource/Poggio_Sommorto
+http://dbpedia.org/resource/Gruppo_della_Carega
+http://dbpedia.org/resource/Monte_Campomolon
+http://dbpedia.org/resource/Cesen
+http://dbpedia.org/resource/Monte_Ceva
+http://dbpedia.org/resource/Cimon_del_Froppa
+http://dbpedia.org/resource/Monte_Cecilia
+http://dbpedia.org/resource/Monte_Cinto_(Colli_Euganei)
+http://dbpedia.org/resource/Monte_Cimone_di_Tonezza
+http://dbpedia.org/resource/Monte_Cornetto
+http://dbpedia.org/resource/Cresta_di_Enghe
+http://dbpedia.org/resource/Monte_Loffa
+http://dbpedia.org/resource/Monte_Ricco
+http://dbpedia.org/resource/Monte_Rusta
+http://dbpedia.org/resource/Monte_Lozzo
+http://dbpedia.org/resource/Monte_Novegno
+http://dbpedia.org/resource/Monte_Ortigara
+http://dbpedia.org/resource/Monte_Millifret
+http://dbpedia.org/resource/Sass_de_Mura
+http://dbpedia.org/resource/Monte_Pastello
+http://dbpedia.org/resource/Cima_Palon
+http://dbpedia.org/resource/Monte_Plische
+http://dbpedia.org/resource/Monte_Talvena
+http://dbpedia.org/resource/Catena_delle_Tre_Croci
+http://dbpedia.org/resource/Cima_Portule
+http://dbpedia.org/resource/Rocca_Pendice
+http://dbpedia.org/resource/Monte_Rosso_(Colli_Euganei)
+http://dbpedia.org/resource/Monte_Priafor%C3%A0
+http://dbpedia.org/resource/Sass_de_Stria
+http://dbpedia.org/resource/Monte_Zevola
+http://dbpedia.org/resource/Monte_Summano
+http://dbpedia.org/resource/Monte_Verena
+http://dbpedia.org/resource/Mont_d'Ambin
+http://dbpedia.org/resource/Lancebranlette
+http://dbpedia.org/resource/Monte_Cadria
+http://dbpedia.org/resource/Pointe_de_Paumont
+http://dbpedia.org/resource/Cima_de_Pian_Guarnei
+http://dbpedia.org/resource/Monte_Stivo
+http://dbpedia.org/resource/Monte_Croce_di_Muggio
+http://dbpedia.org/resource/Corno_di_Dosd%C3%A8
+http://dbpedia.org/resource/Punta_Maria_Cristina
+http://dbpedia.org/resource/Testa_del_Leone
+http://dbpedia.org/resource/Pizzo_di_Zocca
+http://dbpedia.org/resource/Furggub%C3%A4umhorn
+http://dbpedia.org/resource/Mont_Fourchon
+27
+sim: 0.4451052740128068
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbo:architect dbp:almaMater
+answers: 
+http://fr.dbpedia.org/resource/Tour_Eiffel
+http://it.dbpedia.org/resource/Torre_Eiffel
+http://nl.dbpedia.org/resource/Eiffeltoren
+28
+29
+sim: 0.23838076590879972
+relations: http://dbpedia.org/ontology/birthPlace
+true relations: dbo:leaderName
+answers: 
+http://dbpedia.org/resource/Ivo_Samkalden
+30
+sim: 0.5559575574699154
+relations: http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+true relations: dbo:height
+answers: 
+http://en.wikipedia.org/wiki/Yokohama_Marine_Tower
+31
+sim: 0.4109125671902993
+relations: http://dbpedia.org/ontology/populationPlace
+true relations: dbo:ethnicGroup
+answers: 
+http://dbpedia.org/resource/Montenegrins
+http://dbpedia.org/resource/Bosniaks
+http://dbpedia.org/resource/South_Slavs
+http://dbpedia.org/resource/Croats
+http://dbpedia.org/resource/Yugoslavs
+http://dbpedia.org/resource/Slovenes
+http://dbpedia.org/resource/Muslims_(nationality)
+32
+sim: 0.5429296324186326
+relations: http://dbpedia.org/property/geborenIn
+true relations: dbp:title
+answers: 
+http://dbpedia.org/resource/Franco_Frattini
+http://dbpedia.org/resource/Andrea_Riccardi
+http://dbpedia.org/resource/Mario_Catania
+http://dbpedia.org/resource/Annamaria_Cancellieri
+33
+sim: 0.6508285516748216
+relations: http://dbpedia.org/property/mother
+true relations: dbo:parent
+answers: 
+http://dbpedia.org/resource/Princess_Louise,_Duchess_of_Argyll
+http://dbpedia.org/resource/Alfred,_Duke_of_Saxe-Coburg_and_Gotha
+http://dbpedia.org/resource/Edward_VII
+http://dbpedia.org/resource/Princess_Victoria_of_Saxe-Coburg-Saalfeld
+http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom
+http://dbpedia.org/resource/Victoria,_Princess_Royal
+http://dbpedia.org/resource/Prince_Arthur,_Duke_of_Connaught_and_Strathearn
+http://dbpedia.org/resource/Princess_Alice_of_the_United_Kingdom
+http://dbpedia.org/resource/Prince_Leopold,_Duke_of_Albany
+http://dbpedia.org/resource/Princess_Helena_of_the_United_Kingdom
+34
+sim: 0.8277900824665716
+relations: http://dbpedia.org/property/playerTeams
+true relations: dbo:weight dbp:team dbp:draftTeam dbo:draftTeam
+answers: 
+http://dbpedia.org/resource/Fred_Hoiberg
+http://dbpedia.org/resource/Rusty_LaRue
+http://dbpedia.org/resource/Corey_Williams_(basketball,_born_1970)
+35
+36
+37
+38
+39
+sim: 0.273782947277385
+relations: http://dbpedia.org/property/basinCountries
+true relations: dbo:country dbo:depth
+answers: 
+http://dbpedia.org/resource/Lake_Eyre
+http://dbpedia.org/resource/Menindee_Lakes
+http://dbpedia.org/resource/Lake_Macquarie_(New_South_Wales)
+http://dbpedia.org/resource/Waranga_Basin
+http://dbpedia.org/resource/Glenrock_Lagoon
+http://dbpedia.org/resource/Lake_Magenta
+http://dbpedia.org/resource/Myall_Lakes
+http://dbpedia.org/resource/Wallis_Lake
+http://dbpedia.org/resource/Tuggerah_Lake
+http://dbpedia.org/resource/Lake_Jasper
+http://dbpedia.org/resource/Port_Stephens
+http://dbpedia.org/resource/Lake_Ballard
+http://dbpedia.org/resource/Chipping_Norton_Lake
+http://dbpedia.org/resource/Lake_Canobolas
+http://dbpedia.org/resource/Lake_Burrendong
+http://dbpedia.org/resource/Lake_Barlee
+http://dbpedia.org/resource/Lake_Munmorah
+http://dbpedia.org/resource/Budgewoi_Lake
+http://dbpedia.org/resource/Terrigal_Lagoon
+http://dbpedia.org/resource/Lake_Woytchugga
+http://dbpedia.org/resource/Smiths_Lake_(New_South_Wales)
+http://dbpedia.org/resource/Wamberal_Lagoon
+http://dbpedia.org/resource/Avoca_Lake
+http://dbpedia.org/resource/Lake_Moore,_New_South_Wales
+http://dbpedia.org/resource/Lake_Banksiadale
+http://dbpedia.org/resource/Cardross_Lakes
+http://dbpedia.org/resource/Angove_Lake
+40
+sim: 0.2873127092712737
+relations: http://dbpedia.org/property/nearestCity
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Hearst_Castle
+http://dbpedia.org/resource/Scotty's_Castle
+41
+sim: 0.9999999999999998
+relations: http://dbpedia.org/property/geborenIn
+true relations: dct:subject dbp:museum dbo:location
+answers: 
+http://dbpedia.org/resource/Konstantinos_Mitsotakis
+42
+43
+44
+45
+sim: 0.4564849260132026
+relations: http://dbpedia.org/property/spouse
+true relations: dbo:spouse
+answers: 
+http://dbpedia.org/resource/Martha_Bernays
+46
+47
+sim: 0.4359858931405101
+relations: http://dbpedia.org/ontology/country
+true relations: dct:subject dbo:areaTotal
+answers: 
+http://dbpedia.org/resource/Alabama
+http://dbpedia.org/resource/Illinois
+http://dbpedia.org/resource/Maine
+http://dbpedia.org/resource/Oklahoma
+http://dbpedia.org/resource/Texas
+http://dbpedia.org/resource/Tennessee
+http://dbpedia.org/resource/Georgia_(U.S._state)
+http://dbpedia.org/resource/Florida
+http://dbpedia.org/resource/Nevada
+http://dbpedia.org/resource/West_Virginia
+http://dbpedia.org/resource/Colorado
+http://dbpedia.org/resource/Alaska
+http://dbpedia.org/resource/California
+http://dbpedia.org/resource/Maryland
+http://dbpedia.org/resource/Missouri
+http://dbpedia.org/resource/New_Jersey
+http://dbpedia.org/resource/Ohio
+http://dbpedia.org/resource/Pennsylvania
+http://dbpedia.org/resource/Massachusetts
+http://dbpedia.org/resource/New_York
+http://dbpedia.org/resource/Indiana
+http://dbpedia.org/resource/New_Mexico
+http://dbpedia.org/resource/Arizona
+http://dbpedia.org/resource/Montana
+http://dbpedia.org/resource/North_Dakota
+http://dbpedia.org/resource/South_Dakota
+http://dbpedia.org/resource/Vermont
+http://dbpedia.org/resource/Wyoming
+http://dbpedia.org/resource/Washington_(state)
+http://dbpedia.org/resource/Kansas
+http://dbpedia.org/resource/Connecticut
+http://dbpedia.org/resource/Delaware
+http://dbpedia.org/resource/Michigan
+http://dbpedia.org/resource/Minnesota
+http://dbpedia.org/resource/New_Hampshire
+http://dbpedia.org/resource/North_Carolina
+http://dbpedia.org/resource/Rhode_Island
+http://dbpedia.org/resource/South_Carolina
+http://dbpedia.org/resource/Virginia
+http://dbpedia.org/resource/Wisconsin
+http://dbpedia.org/resource/Hawaii
+http://dbpedia.org/resource/Kentucky
+http://dbpedia.org/resource/Arkansas
+http://dbpedia.org/resource/Louisiana
+http://dbpedia.org/resource/Iowa
+http://dbpedia.org/resource/Oregon
+http://dbpedia.org/resource/Idaho
+http://dbpedia.org/resource/Utah
+http://dbpedia.org/resource/Nebraska
+http://dbpedia.org/resource/Jefferson_(proposed_Pacific_state)
+48
+49
+sim: 1.0
+relations: http://dbpedia.org/property/wavelength
+true relations: dbo:wavelength
+answers: 
+450
+50
+51
+sim: 0.4729945666601224
+relations: http://www.w3.org/ns/prov#wasDerivedFrom
+true relations: dct:subject
+answers: 
+http://en.wikipedia.org/wiki/Christopher_Columbus?oldid=606168667
+52
+sim: 0.3871597054002856
+relations: http://dbpedia.org/property/dateOfDeath
+true relations: dbo:deathDate
+answers: 
+53
+54
+sim: 0.4376112506882691
+relations: http://dbpedia.org/property/dateOfBirth
+true relations: dbo:birthDate
+answers: 
+55
+sim: 0.3015285070441722
+relations: http://dbpedia.org/property/appointed
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Cassius_McDonald_Barnes
+http://dbpedia.org/resource/William_Miller_Jenkins
+56
+sim: 0.3872377486500183
+relations: http://dbpedia.org/property/discoverer
+true relations: dbo:discoverer
+answers: 
+http://dbpedia.org/resource/Clyde_Tombaugh
+57
+sim: 0.2107397826289098
+relations: http://dbpedia.org/property/mother
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Aurelia_Cotta
+58
+sim: 0.48361298603340097
+relations: http://dbpedia.org/ontology/restingPlace
+true relations: dbo:restingPlace
+answers: 
+http://dbpedia.org/resource/Hetepheres_I
+http://dbpedia.org/resource/Hetepheres_II
+59
+sim: 0.5429296324186326
+relations: http://dbpedia.org/property/geborenIn
+true relations: dbo:activeYearsStartYear
+answers: 
+http://dbpedia.org/resource/William_Blackstone
+http://dbpedia.org/resource/Robert_Morris_(financier)
+http://dbpedia.org/resource/Nick_Clegg
+http://dbpedia.org/resource/John_Major
+http://dbpedia.org/resource/John_Turner
+http://dbpedia.org/resource/Joseph_Cook
+60
+sim: 0.4545956900280206
+relations: http://dbpedia.org/property/previousEditor
+true relations: dbp:editor
+answers: 
+http://dbpedia.org/resource/Ray_Geiger
+http://dbpedia.org/resource/Berlin_Hart_Wright
+http://dbpedia.org/resource/Samuel_Hart_Wright
+61
+sim: 1.0
+relations: http://dbpedia.org/ontology/diameter
+true relations: dbo:meanRadius
+answers: 
+1.2756E7
+62
+sim: 0.32148855698108825
+relations: http://dbpedia.org/ontology/foundingDate
+true relations: dbp:establishedDate
+answers: 
+63
+64
+sim: 0.9999999999999998
+relations: http://dbpedia.org/property/runtime
+true relations: dbo:runtime
+answers: 
+4860.0
+65
+sim: 1.0
+relations: http://dbpedia.org/property/name
+true relations: dbo:alias
+answers: 
+Queens
+66
+sim: 0.9999999999999998
+relations: http://dbpedia.org/ontology/birthPlace
+true relations: dbo:birthPlace
+answers: 
+http://dbpedia.org/resource/Hoboken,_New_Jersey
+67
+sim: 0.21260155233542705
+relations: http://dbpedia.org/ontology/university
+true relations: dbo:almaMater
+answers: 
+http://dbpedia.org/resource/Leipzig_University
+68
+sim: 1.0000000000000002
+relations: http://dbpedia.org/property/almaMater
+true relations: dbo:almaMater
+answers: 
+http://dbpedia.org/resource/Leipzig_University
+http://dbpedia.org/resource/University_of_Leipzig
+69
+70
+sim: 0.9999999999999996
+relations: http://dbpedia.org/property/author
+true relations: dbo:author
+answers: 
+http://dbpedia.org/resource/Sigmund_Freud
+71
+sim: 1.0000000000000002
+relations: http://dbpedia.org/property/name
+true relations: dbo:birthName
+answers: 
+Adele
+(MBE)
+Adkins, Adele Laurie Blue
+72
+sim: 0.9999999999999998
+relations: http://dbpedia.org/property/actiefIn
+true relations: dct:subject dbo:equity dbo:netIncome dbo:production dbo:revenue
+answers: 
+http://dbpedia.org/resource/Christian_Social_Union_in_Bavaria
+http://dbpedia.org/resource/Christian_Democratic_Union_(Germany)
+http://dbpedia.org/resource/Free_Democratic_Party_(Germany)
+http://dbpedia.org/resource/Alliance_'90/The_Greens
+http://dbpedia.org/resource/Social_Democratic_Party_of_Germany
+http://dbpedia.org/resource/The_Left_(Germany)
+http://dbpedia.org/resource/Pirate_Party_Germany
+http://dbpedia.org/resource/National_Democratic_Party_of_Germany
+http://dbpedia.org/resource/The_Republicans_(Germany)
+http://dbpedia.org/resource/Die_Friesen
+http://dbpedia.org/resource/Party_of_Reason
+http://dbpedia.org/resource/German_Communist_Party
+http://dbpedia.org/resource/Party_of_Bible-abiding_Christians
+http://dbpedia.org/resource/Human_Environment_Animal_Protection
+http://dbpedia.org/resource/German_Social_Union_(East_Germany)
+http://dbpedia.org/resource/Social_Equality_Party_(Germany)
+73
+sim: 1.000000006312932
+relations: http://dbpedia.org/property/awards
+true relations: dbp:awards
+answers: 
+http://dbpedia.org/resource/Nobel_Prize_in_Literature
+74
+75
+sim: 0.4451053036880426
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbo:elevation
+answers: 
+http://dbpedia.org/resource/D%C3%BCsseldorf_Airport
+http://wikidata.org/entity/Q58226
+http://wikidata.dbpedia.org/resource/Q58226
+http://cs.dbpedia.org/resource/Letiště_Düsseldorf
+http://de.dbpedia.org/resource/Düsseldorf_Airport
+http://es.dbpedia.org/resource/Aeropuerto_Internacional_de_Düsseldorf
+http://eu.dbpedia.org/resource/Düsseldorfeko_nazioarteko_aireportua
+http://fr.dbpedia.org/resource/Aéroport_international_de_Düsseldorf
+http://id.dbpedia.org/resource/Bandar_Udara_Internasional_Düsseldorf
+http://it.dbpedia.org/resource/Aeroporto_di_Düsseldorf
+http://ja.dbpedia.org/resource/デュッセルドルフ国際空港
+http://ko.dbpedia.org/resource/뒤셀도르프_국제공항
+http://nl.dbpedia.org/resource/Düsseldorf_Airport
+http://pl.dbpedia.org/resource/Port_lotniczy_Düsseldorf
+http://pt.dbpedia.org/resource/Aeroporto_de_Düsseldorf
+76
+sim: 0.9999999999999998
+relations: http://dbpedia.org/ontology/populationTotal
+true relations: dbo:populationTotal
+answers: 
+507890191
+77
+sim: 1.0000001693638243
+relations: http://dbpedia.org/ontology/foundingDate
+true relations: dbo:foundingDate
+answers: 
+78
+79
+80
+sim: 0.4117889540200802
+relations: http://dbpedia.org/property/placeOfBirth
+true relations: dbo:birthPlace
+answers: 
+http://dbpedia.org/resource/Frankfurt
+81
+82
+sim: 1.0
+relations: http://dbpedia.org/property/population
+true relations: dbo:populationTotal
+answers: 
+8851000
+83
+sim: 1.0000000000000002
+relations: http://dbpedia.org/property/name
+true relations: foaf:nick
+answers: 
+Baghdad
+84
+sim: 0.6479030054676267
+relations: http://dbpedia.org/ontology/novel
+true relations: dbp:author
+answers: 
+http://dbpedia.org/resource/Jon_Snow_(character)
+http://dbpedia.org/resource/Tyrion_Lannister
+http://dbpedia.org/resource/Arya_Stark
+http://dbpedia.org/resource/Daenerys_Targaryen
+http://dbpedia.org/resource/Sansa_Stark
+85
+86
+sim: 0.8683456216867613
+relations: http://dbpedia.org/property/populationTotale
+true relations: dbo:populationTotal
+answers: 
+36004552
+87
+sim: 1.0
+relations: http://dbpedia.org/property/population
+true relations: dbo:populationTotal
+answers: 
+15452409
+88
+sim: 1.0
+relations: http://dbpedia.org/ontology/populationDensity
+true relations: dbp:populationDensityRank
+answers: 
+225.0
+225.09755843024595
+89
+90
+sim: 0.6556473942785738
+relations: http://dbpedia.org/property/titleOrig
+true relations: foaf:name
+answers: 
+Die Traumdeutung
+91
+sim: 0.7741215854189739
+relations: http://dbpedia.org/property/dateOfDeath
+true relations: dbo:deathDate
+answers: 
+92
+sim: 0.36243784397052514
+relations: http://dbpedia.org/property/country
+true relations: dbp:borders
+answers: 
+http://dbpedia.org/resource/Achaemenid_Empire
+http://dbpedia.org/resource/Ilkhanate
+93
+94
+95
+sim: 1.0000000000000002
+relations: http://dbpedia.org/ontology/largestCity
+true relations: dbo:largestCity
+answers: 
+http://dbpedia.org/resource/New_York_City
+96
+97
+sim: 1.0000000348478209
+relations: http://dbpedia.org/property/highest
+true relations: dbp:highest
+answers: 
+http://dbpedia.org/resource/Gro%C3%9Fer_Krottenkopf
+98
+sim: 0.4555639921330049
+relations: http://dbpedia.org/ontology/leader
+true relations: dbo:wikiPageRedirects dbp:name
+answers: 
+http://dbpedia.org/resource/John_Roberts
+99
+sim: 0.5249537951453999
+relations: http://dbpedia.org/ontology/location
+true relations: dbo:state
+answers: 
+http://dbpedia.org/resource/Pennsylvania
+100
+101
+sim: 0.4607916571080575
+relations: http://dbpedia.org/property/keyPeople
+true relations: dbo:owner
+answers: 
+http://dbpedia.org/resource/Miss_Universe
+http://dbpedia.org/resource/The_Trump_Organization
+http://dbpedia.org/resource/Levy_Li
+102
+sim: 0.6145387479126774
+relations: http://dbpedia.org/ontology/notableWork
+true relations: dbo:author dbp:releaseDate dbo:publicationDate
+answers: 
+http://dbpedia.org/resource/Angels_&_Demons
+http://dbpedia.org/resource/The_Da_Vinci_Code
+http://dbpedia.org/resource/The_Lost_Symbol
+http://dbpedia.org/resource/Inferno_(Dan_Brown_novel)
+http://dbpedia.org/resource/Digital_Fortress
+http://dbpedia.org/resource/Deception_Point
+103
+104
+105
+sim: 0.9999999999999998
+relations: http://dbpedia.org/ontology/timeZone
+true relations: dbo:timeZone
+answers: 
+http://dbpedia.org/resource/Mountain_Time_Zone
+106
+sim: 0.2107397826289098
+relations: http://dbpedia.org/property/mother
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Aurelia_Cotta
+107
+sim: 0.7921120616138069
+relations: http://dbpedia.org/ontology/mountainRange
+true relations: dbo:elevation dbo:locatedInArea
+answers: 
+http://dbpedia.org/resource/Fuchskaute
+http://dbpedia.org/resource/Taubenkopf_(Haardt)
+108
+109
+110
+111
+sim: 0.7740853428502389
+relations: http://dbpedia.org/property/nickname
+true relations: foaf:nick
+answers: 
+The City by the Bay; Fog City; San Fran; Frisco; The City that Knows How ; Baghdad by the Bay ; The Paris of the West
+112
+sim: 1.0
+relations: http://dbpedia.org/property/name
+true relations: dbp:birthName
+answers: 
+Angela Merkel
+Merkel, Angela
+113
+sim: 0.2826775643323173
+relations: http://dbpedia.org/ontology/deathPlace
+true relations: dbp:leader
+answers: 
+http://dbpedia.org/resource/Erhard_Krack
+114
+115
+sim: 0.442402039975446
+relations: http://dbpedia.org/property/publisher
+true relations: dbo:publisher
+answers: 
+http://dbpedia.org/resource/Crossbow_(video_game)
+116
+sim: 0.5082188453911092
+relations: http://dbpedia.org/property/placeOfBirth
+true relations: dbo:country dbo:birthPlace dbo:isPartOf
+answers: 
+http://dbpedia.org/resource/United_States
+117
+sim: 0.41257450872167045
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbo:child
+answers: 
+http://rdf.freebase.com/ns/m.044lg
+http://wikidata.org/entity/Q83233
+http://wikidata.dbpedia.org/resource/Q83233
+http://cs.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://de.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://el.dbpedia.org/resource/Ζακ-Υβ_Κουστώ
+http://es.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://eu.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://fr.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://id.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://it.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ja.dbpedia.org/resource/ジャック＝イヴ・クストー
+http://ko.dbpedia.org/resource/자크_쿠스토
+http://nl.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://pl.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://pt.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://an.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ar.dbpedia.org/resource/جاك_إيف_كوستو
+http://arz.dbpedia.org/resource/جاك_كوستو
+http://az.dbpedia.org/resource/Jak-İv_Kusto
+http://be.dbpedia.org/resource/Жак-Іў_Кусто
+http://bg.dbpedia.org/resource/Жак-Ив_Кусто
+http://bs.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ca.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://da.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://eo.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://et.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://fa.dbpedia.org/resource/ژاک-ایو_کوستو
+http://fi.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ga.dbpedia.org/resource/Jacques_Yves_Cousteau
+http://gl.dbpedia.org/resource/Jacques_Yves_Cousteau
+http://he.dbpedia.org/resource/ז'אק_קוסטו
+http://hr.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://hu.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://hy.dbpedia.org/resource/Իվ_Ժակ_Կուստո
+http://jv.dbpedia.org/resource/Jacques_Cousteau
+http://ka.dbpedia.org/resource/ჟაკ-ივ_კუსტო
+http://kk.dbpedia.org/resource/Жак_Кусто
+http://ku.dbpedia.org/resource/Jacques_Yves_Cousteau
+http://lb.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://lt.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://lv.dbpedia.org/resource/Žaks_Kusto
+http://mk.dbpedia.org/resource/Жак_Кусто
+http://ms.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://nn.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://no.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://oc.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://pms.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ro.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://ru.dbpedia.org/resource/Кусто,_Жак-Ив
+http://sco.dbpedia.org/resource/Jacques_Cousteau
+http://sh.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://simple.dbpedia.org/resource/Jacques_Cousteau
+http://sk.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://sl.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://sr.dbpedia.org/resource/Žak_Kusto
+http://sv.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://tl.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://tr.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://uk.dbpedia.org/resource/Жак-Ів_Кусто
+http://uz.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://vi.dbpedia.org/resource/Jacques-Yves_Cousteau
+http://war.dbpedia.org/resource/Jacques_Cousteau
+http://zh.dbpedia.org/resource/雅克-伊夫·库斯托
+118
+sim: 0.6115052514159849
+relations: http://www.w3.org/ns/prov#wasDerivedFrom
+true relations: dbo:birthPlace dbo:country
+answers: 
+http://en.wikipedia.org/wiki/Sweden?oldid=606450107
+119
+sim: 0.28804398736546877
+relations: http://dbpedia.org/ontology/originalLanguage
+true relations: dbo:country dbp:country
+answers: 
+http://dbpedia.org/resource/The_Secret_in_Their_Eyes
+120
+sim: 0.4772280711474456
+relations: http://dbpedia.org/property/deathCause
+true relations: dbp:deathCause
+answers: 
+http://dbpedia.org/resource/Cardiac_arrest
+121
+122
+123
+sim: 1.0000000000000002
+relations: http://xmlns.com/foaf/0.1/homepage
+true relations: foaf:homepage
+answers: 
+http://www.forbes.com
+http://forbes.com/
+http://www.forbes.com/
+http://www.forbes.com/forbes/
+124
+sim: 0.5606007782182774
+relations: http://dbpedia.org/property/spouse
+true relations: dbo:spouse
+answers: 
+http://dbpedia.org/resource/Neil_Gaiman
+125
+sim: 0.4570749658655406
+relations: http://dbpedia.org/ontology/painter
+true relations: dbo:author
+answers: 
+http://dbpedia.org/resource/Rembrandt
+126
+sim: 0.44510527401280675
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbp:highest
+answers: 
+http://fr.dbpedia.org/resource/Karakoram
+http://nl.dbpedia.org/resource/Karakoram
+127
+sim: 0.30840765619117294
+relations: http://dbpedia.org/ontology/knownFor
+true relations: dbo:starring
+answers: 
+http://dbpedia.org/resource/Kaley_Cuoco
+http://dbpedia.org/resource/Katie_Leclerc
+http://dbpedia.org/resource/Alice_Amter
+128
+sim: 0.2559122029269035
+relations: http://dbpedia.org/ontology/award
+true relations: dbo:field dbo:award
+answers: 
+http://dbpedia.org/resource/Edwin_Catmull
+129
+sim: 0.384580512330323
+relations: http://dbpedia.org/property/author
+true relations: dbp:author
+answers: 
+http://dbpedia.org/resource/J._K._Rowling
+130
+sim: 0.32680006317778065
+relations: http://dbpedia.org/property/awards
+true relations: dbo:award
+answers: 
+http://dbpedia.org/resource/T._S._Eliot
+http://dbpedia.org/resource/John_Steinbeck
+http://dbpedia.org/resource/Czes%C5%82aw_Mi%C5%82osz
+http://dbpedia.org/resource/Naguib_Mahfouz
+http://dbpedia.org/resource/Henri_Bergson
+http://dbpedia.org/resource/Ivo_Andri%C4%87
+http://dbpedia.org/resource/Eugene_O'Neill
+http://dbpedia.org/resource/Alice_Munro
+http://dbpedia.org/resource/Rudolf_Christoph_Eucken
+131
+sim: 1.0000000000000002
+relations: http://dbpedia.org/property/name
+true relations: foaf:nick
+answers: 
+Baghdad
+132
+133
+134
+sim: 0.7738987834959226
+relations: http://dbpedia.org/ontology/riverMouth
+true relations: dbo:country dbp:length
+answers: 
+http://dbpedia.org/resource/Second_Songhua_River
+http://dbpedia.org/resource/Daxi_Creek
+135
+136
+137
+sim: 0.5082188716585561
+relations: http://dbpedia.org/property/placeOfBirth
+true relations: dbo:birthPlace dbo:occupation dbo:country
+answers: 
+http://dbpedia.org/resource/Stephanie_Gilmore
+http://dbpedia.org/resource/Mick_Fanning
+http://dbpedia.org/resource/Taj_Burrow
+http://dbpedia.org/resource/Jessi_Miley-Dyer
+http://dbpedia.org/resource/Joel_Parkinson
+http://dbpedia.org/resource/Adrian_Buchan
+138
+sim: 0.25813847519925825
+relations: http://dbpedia.org/property/ideology
+true relations: dbo:country
+answers: 
+http://dbpedia.org/resource/Centre_Party_(Netherlands)
+http://dbpedia.org/resource/New_Right_(Netherlands)
+http://dbpedia.org/resource/National_Alliance_(Netherlands)
+http://dbpedia.org/resource/Dutch_Block
+http://dbpedia.org/resource/New_National_Party_(Netherlands)
+http://dbpedia.org/resource/Centre_Party_'86
+http://dbpedia.org/resource/Dutch_Peoples-Union
+139
+sim: 0.49917822314900157
+relations: http://dbpedia.org/property/planet
+true relations: dbp:satellites
+answers: 
+http://dbpedia.org/resource/Mars_Science_Laboratory
+http://dbpedia.org/resource/Mars_Pathfinder
+http://dbpedia.org/resource/InSight
+http://dbpedia.org/resource/ExoMars_rover
+http://dbpedia.org/resource/Mars_2020_rover_mission
+http://dbpedia.org/resource/MELOS
+140
+sim: 1.0
+relations: http://xmlns.com/foaf/0.1/name
+true relations: foaf:name
+answers: 
+Bruce Wayne
+Batman
+Batman
+141
+sim: 0.59306675209935
+relations: http://dbpedia.org/property/knownFor
+true relations: dbo:knownFor
+answers: 
+Co-founding SpaceX, PayPal, Tesla Motors, Hyperloop, Zip2
+142
+sim: 0.9999999999999996
+relations: http://dbpedia.org/property/author
+true relations: dbo:author
+answers: 
+http://dbpedia.org/resource/Julian_Assange
+143
+sim: 0.9999999999999999
+relations: http://dbpedia.org/property/governor
+true relations: dbo:region
+answers: 
+http://dbpedia.org/resource/Sarah_Palin
+144
+145
+sim: 0.241927243121155
+relations: http://dbpedia.org/property/dateOfDeath
+true relations: dbo:deathDate
+answers: 
+146
+sim: 0.5601866408002653
+relations: http://dbpedia.org/ontology/family
+true relations: dbo:spouse
+answers: 
+http://dbpedia.org/resource/Thomas_Lincoln
+147
+sim: 1.000000006312932
+relations: http://dbpedia.org/property/awards
+true relations: dbp:awards
+answers: 
+http://dbpedia.org/resource/Nobel_Prize_in_Literature
+148
+149
+150
+151
+sim: 1.0
+relations: http://dbpedia.org/property/revenue
+true relations: dbo:revenue
+answers: 
+US$ 99.751 billion
+152
+153
+sim: 0.4451052740128068
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbp:voiceactor
+answers: 
+http://fr.dbpedia.org/resource/Bart_Simpson
+http://it.dbpedia.org/resource/Bart_Simpson
+154
+sim: 0.4564849260132026
+relations: http://dbpedia.org/property/spouse
+true relations: dbo:spouse
+answers: 
+http://dbpedia.org/resource/Rita_Wilson
+155
+156
+157
+sim: 0.3871597054002856
+relations: http://dbpedia.org/property/dateOfDeath
+true relations: dbo:deathDate
+answers: 
+158
+sim: 0.2688703778174868
+relations: http://dbpedia.org/ontology/region
+true relations: dbo:locatedInArea dct:subject dbo:elevation
+answers: 
+http://dbpedia.org/resource/Mount_Kenya
+159
+sim: 0.22127420727366562
+relations: http://dbpedia.org/property/flybyOf
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Dawn_(spacecraft)
+http://dbpedia.org/resource/Mariner_6_and_7
+160
+sim: 0.22837792382944772
+relations: http://dbpedia.org/ontology/country
+true relations: dbo:country
+answers: 
+http://dbpedia.org/resource/Plunkett_&_Macleane
+http://dbpedia.org/resource/Casino_Royale_(2006_film)
+http://dbpedia.org/resource/The_Chronicles_of_Narnia_(film_series)
+http://dbpedia.org/resource/Dungeons_&_Dragons_(film)
+http://dbpedia.org/resource/La_Vie_en_Rose_(film)
+http://dbpedia.org/resource/The_Brothers_Grimm_(film)
+http://dbpedia.org/resource/Underground_(1995_film)
+http://dbpedia.org/resource/A_Royal_Affair
+http://dbpedia.org/resource/EuroTrip
+http://dbpedia.org/resource/Rebelov%C3%A9
+http://dbpedia.org/resource/Cosy_Dens
+http://dbpedia.org/resource/Alien_vs._Predator_(film)
+http://dbpedia.org/resource/Empties
+http://dbpedia.org/resource/The_Illusionist_(2006_film)
+http://dbpedia.org/resource/Oliver_Twist_(2005_film)
+http://dbpedia.org/resource/Solomon_Kane_(film)
+http://dbpedia.org/resource/The_League_of_Extraordinary_Gentlemen_(film)
+http://dbpedia.org/resource/Dark_Blue_World
+http://dbpedia.org/resource/Year_of_the_Devil
+http://dbpedia.org/resource/The_Last_Train_(2006_film)
+http://dbpedia.org/resource/Tobruk_(2008_film)
+http://dbpedia.org/resource/The_Red_Baron_(film)
+http://dbpedia.org/resource/Bad_Company_(2002_film)
+http://dbpedia.org/resource/Body_Without_Soul
+http://dbpedia.org/resource/Divided_We_Fall_(film)
+http://dbpedia.org/resource/Krut%C3%A9_radosti
+http://dbpedia.org/resource/%C5%BDelary
+http://dbpedia.org/resource/Kolya
+http://dbpedia.org/resource/Conspirators_of_Pleasure
+http://dbpedia.org/resource/The_Barber_of_Siberia
+http://dbpedia.org/resource/Czech_Dream
+http://dbpedia.org/resource/Little_Otik
+http://dbpedia.org/resource/In_the_Mirror_of_Maya_Deren
+http://dbpedia.org/resource/Hard_to_Be_a_God_(2013_film)
+http://dbpedia.org/resource/Normal_(2009_film)
+http://dbpedia.org/resource/A_Quiet_Week_in_the_House
+http://dbpedia.org/resource/The_Ninth_Day
+http://dbpedia.org/resource/V%C3%A1clav_(film)
+http://dbpedia.org/resource/I_Served_the_King_of_England_(film)
+http://dbpedia.org/resource/Life_and_Extraordinary_Adventures_of_Private_Ivan_Chonkin
+http://dbpedia.org/resource/The_Cycle_(2009_film)
+http://dbpedia.org/resource/Goat_Story
+http://dbpedia.org/resource/Goat_Story_2
+http://dbpedia.org/resource/Flame_&_Citron
+http://dbpedia.org/resource/Janosik._Prawdziwa_historia
+http://dbpedia.org/resource/All_My_Loved_Ones
+http://dbpedia.org/resource/The_Shooter_(1995_film)
+http://dbpedia.org/resource/The_Fine_Art_of_Love
+http://dbpedia.org/resource/Bach's_Fight_for_Freedom
+http://dbpedia.org/resource/Kooky
+http://dbpedia.org/resource/Oil_Gobblers
+http://dbpedia.org/resource/Choking_Hazard
+http://dbpedia.org/resource/Lea_(film)
+http://dbpedia.org/resource/The_Pagan_Queen
+http://dbpedia.org/resource/Something_Like_Happiness
+http://dbpedia.org/resource/One_Night_in_One_City
+http://dbpedia.org/resource/Stolen_Kosovo
+http://dbpedia.org/resource/Not_Angels_But_Angels
+http://dbpedia.org/resource/ROMing
+http://dbpedia.org/resource/The_Revenge_of_the_Whore
+http://dbpedia.org/resource/It_Will_Stay_Between_Us
+http://dbpedia.org/resource/Sk%C5%99%C3%ADtek
+http://dbpedia.org/resource/Men_in_Hope
+http://dbpedia.org/resource/The_Magical_Duvet
+http://dbpedia.org/resource/Lotrando_a_Zubejda
+http://dbpedia.org/resource/Golet_v_%C3%BAdol%C3%AD
+http://dbpedia.org/resource/Shoes_(2012_film)
+http://dbpedia.org/resource/The_Idiot_Returns
+161
+sim: 0.37097047290134305
+relations: http://dbpedia.org/property/starring
+true relations: prop:starring dbo:starring rdfs:label
+answers: 
+http://dbpedia.org/resource/Rain_Man
+http://dbpedia.org/resource/The_Color_of_Money
+http://dbpedia.org/resource/The_Last_Samurai
+http://dbpedia.org/resource/Interview_with_the_Vampire:_The_Vampire_Chronicles
+http://dbpedia.org/resource/Minority_Report_(film)
+http://dbpedia.org/resource/Cocktail_(1988_film)
+http://dbpedia.org/resource/Eyes_Wide_Shut
+http://dbpedia.org/resource/Top_Gun
+http://dbpedia.org/resource/Risky_Business
+http://dbpedia.org/resource/The_Firm_(1993_film)
+http://dbpedia.org/resource/Lions_for_Lambs
+http://dbpedia.org/resource/A_Few_Good_Men
+http://dbpedia.org/resource/Jerry_Maguire
+http://dbpedia.org/resource/Far_and_Away
+http://dbpedia.org/resource/The_Outsiders_(film)
+http://dbpedia.org/resource/Legend_(1985_film)
+http://dbpedia.org/resource/Valkyrie_(film)
+http://dbpedia.org/resource/War_of_the_Worlds_(2005_film)
+http://dbpedia.org/resource/Born_on_the_Fourth_of_July_(film)
+http://dbpedia.org/resource/All_the_Right_Moves_(film)
+http://dbpedia.org/resource/Magnolia_(film)
+http://dbpedia.org/resource/Knight_and_Day
+http://dbpedia.org/resource/Rock_of_Ages_(2012_film)
+http://dbpedia.org/resource/Losin'_It
+162
+163
+sim: 0.20189388603104158
+relations: http://dbpedia.org/ontology/knownFor
+true relations: dbo:author
+answers: 
+http://dbpedia.org/resource/Sue_Gardner
+http://dbpedia.org/resource/Tony_Santiago
+164
+sim: 0.25200321046369595
+relations: http://dbpedia.org/property/nationality
+true relations: dbp:incumbent
+answers: 
+http://dbpedia.org/resource/Joschka_Fischer
+165
+sim: 0.335694068255066
+relations: http://dbpedia.org/property/founder
+true relations: dbp:founders
+answers: 
+http://dbpedia.org/resource/Karl_Albrecht
+http://dbpedia.org/resource/Theo_Albrecht
+166
+sim: 0.4100273657774511
+relations: http://dbpedia.org/property/author
+true relations: dbo:author
+answers: 
+http://dbpedia.org/resource/Family_Album_(novel)
+http://dbpedia.org/resource/The_Wedding_(Steel_novel)
+http://dbpedia.org/resource/The_Gift_(Steel_novel)
+http://dbpedia.org/resource/Kaleidoscope_(novel)
+http://dbpedia.org/resource/A_Perfect_Stranger
+http://dbpedia.org/resource/Zoya_(novel)
+http://dbpedia.org/resource/Second_Chance_(novel)
+http://dbpedia.org/resource/Special_Delivery_(novel)
+http://dbpedia.org/resource/Now_and_Forever_(novel)
+http://dbpedia.org/resource/Season_of_Passion
+http://dbpedia.org/resource/Wanderlust_(Steel_novel)
+http://dbpedia.org/resource/Thurston_House_(novel)
+http://dbpedia.org/resource/Fine_Things
+http://dbpedia.org/resource/Mixed_Blessings_(novel)
+http://dbpedia.org/resource/Message_from_Nam
+http://dbpedia.org/resource/Silent_Honor
+http://dbpedia.org/resource/Five_Days_in_Paris
+http://dbpedia.org/resource/Sunset_in_St._Tropez
+http://dbpedia.org/resource/Daddy_(novel)
+http://dbpedia.org/resource/Accident_(novel)
+http://dbpedia.org/resource/Passion's_Promise
+http://dbpedia.org/resource/Rogue_(novel)
+http://dbpedia.org/resource/Honor_Thyself
+http://dbpedia.org/resource/A_Good_Woman_(novel)
+http://dbpedia.org/resource/One_Day_at_a_Time_(novel)
+http://dbpedia.org/resource/Matters_of_the_Heart_(novel)
+http://dbpedia.org/resource/Southern_Lights_(novel)
+http://dbpedia.org/resource/Amazing_Grace_(novel)
+http://dbpedia.org/resource/Bungalow_2
+http://dbpedia.org/resource/Sisters_(Steel_novel)
+http://dbpedia.org/resource/H.R.H._(novel)
+http://dbpedia.org/resource/Coming_Out_(novel)
+http://dbpedia.org/resource/The_House_(novel)
+http://dbpedia.org/resource/Family_Ties_(novel)
+http://dbpedia.org/resource/Toxic_Bachelors_(novel)
+http://dbpedia.org/resource/Miracle_(novel)
+http://dbpedia.org/resource/Impossible_(novel)
+http://dbpedia.org/resource/Echoes_(novel)
+http://dbpedia.org/resource/Ransom_(Steel_novel)
+http://dbpedia.org/resource/Safe_Harbour_(novel)
+http://dbpedia.org/resource/Big_Girl_(novel)
+http://dbpedia.org/resource/No_Greater_Love_(novel)
+http://dbpedia.org/resource/Friends_Forever_(novel)
+http://dbpedia.org/resource/Betrayal_(Steel_novel)
+http://dbpedia.org/resource/Hotel_Vendome_(novel)
+http://dbpedia.org/resource/Crossings_(Steel_novel)
+167
+sim: 1.0000000050878166
+relations: http://dbpedia.org/property/influenced
+true relations: dbo:influencedBy
+answers: 
+http://dbpedia.org/resource/Parmenides
+http://dbpedia.org/resource/Aesop
+168
+sim: 0.5559575574699154
+relations: http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+true relations: dbo:maximumDepth
+answers: 
+http://en.wikipedia.org/wiki/Chiemsee
+169
+170
+sim: 0.6508285516748216
+relations: http://dbpedia.org/property/mother
+true relations: dbo:parent
+answers: 
+http://dbpedia.org/resource/Princess_Louise,_Duchess_of_Argyll
+http://dbpedia.org/resource/Alfred,_Duke_of_Saxe-Coburg_and_Gotha
+http://dbpedia.org/resource/Edward_VII
+http://dbpedia.org/resource/Princess_Victoria_of_Saxe-Coburg-Saalfeld
+http://dbpedia.org/resource/Princess_Beatrice_of_the_United_Kingdom
+http://dbpedia.org/resource/Victoria,_Princess_Royal
+http://dbpedia.org/resource/Prince_Arthur,_Duke_of_Connaught_and_Strathearn
+http://dbpedia.org/resource/Princess_Alice_of_the_United_Kingdom
+http://dbpedia.org/resource/Prince_Leopold,_Duke_of_Albany
+http://dbpedia.org/resource/Princess_Helena_of_the_United_Kingdom
+171
+sim: 0.2873127092712737
+relations: http://dbpedia.org/property/nearestCity
+true relations: dct:subject
+answers: 
+http://dbpedia.org/resource/Hearst_Castle
+http://dbpedia.org/resource/Scotty's_Castle
+172
+sim: 0.9999999999999999
+relations: http://dbpedia.org/ontology/spokenIn
+true relations: dbo:spokenIn
+answers: 
+http://dbpedia.org/resource/Finnish_language
+http://dbpedia.org/resource/Estonian_language
+http://dbpedia.org/resource/V%C3%B5ro_language
+http://dbpedia.org/resource/Erzya_language
+http://dbpedia.org/resource/Seto_dialect
+http://dbpedia.org/resource/Russian_Sign_Language
+http://dbpedia.org/resource/Modern_Swedish
+http://dbpedia.org/resource/Baltic_Romani
+http://dbpedia.org/resource/Laiuse_Romani_language
+http://dbpedia.org/resource/Estonian_Sign_Language
+173
+sim: 0.28119768582368154
+relations: http://dbpedia.org/ontology/sourceState
+true relations: dbo:country dbp:country
+answers: 
+http://dbpedia.org/resource/Switzerland
+http://dbpedia.org/resource/Netherlands
+http://dbpedia.org/resource/France
+http://dbpedia.org/resource/Germany
+http://dbpedia.org/resource/Austria
+http://dbpedia.org/resource/Liechtenstein
+174
+sim: 1.0
+relations: http://dbpedia.org/property/father
+true relations: dbo:parent foaf:gender
+answers: 
+http://dbpedia.org/resource/George_VI
+175
+176
+177
+sim: 0.3401163637661246
+relations: http://xmlns.com/foaf/0.1/surname
+true relations: dbo:spouse
+answers: 
+Bass
+178
+sim: 0.9999999999999999
+relations: http://dbpedia.org/ontology/spokenIn
+true relations: dbo:language
+answers: 
+http://dbpedia.org/resource/Persian_language
+http://dbpedia.org/resource/Hindi
+http://dbpedia.org/resource/Sindhi_language
+http://dbpedia.org/resource/Punjabi_language
+http://dbpedia.org/resource/Urdu
+http://dbpedia.org/resource/Pashto_language
+http://dbpedia.org/resource/Balochi_language
+http://dbpedia.org/resource/Uzbek_language
+http://dbpedia.org/resource/Kyrgyz_language
+http://dbpedia.org/resource/Hindko_dialect
+http://dbpedia.org/resource/Wakhi_language
+http://dbpedia.org/resource/Ishkashimi_dialect
+http://dbpedia.org/resource/Hindustani_language
+http://dbpedia.org/resource/Gujarati_language
+http://dbpedia.org/resource/Kutchi_language
+http://dbpedia.org/resource/Kashmiri_language
+http://dbpedia.org/resource/Konkani_language
+http://dbpedia.org/resource/Rajasthani_language
+http://dbpedia.org/resource/Pothohari_dialect
+http://dbpedia.org/resource/Dogri_language
+http://dbpedia.org/resource/Gujari_language
+http://dbpedia.org/resource/Shina_language
+http://dbpedia.org/resource/Hazaragi_dialect
+http://dbpedia.org/resource/Khowar_language
+http://dbpedia.org/resource/Marwari_language
+http://dbpedia.org/resource/Ladakhi_language
+http://dbpedia.org/resource/Kalash_language
+http://dbpedia.org/resource/Dameli_language
+http://dbpedia.org/resource/Gawar-Bati_language
+http://dbpedia.org/resource/Yidgha_language
+http://dbpedia.org/resource/Domaaki_language
+http://dbpedia.org/resource/Goaria_language
+http://dbpedia.org/resource/Indo-Pakistani_Sign_Language
+http://dbpedia.org/resource/Dhatki_language
+http://dbpedia.org/resource/Kamviri_dialect
+http://dbpedia.org/resource/Aer_language
+http://dbpedia.org/resource/Lahnda_language
+http://dbpedia.org/resource/Ormuri_language
+http://dbpedia.org/resource/Wanetsi_(Pashto_dialect)
+http://dbpedia.org/resource/Khetrani_language
+http://dbpedia.org/resource/Loarki_language
+http://dbpedia.org/resource/Koli_language
+http://dbpedia.org/resource/Jadgali_language
+http://dbpedia.org/resource/Gurgula_language
+http://dbpedia.org/resource/Od_language
+http://dbpedia.org/resource/Waddar_language
+http://dbpedia.org/resource/Sistani_dialect
+http://dbpedia.org/resource/Central_Pashto
+http://dbpedia.org/resource/Ushoji_language
+http://dbpedia.org/resource/Parkari_Koli_language
+http://dbpedia.org/resource/Kundal_Shahi_language
+http://dbpedia.org/resource/Mirpur_Punjabi
+http://dbpedia.org/resource/Kagani_dialect
+179
+180
+sim: 1.0
+relations: http://dbpedia.org/property/mission
+true relations: dbp:crewMembers
+answers: 
+http://dbpedia.org/resource/Neil_Armstrong
+http://dbpedia.org/resource/Buzz_Aldrin
+http://dbpedia.org/resource/Michael_Collins_(astronaut)
+181
+sim: 1.0
+relations: http://dbpedia.org/property/wavelength
+true relations: dbo:wavelength
+answers: 
+450
+182
+sim: 0.4868510384892354
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbo:musicalArtist dbo:bSide
+answers: 
+http://rdf.freebase.com/ns/m.06lxn
+http://wikidata.org/entity/Q483407
+http://wikidata.dbpedia.org/resource/Q483407
+http://cs.dbpedia.org/resource/Ramones
+http://de.dbpedia.org/resource/Ramones
+http://el.dbpedia.org/resource/Ramones
+http://es.dbpedia.org/resource/Ramones
+http://eu.dbpedia.org/resource/The_Ramones
+http://fr.dbpedia.org/resource/Ramones
+http://id.dbpedia.org/resource/Ramones
+http://it.dbpedia.org/resource/Ramones
+http://ja.dbpedia.org/resource/ラモーンズ
+http://ko.dbpedia.org/resource/라몬즈
+http://nl.dbpedia.org/resource/Ramones
+http://pl.dbpedia.org/resource/Ramones
+http://pt.dbpedia.org/resource/Ramones
+http://af.dbpedia.org/resource/Ramones
+http://an.dbpedia.org/resource/The_Ramones
+http://bg.dbpedia.org/resource/Рамоунс
+http://br.dbpedia.org/resource/Ramones
+http://ca.dbpedia.org/resource/The_Ramones
+http://cy.dbpedia.org/resource/Ramones
+http://da.dbpedia.org/resource/Ramones
+http://eo.dbpedia.org/resource/The_Ramones
+http://et.dbpedia.org/resource/Ramones
+http://fa.dbpedia.org/resource/رامونز
+http://fi.dbpedia.org/resource/Ramones
+http://ga.dbpedia.org/resource/Ramones
+http://gl.dbpedia.org/resource/Ramones
+http://he.dbpedia.org/resource/הראמונס
+http://hr.dbpedia.org/resource/Ramones
+http://hu.dbpedia.org/resource/Ramones
+http://io.dbpedia.org/resource/The_Ramones
+http://la.dbpedia.org/resource/Ramones
+http://lmo.dbpedia.org/resource/Ramones
+http://lt.dbpedia.org/resource/The_Ramones
+http://lv.dbpedia.org/resource/Ramones
+http://mk.dbpedia.org/resource/The_Ramones
+http://nn.dbpedia.org/resource/The_Ramones
+http://no.dbpedia.org/resource/The_Ramones
+http://oc.dbpedia.org/resource/The_Ramones
+http://ro.dbpedia.org/resource/Ramones
+http://ru.dbpedia.org/resource/Ramones
+http://sh.dbpedia.org/resource/Ramones
+http://simple.dbpedia.org/resource/Ramones
+http://sk.dbpedia.org/resource/The_Ramones
+http://sl.dbpedia.org/resource/The_Ramones
+http://sq.dbpedia.org/resource/Ramones
+http://sr.dbpedia.org/resource/Рамонс
+http://sv.dbpedia.org/resource/Ramones
+http://th.dbpedia.org/resource/ราโมนส์
+http://tr.dbpedia.org/resource/Ramones
+http://uk.dbpedia.org/resource/Ramones
+http://uz.dbpedia.org/resource/Ramones
+http://vi.dbpedia.org/resource/Ramones
+http://zh.dbpedia.org/resource/雷蒙斯合唱團
+183
+sim: 0.13423313847720045
+relations: http://dbpedia.org/property/starring
+true relations: dbo:alias
+answers: 
+http://dbpedia.org/resource/Al_Pacino
+184
+sim: 0.5825614011072533
+relations: http://dbpedia.org/property/inflow
+true relations: dbo:riverMouth
+answers: 
+http://dbpedia.org/resource/Rhine
+http://dbpedia.org/resource/River_Don,_Aberdeenshire
+http://dbpedia.org/resource/River_Dee,_Aberdeenshire
+http://dbpedia.org/resource/Humber
+http://dbpedia.org/resource/Elbe
+http://dbpedia.org/resource/River_Thames
+http://dbpedia.org/resource/Meuse_(river)
+http://dbpedia.org/resource/River_Forth
+http://dbpedia.org/resource/Weser
+http://dbpedia.org/resource/Ems_(river)
+http://dbpedia.org/resource/River_Tyne
+http://dbpedia.org/resource/Scheldt
+http://dbpedia.org/resource/Waal_(river)
+http://dbpedia.org/resource/River_Tay
+http://dbpedia.org/resource/River_Tees
+http://dbpedia.org/resource/River_Spey
+185
+sim: 0.524953847627421
+relations: http://dbpedia.org/property/location
+true relations: dbo:location
+answers: 
+http://dbpedia.org/resource/Kentucky
+http://dbpedia.org/resource/Godman_Army_Airfield
+186
+187
+sim: 0.38927698865578453
+relations: http://www.w3.org/2003/01/geo/wgs84_pos#long
+true relations: dbp:title
+answers: 
+103.0
+116.38333333333334
+103.083
+188
+sim: 0.7523383575864893
+relations: http://xmlns.com/foaf/0.1/name
+true relations: dbp:members foaf:givenName
+answers: 
+Les Tortues Ninja (VF)
+Teenage Mutant Ninja Turtles (VO)
+Tartarughe Ninja
+Teenage Mutant Ninja Turtles
+189
+sim: 0.6791565471065626
+relations: http://dbpedia.org/ontology/routeStart
+true relations: dbo:routeStart
+answers: 
+http://dbpedia.org/resource/Dover_Street
+http://dbpedia.org/resource/Piccadilly_Circus
+190
+191
+sim: 0.32148855698108825
+relations: http://dbpedia.org/ontology/foundingDate
+true relations: dbo:foundingDate
+answers: 
+192
+sim: 0.5359982510138357
+relations: http://dbpedia.org/property/league
+true relations: dbo:league dbo:height dbo:activeYearsEndYear
+answers: 
+http://dbpedia.org/resource/Luis_Scola
+http://dbpedia.org/resource/Brandon_Bass
+http://dbpedia.org/resource/Derek_Fisher
+http://dbpedia.org/resource/Joel_Anthony
+http://dbpedia.org/resource/DeMarcus_Cousins
+http://dbpedia.org/resource/Mark_Jackson_(basketball)
+http://dbpedia.org/resource/Brook_Lopez
+http://dbpedia.org/resource/Robin_Lopez
+http://dbpedia.org/resource/Austin_Rivers
+http://dbpedia.org/resource/Danilo_Gallinari
+http://dbpedia.org/resource/Rashard_Lewis
+http://dbpedia.org/resource/DeMar_DeRozan
+http://dbpedia.org/resource/Luol_Deng
+http://dbpedia.org/resource/Boris_Diaw
+http://dbpedia.org/resource/David_Lee_(basketball)
+http://dbpedia.org/resource/Rudy_Gay
+http://dbpedia.org/resource/Baron_Davis
+http://dbpedia.org/resource/Chris_Kaman
+http://dbpedia.org/resource/Charlie_Villanueva
+http://dbpedia.org/resource/Kobe_Bryant
+http://dbpedia.org/resource/Sean_Marks
+http://dbpedia.org/resource/Lawrence_Frank
+http://dbpedia.org/resource/Jeremy_Lin
+http://dbpedia.org/resource/DeJuan_Blair
+http://dbpedia.org/resource/Jeff_Green_(basketball)
+http://dbpedia.org/resource/Carlos_Delfino
+http://dbpedia.org/resource/David_West_(basketball)
+http://dbpedia.org/resource/Ryan_Kelly_(basketball)
+http://dbpedia.org/resource/James_Harden
+http://dbpedia.org/resource/Matt_Bonner
+http://dbpedia.org/resource/Kelly_Olynyk
+http://dbpedia.org/resource/Danny_Granger
+http://dbpedia.org/resource/Andre_Drummond
+http://dbpedia.org/resource/Rodney_Stuckey
+http://dbpedia.org/resource/Nerlens_Noel
+http://dbpedia.org/resource/Tim_Duncan
+http://dbpedia.org/resource/Jason_Kidd
+http://dbpedia.org/resource/Mirza_Teletovi%C4%87
+http://dbpedia.org/resource/Dirk_Nowitzki
+http://dbpedia.org/resource/Carmelo_Anthony
+http://dbpedia.org/resource/Andrew_Bogut
+http://dbpedia.org/resource/Hedo_T%C3%BCrko%C4%9Flu
+http://dbpedia.org/resource/Kevin_Durant
+http://dbpedia.org/resource/Hasheem_Thabeet
+http://dbpedia.org/resource/1999%E2%80%932000_NBA_season
+http://dbpedia.org/resource/1997%E2%80%9398_NBA_season
+http://dbpedia.org/resource/1990%E2%80%9391_NBA_season
+http://dbpedia.org/resource/1979%E2%80%9380_NBA_season
+http://dbpedia.org/resource/Patrick_Patterson_(basketball)
+http://dbpedia.org/resource/John_Wall_(basketball)
+http://dbpedia.org/resource/Patty_Mills
+http://dbpedia.org/resource/Luc_Mbah_a_Moute
+http://dbpedia.org/resource/LeBron_James
+http://dbpedia.org/resource/Eastern_Conference_(NBA)
+http://dbpedia.org/resource/Lamar_Odom
+http://dbpedia.org/resource/Derrick_Rose
+http://dbpedia.org/resource/2010%E2%80%9311_NBA_season
+http://dbpedia.org/resource/Francisco_Garc%C3%ADa
+http://dbpedia.org/resource/Al_Horford
+http://dbpedia.org/resource/Aaron_Gray
+http://dbpedia.org/resource/Dwight_Howard
+http://dbpedia.org/resource/Eric_Gordon
+http://dbpedia.org/resource/Josh_Smith
+http://dbpedia.org/resource/Jason_Collins
+http://dbpedia.org/resource/Dorell_Wright
+http://dbpedia.org/resource/Martell_Webster
+http://dbpedia.org/resource/Roy_Hibbert
+http://dbpedia.org/resource/Ron_Rothstein
+http://dbpedia.org/resource/John_Salmons
+http://dbpedia.org/resource/Kenyon_Martin
+http://dbpedia.org/resource/Dick_Bavetta
+http://dbpedia.org/resource/O._J._Mayo
+http://dbpedia.org/resource/Mo_Williams
+http://dbpedia.org/resource/Nicolas_Batum
+http://dbpedia.org/resource/Tony_Parker
+http://dbpedia.org/resource/Joakim_Noah
+http://dbpedia.org/resource/Kevin_Martin_(basketball)
+http://dbpedia.org/resource/E'Twaun_Moore
+http://dbpedia.org/resource/Jimmer_Fredette
+http://dbpedia.org/resource/Jeff_Adrien
+http://dbpedia.org/resource/Mike_Miller_(basketball_player)
+http://dbpedia.org/resource/Kosta_Koufos
+http://dbpedia.org/resource/Kris_Humphries
+http://dbpedia.org/resource/Rajon_Rondo
+http://dbpedia.org/resource/Steve_Nash
+http://dbpedia.org/resource/Juwan_Howard
+http://dbpedia.org/resource/Nick_Calathes
+http://dbpedia.org/resource/Steve_Blake
+http://dbpedia.org/resource/Al_Harrington
+http://dbpedia.org/resource/Marcin_Gortat
+http://dbpedia.org/resource/Luke_Ridnour
+http://dbpedia.org/resource/Tayshaun_Prince
+http://dbpedia.org/resource/Devin_Harris
+http://dbpedia.org/resource/Meyers_Leonard
+http://dbpedia.org/resource/Jameer_Nelson
+http://dbpedia.org/resource/Andrei_Kirilenko
+http://dbpedia.org/resource/Jason_Maxiell
+http://dbpedia.org/resource/Thabo_Sefolosha
+http://dbpedia.org/resource/Xavier_Henry
+http://dbpedia.org/resource/Gregg_Popovich
+http://dbpedia.org/resource/Zach_Randolph
+http://dbpedia.org/resource/Josh_McRoberts
+http://dbpedia.org/resource/Mike_Conley,_Jr.
+http://dbpedia.org/resource/Greg_Oden
+http://dbpedia.org/resource/Courtney_Lee
+http://dbpedia.org/resource/George_Hill_(basketball)
+http://dbpedia.org/resource/Tyler_Zeller
+http://dbpedia.org/resource/Robbie_Hummel
+http://dbpedia.org/resource/Jeff_Teague_(basketball)
+http://dbpedia.org/resource/Gordon_Hayward
+http://dbpedia.org/resource/Paul_George_(basketball)
+http://dbpedia.org/resource/Cody_Zeller
+http://dbpedia.org/resource/Victor_Oladipo
+http://dbpedia.org/resource/Jeff_Hornacek
+http://dbpedia.org/resource/Andre_Iguodala
+http://dbpedia.org/resource/Kirk_Hinrich
+http://dbpedia.org/resource/Willis_Reed
+http://dbpedia.org/resource/Chuck_Hayes
+http://dbpedia.org/resource/Vince_Carter
+http://dbpedia.org/resource/Gerald_Green
+http://dbpedia.org/resource/MarShon_Brooks
+http://dbpedia.org/resource/Marc_Gasol
+http://dbpedia.org/resource/J._J._Redick
+http://dbpedia.org/resource/Earl_Watson
+http://dbpedia.org/resource/Tiago_Splitter
+http://dbpedia.org/resource/Glen_Davis_(basketball)
+http://dbpedia.org/resource/Raymond_Felton
+http://dbpedia.org/resource/Deron_Williams
+http://dbpedia.org/resource/Jos%C3%A9_Juan_Barea
+http://dbpedia.org/resource/Ray_Allen
+http://dbpedia.org/resource/Bradley_Beal
+http://dbpedia.org/resource/Marvin_Williams
+http://dbpedia.org/resource/Steve_Novak
+http://dbpedia.org/resource/Marcus_Thornton_(basketball,_born_1987)
+http://dbpedia.org/resource/Richard_Jefferson
+http://dbpedia.org/resource/Mike_James_(basketball,_born_1975)
+http://dbpedia.org/resource/Joe_Johnson_(basketball)
+http://dbpedia.org/resource/Trevor_Ariza
+http://dbpedia.org/resource/Tony_Allen_(basketball)
+http://dbpedia.org/resource/Nick_Young_(basketball)
+http://dbpedia.org/resource/Darrell_Armstrong
+http://dbpedia.org/resource/Omri_Casspi
+http://dbpedia.org/resource/Danny_Green_(basketball)
+http://dbpedia.org/resource/Beno_Udrih
+http://dbpedia.org/resource/Adrian_Griffin
+http://dbpedia.org/resource/Chris_Andersen
+http://dbpedia.org/resource/Udonis_Haslem
+http://dbpedia.org/resource/Pau_Gasol
+http://dbpedia.org/resource/DeMarre_Carroll
+http://dbpedia.org/resource/Jordan_Hill_(basketball)
+http://dbpedia.org/resource/Dwyane_Wade
+http://dbpedia.org/resource/Steve_Javie
+http://dbpedia.org/resource/Al_Jefferson
+http://dbpedia.org/resource/Tim_Donaghy
+http://dbpedia.org/resource/JaVale_McGee
+http://dbpedia.org/resource/Jason_Richardson
+http://dbpedia.org/resource/Manu_Gin%C3%B3bili
+http://dbpedia.org/resource/Michael_Beasley
+http://dbpedia.org/resource/LaMarcus_Aldridge
+http://dbpedia.org/resource/Anthony_Randolph
+http://dbpedia.org/resource/Derrick_Favors
+http://dbpedia.org/resource/Tobias_Harris
+http://dbpedia.org/resource/DeAndre_Jordan
+http://dbpedia.org/resource/Gerald_Wallace
+http://dbpedia.org/resource/Ronny_Turiaf
+http://dbpedia.org/resource/Chris_Paul
+http://dbpedia.org/resource/Phil_Jackson
+http://dbpedia.org/resource/Andrew_Bynum
+http://dbpedia.org/resource/1977%E2%80%9378_NBA_season
+http://dbpedia.org/resource/1973%E2%80%9374_NBA_season
+http://dbpedia.org/resource/1970%E2%80%9371_NBA_season
+http://dbpedia.org/resource/1969%E2%80%9370_NBA_season
+http://dbpedia.org/resource/Donatas_Motiej%C5%ABnas
+http://dbpedia.org/resource/Jonas_Valan%C4%8Di%C5%ABnas
+http://dbpedia.org/resource/Kemba_Walker
+http://dbpedia.org/resource/Melvin_Ely
+http://dbpedia.org/resource/Amir_Johnson
+http://dbpedia.org/resource/Reggie_Evans
+http://dbpedia.org/resource/Keith_Bogans
+http://dbpedia.org/resource/Goran_Dragi%C4%87
+http://dbpedia.org/resource/Elton_Brand
+http://dbpedia.org/resource/Anthony_Davis_(basketball)
+http://dbpedia.org/resource/Shawn_Marion
+http://dbpedia.org/resource/Kevin_Garnett
+http://dbpedia.org/resource/Mario_Chalmers
+http://dbpedia.org/resource/Channing_Frye
+http://dbpedia.org/resource/Samuel_Dalembert
+http://dbpedia.org/resource/Wilson_Chandler
+http://dbpedia.org/resource/Rasual_Butler
+http://dbpedia.org/resource/Nate_Robinson
+http://dbpedia.org/resource/Chase_Budinger
+http://dbpedia.org/resource/Ersan_%C4%B0lyasova
+http://dbpedia.org/resource/Kyle_Lowry
+http://dbpedia.org/resource/Marco_Belinelli
+http://dbpedia.org/resource/Blake_Griffin
+http://dbpedia.org/resource/Toney_Douglas
+http://dbpedia.org/resource/Darrick_Martin
+http://dbpedia.org/resource/2005%E2%80%9306_NBA_season
+http://dbpedia.org/resource/2003%E2%80%9304_NBA_season
+http://dbpedia.org/resource/2001%E2%80%9302_NBA_season
+http://dbpedia.org/resource/2000%E2%80%9301_NBA_season
+http://dbpedia.org/resource/1967%E2%80%9368_NBA_season
+http://dbpedia.org/resource/2008%E2%80%9309_NBA_season
+http://dbpedia.org/resource/Stephen_Curry_(basketball)
+http://dbpedia.org/resource/Chris_Bosh
+http://dbpedia.org/resource/Kyle_Korver
+http://dbpedia.org/resource/Kyrie_Irving
+http://dbpedia.org/resource/Andre_Miller
+http://dbpedia.org/resource/Gal_Mekel
+http://dbpedia.org/resource/1998%E2%80%9399_NBA_season
+http://dbpedia.org/resource/1996%E2%80%9397_NBA_season
+http://dbpedia.org/resource/1995%E2%80%9396_NBA_season
+http://dbpedia.org/resource/1994%E2%80%9395_NBA_season
+http://dbpedia.org/resource/1993%E2%80%9394_NBA_season
+http://dbpedia.org/resource/1992%E2%80%9393_NBA_season
+http://dbpedia.org/resource/1991%E2%80%9392_NBA_season
+http://dbpedia.org/resource/1989%E2%80%9390_NBA_season
+http://dbpedia.org/resource/1988%E2%80%9389_NBA_season
+http://dbpedia.org/resource/1987%E2%80%9388_NBA_season
+http://dbpedia.org/resource/1986%E2%80%9387_NBA_season
+http://dbpedia.org/resource/1985%E2%80%9386_NBA_season
+http://dbpedia.org/resource/1984%E2%80%9385_NBA_season
+http://dbpedia.org/resource/2011%E2%80%9312_NBA_season
+http://dbpedia.org/resource/Festus_Ezeli
+http://dbpedia.org/resource/Sam_Cassell
+http://dbpedia.org/resource/Ian_Mahinmi
+http://dbpedia.org/resource/Carlos_Boozer
+http://dbpedia.org/resource/Avery_Bradley
+http://dbpedia.org/resource/Shannon_Brown
+http://dbpedia.org/resource/Leandro_Barbosa
+http://dbpedia.org/resource/Jordan_Farmar
+http://dbpedia.org/resource/Russell_Westbrook
+http://dbpedia.org/resource/Trey_Burke
+http://dbpedia.org/resource/Amar'e_Stoudemire
+http://dbpedia.org/resource/Kendrick_Perkins
+http://dbpedia.org/resource/Metta_World_Peace
+http://dbpedia.org/resource/Tyler_Hansbrough
+http://dbpedia.org/resource/Red_Auerbach
+http://dbpedia.org/resource/Paul_Pierce
+http://dbpedia.org/resource/Jason_Terry
+http://dbpedia.org/resource/2004%E2%80%9305_NBA_season
+http://dbpedia.org/resource/Earl_Strom
+http://dbpedia.org/resource/2006%E2%80%9307_NBA_season
+http://dbpedia.org/resource/Andrea_Bargnani
+http://dbpedia.org/resource/1968%E2%80%9369_NBA_season
+http://dbpedia.org/resource/1966%E2%80%9367_NBA_season
+http://dbpedia.org/resource/Southwest_Division_(NBA)
+http://dbpedia.org/resource/Northwest_Division_(NBA)
+http://dbpedia.org/resource/Southeast_Division_(NBA)
+http://dbpedia.org/resource/Atlantic_Division_(NBA)
+http://dbpedia.org/resource/Central_Division_(NBA)
+http://dbpedia.org/resource/Pacific_Division_(NBA)
+http://dbpedia.org/resource/Western_Conference_(NBA)
+http://dbpedia.org/resource/2013%E2%80%9314_NBA_season
+http://dbpedia.org/resource/Byron_Mullens
+http://dbpedia.org/resource/Jarrett_Jack
+http://dbpedia.org/resource/Emeka_Okafor
+http://dbpedia.org/resource/Tyson_Chandler
+http://dbpedia.org/resource/Kevin_Love
+http://dbpedia.org/resource/Ricky_Rubio
+http://dbpedia.org/resource/Pablo_Prigioni
+http://dbpedia.org/resource/Jos%C3%A9_Calder%C3%B3n_(basketball)
+http://dbpedia.org/resource/Alexey_Shved
+http://dbpedia.org/resource/Timofey_Mozgov
+http://dbpedia.org/resource/Sergey_Karasev
+http://dbpedia.org/resource/Steve_Jones_(basketball)
+http://dbpedia.org/resource/Monta_Ellis
+http://dbpedia.org/resource/Evan_Turner
+http://dbpedia.org/resource/Cole_Aldrich
+http://dbpedia.org/resource/James_Jones_(basketball_player)
+http://dbpedia.org/resource/Jermaine_O'Neal
+http://dbpedia.org/resource/Arron_Afflalo
+http://dbpedia.org/resource/Luke_Babbitt
+http://dbpedia.org/resource/Landry_Fields
+http://dbpedia.org/resource/Gorgui_Dieng
+http://dbpedia.org/resource/Marcus_Morris_(basketball)
+http://dbpedia.org/resource/Markieff_Morris
+http://dbpedia.org/resource/Al-Farouq_Aminu
+http://dbpedia.org/resource/Anderson_Varej%C3%A3o
+http://dbpedia.org/resource/Brandon_Jennings
+http://dbpedia.org/resource/Shaun_Livingston
+http://dbpedia.org/resource/Nazr_Mohammed
+http://dbpedia.org/resource/Lance_Stephenson
+http://dbpedia.org/resource/Rasheed_Wallace
+http://dbpedia.org/resource/Tyreke_Evans
+http://dbpedia.org/resource/Mike_Dunleavy,_Jr.
+http://dbpedia.org/resource/Chauncey_Billups
+http://dbpedia.org/resource/Bob_McAdoo
+http://dbpedia.org/resource/Drew_Gooden
+http://dbpedia.org/resource/Randy_Foye
+http://dbpedia.org/resource/Andray_Blatche
+http://dbpedia.org/resource/J._R._Smith
+http://dbpedia.org/resource/Shane_Battier
+http://dbpedia.org/resource/Luigi_Datome
+http://dbpedia.org/resource/Michael_Kidd-Gilchrist
+http://dbpedia.org/resource/Caron_Butler
+http://dbpedia.org/resource/Jamal_Crawford
+http://dbpedia.org/resource/Jrue_Holiday
+http://dbpedia.org/resource/Ryan_Anderson_(basketball)
+http://dbpedia.org/resource/Enes_Kanter
+http://dbpedia.org/resource/Jared_Sullinger
+http://dbpedia.org/resource/Bismack_Biyombo
+http://dbpedia.org/resource/Brandon_Knight_(basketball)
+http://dbpedia.org/resource/Alec_Burks
+http://dbpedia.org/resource/Derrick_Williams_(basketball)
+http://dbpedia.org/resource/Cory_Joseph
+http://dbpedia.org/resource/Corey_Brewer
+http://dbpedia.org/resource/Eric_Bledsoe
+http://dbpedia.org/resource/1982%E2%80%9383_NBA_season
+http://dbpedia.org/resource/1981%E2%80%9382_NBA_season
+http://dbpedia.org/resource/1980%E2%80%9381_NBA_season
+http://dbpedia.org/resource/Lester_Conner
+http://dbpedia.org/resource/Ron_Garretson
+http://dbpedia.org/resource/Zaza_Pachulia
+http://dbpedia.org/resource/C._J._McCollum
+http://dbpedia.org/resource/Brad_Stevens
+http://dbpedia.org/resource/Shavlik_Randolph
+http://dbpedia.org/resource/1983%E2%80%9384_NBA_season
+http://dbpedia.org/resource/1978%E2%80%9379_NBA_season
+http://dbpedia.org/resource/1976%E2%80%9377_NBA_season
+http://dbpedia.org/resource/1975%E2%80%9376_NBA_season
+http://dbpedia.org/resource/1974%E2%80%9375_NBA_season
+http://dbpedia.org/resource/1972%E2%80%9373_NBA_season
+http://dbpedia.org/resource/1965%E2%80%9366_NBA_season
+http://dbpedia.org/resource/1964%E2%80%9365_NBA_season
+http://dbpedia.org/resource/1963%E2%80%9364_NBA_season
+http://dbpedia.org/resource/1962%E2%80%9363_NBA_season
+http://dbpedia.org/resource/1961%E2%80%9362_NBA_season
+http://dbpedia.org/resource/1960%E2%80%9361_NBA_season
+http://dbpedia.org/resource/1959%E2%80%9360_NBA_season
+http://dbpedia.org/resource/1958%E2%80%9359_NBA_season
+http://dbpedia.org/resource/1957%E2%80%9358_NBA_season
+http://dbpedia.org/resource/1956%E2%80%9357_NBA_season
+http://dbpedia.org/resource/1955%E2%80%9356_NBA_season
+http://dbpedia.org/resource/1949%E2%80%9350_NBA_season
+http://dbpedia.org/resource/2007%E2%80%9308_NBA_season
+http://dbpedia.org/resource/Tony_Brown_(basketball)
+http://dbpedia.org/resource/Jerryd_Bayless
+http://dbpedia.org/resource/D._J._White
+http://dbpedia.org/resource/Jarvis_Varnado
+http://dbpedia.org/resource/2009%E2%80%9310_NBA_season
+http://dbpedia.org/resource/1971%E2%80%9372_NBA_season
+http://dbpedia.org/resource/Frank_Vogel
+http://dbpedia.org/resource/2012%E2%80%9313_NBA_season
+http://dbpedia.org/resource/Scott_Brooks
+http://dbpedia.org/resource/Ty_Lawson
+http://dbpedia.org/resource/Miles_Plumlee
+http://dbpedia.org/resource/Greivis_V%C3%A1squez
+http://dbpedia.org/resource/Paul_Millsap
+http://dbpedia.org/resource/Josh_Powell
+http://dbpedia.org/resource/JJ_Hickson
+http://dbpedia.org/resource/Erik_Spoelstra
+http://dbpedia.org/resource/2002%E2%80%9303_NBA_season
+http://dbpedia.org/resource/Darren_Collison
+http://dbpedia.org/resource/Taj_Gibson
+http://dbpedia.org/resource/Norris_Cole_(basketball)
+http://dbpedia.org/resource/Travis_Outlaw
+http://dbpedia.org/resource/Alan_Anderson_(basketball)
+http://dbpedia.org/resource/Chris_Douglas-Roberts
+http://dbpedia.org/resource/Anthony_Morrow
+http://dbpedia.org/resource/Mason_Plumlee
+http://dbpedia.org/resource/1952%E2%80%9353_NBA_season
+http://dbpedia.org/resource/1951%E2%80%9352_NBA_season
+http://dbpedia.org/resource/1950%E2%80%9351_NBA_season
+http://dbpedia.org/resource/Ronnie_Brewer
+http://dbpedia.org/resource/Iman_Shumpert
+http://dbpedia.org/resource/Tim_Hardaway,_Jr.
+http://dbpedia.org/resource/Josh_Harrellson
+http://dbpedia.org/resource/Chris_Copeland
+http://dbpedia.org/resource/Matt_Barnes
+http://dbpedia.org/resource/Gustavo_Ay%C3%B3n
+http://dbpedia.org/resource/Ish_Smith
+http://dbpedia.org/resource/Andrew_Nicholson_(basketball)
+http://dbpedia.org/resource/Nikola_Vu%C4%8Devi%C4%87
+http://dbpedia.org/resource/Kyle_O'Quinn
+http://dbpedia.org/resource/Doron_Lamb
+http://dbpedia.org/resource/Maurice_Harkless
+http://dbpedia.org/resource/Brett_Brown
+http://dbpedia.org/resource/Louis_Williams
+http://dbpedia.org/resource/1954%E2%80%9355_NBA_season
+http://dbpedia.org/resource/1953%E2%80%9354_NBA_season
+http://dbpedia.org/resource/Randy_Ayers
+http://dbpedia.org/resource/Spencer_Hawes
+http://dbpedia.org/resource/Jodie_Meeks
+http://dbpedia.org/resource/Thaddeus_Young
+http://dbpedia.org/resource/Jason_Smith_(basketball,_born_1986)
+http://dbpedia.org/resource/Lavoy_Allen
+http://dbpedia.org/resource/Michael_Carter-Williams
+http://dbpedia.org/resource/Brendan_Haywood
+http://dbpedia.org/resource/Kevin_S%C3%A9raphin
+http://dbpedia.org/resource/Jordan_Crawford
+http://dbpedia.org/resource/Chris_Singleton_(basketball)
+http://dbpedia.org/resource/Kendall_Marshall
+http://dbpedia.org/resource/Otto_Porter
+http://dbpedia.org/resource/Mike_Budenholzer
+http://dbpedia.org/resource/Jannero_Pargo
+http://dbpedia.org/resource/Willie_Green
+http://dbpedia.org/resource/Jeremy_Tyler
+http://dbpedia.org/resource/John_Jenkins_(basketball)
+http://dbpedia.org/resource/Donald_Sloan_(basketball)
+http://dbpedia.org/resource/Mike_Muscala
+http://dbpedia.org/resource/Mike_Scott_(basketball)
+http://dbpedia.org/resource/Jared_Cunningham
+http://dbpedia.org/resource/Shane_Larkin
+http://dbpedia.org/resource/Dennis_Schr%C3%B6der
+http://dbpedia.org/resource/C._J._Miles
+http://dbpedia.org/resource/Midwest_Division_(NBA)
+http://dbpedia.org/resource/Ryan_Hollins
+http://dbpedia.org/resource/Ramon_Sessions
+http://dbpedia.org/resource/Alonzo_Gee
+http://dbpedia.org/resource/Tristan_Thompson
+http://dbpedia.org/resource/Anthony_Bennett_(basketball)
+http://dbpedia.org/resource/Dion_Waiters
+http://dbpedia.org/resource/Henry_Sims
+http://dbpedia.org/resource/Gary_Neal
+http://dbpedia.org/resource/John_Henson_(basketball)
+http://dbpedia.org/resource/Ekpe_Udoh
+http://dbpedia.org/resource/Jon_Leuer
+http://dbpedia.org/resource/Khris_Middleton
+http://dbpedia.org/resource/Giannis_Antetokounmpo
+http://dbpedia.org/resource/Nate_Wolters
+http://dbpedia.org/resource/Kyle_Singler
+http://dbpedia.org/resource/Jonas_Jerebko
+http://dbpedia.org/resource/Greg_Monroe
+http://dbpedia.org/resource/Austin_Daye
+http://dbpedia.org/resource/Peyton_Siva
+http://dbpedia.org/resource/Tony_Mitchell_(basketball,_born_1992)
+http://dbpedia.org/resource/Kentavious_Caldwell-Pope
+http://dbpedia.org/resource/Brandon_Rush
+http://dbpedia.org/resource/C._J._Watson
+http://dbpedia.org/resource/Solomon_Hill_(basketball)
+http://dbpedia.org/resource/%C3%96mer_A%C5%9F%C4%B1k
+http://dbpedia.org/resource/Jimmy_Butler_(basketball)
+http://dbpedia.org/resource/James_Johnson_(basketball_player)
+http://dbpedia.org/resource/D._J._Augustin
+http://dbpedia.org/resource/Ed_Davis_(basketball)
+http://dbpedia.org/resource/Terrence_Ross
+http://dbpedia.org/resource/Quincy_Acy
+http://dbpedia.org/resource/Dwight_Buycks
+http://dbpedia.org/resource/Alexis_Ajin%C3%A7a
+http://dbpedia.org/resource/Kenneth_Faried
+http://dbpedia.org/resource/Wayne_Ellington
+http://dbpedia.org/resource/Marreese_Speights
+http://dbpedia.org/resource/Dante_Cunningham
+http://dbpedia.org/resource/Tony_Wroten
+http://dbpedia.org/resource/Lou_Amundson
+http://dbpedia.org/resource/Chandler_Parsons
+http://dbpedia.org/resource/Wesley_Johnson_(basketball)
+http://dbpedia.org/resource/Shabazz_Muhammad
+http://dbpedia.org/resource/Hilton_Armstrong
+http://dbpedia.org/resource/Carl_Landry
+http://dbpedia.org/resource/Aaron_Brooks_(basketball)
+http://dbpedia.org/resource/Terrence_Jones
+http://dbpedia.org/resource/Jeremy_Lamb
+http://dbpedia.org/resource/Thomas_Robinson_(basketball)
+http://dbpedia.org/resource/Greg_Smith_(basketball,_born_1991)
+http://dbpedia.org/resource/Howard_Eisley
+http://dbpedia.org/resource/Wesley_Matthews
+http://dbpedia.org/resource/Jeremy_Evans
+http://dbpedia.org/resource/Jared_Dudley
+http://dbpedia.org/resource/Brandan_Wright
+http://dbpedia.org/resource/Anthony_Tolliver
+http://dbpedia.org/resource/Klay_Thompson
+http://dbpedia.org/resource/Draymond_Green
+http://dbpedia.org/resource/Nemanja_Nedovi%C4%87
+http://dbpedia.org/resource/Ognjen_Kuzmi%C4%87
+http://dbpedia.org/resource/Nando_de_Colo
+http://dbpedia.org/resource/James_Anderson_(basketball)
+http://dbpedia.org/resource/Kawhi_Leonard
+http://dbpedia.org/resource/P._J._Tucker
+http://dbpedia.org/resource/Archie_Goodwin_(basketball)
+http://dbpedia.org/resource/Alex_Len
+http://dbpedia.org/resource/Isaiah_Thomas_(basketball)
+http://dbpedia.org/resource/Jeff_Withey
+http://dbpedia.org/resource/Ben_McLemore
+http://dbpedia.org/resource/Ray_McCallum,_Jr.
+http://dbpedia.org/resource/Ronnie_Price
+http://dbpedia.org/resource/Joel_Freeland
+http://dbpedia.org/resource/Jeff_Ayres
+http://dbpedia.org/resource/Elliot_Williams
+http://dbpedia.org/resource/Jordan_Hamilton
+http://dbpedia.org/resource/Damian_Lillard
+http://dbpedia.org/resource/Will_Barton
+http://dbpedia.org/resource/Allen_Crabbe
+http://dbpedia.org/resource/Grant_Jerrett
+http://dbpedia.org/resource/Jae_Crowder
+http://dbpedia.org/resource/Nick_Collison
+http://dbpedia.org/resource/Carrick_Felix
+http://dbpedia.org/resource/Larry_Sanders_(basketball)
+http://dbpedia.org/resource/Quincy_Miller
+http://dbpedia.org/resource/Robert_Sacre
+http://dbpedia.org/resource/Darius_Miller
+http://dbpedia.org/resource/Isaiah_Canaan
+http://dbpedia.org/resource/Gerald_Henderson,_Jr.
+http://dbpedia.org/resource/Jeffery_Taylor
+http://dbpedia.org/resource/Kent_Bazemore
+http://dbpedia.org/resource/Reggie_Bullock
+http://dbpedia.org/resource/Trevor_Booker
+http://dbpedia.org/resource/Damion_James
+http://dbpedia.org/resource/Garrett_Temple
+http://dbpedia.org/resource/Steve_Clifford
+http://dbpedia.org/resource/Quincy_Pondexter
+http://dbpedia.org/resource/2014%E2%80%9315_NBA_season
+http://dbpedia.org/resource/Toure'_Murry
+http://dbpedia.org/resource/Pero_Anti%C4%87
+http://dbpedia.org/resource/Ian_Clark_(basketball)
+http://dbpedia.org/resource/Nikola_Pekovi%C4%87
+http://dbpedia.org/resource/Matthew_Dellavedova
+http://dbpedia.org/resource/Glen_Rice,_Jr.
+http://dbpedia.org/resource/Will_Bynum
+http://dbpedia.org/resource/Patrick_Beverley
+http://dbpedia.org/resource/Steven_Adams
+http://dbpedia.org/resource/John_Lucas_III
+http://dbpedia.org/resource/Darrell_Arthur
+http://dbpedia.org/resource/Quin_Snyder
+http://dbpedia.org/resource/Malcolm_Thomas_(basketball,_born_1988)
+http://dbpedia.org/resource/Tony_Snell_(basketball)
+http://dbpedia.org/resource/Othyus_Jeffers
+http://dbpedia.org/resource/Alex_Jensen
+http://dbpedia.org/resource/Robert_Covington
+http://dbpedia.org/resource/Brian_Roberts_(basketball)
+http://dbpedia.org/resource/Justin_Hamilton_(basketball,_born_1990)
+http://dbpedia.org/resource/Jan_Vesel%C3%BD
+http://dbpedia.org/resource/Perry_Jones_III
+http://dbpedia.org/resource/Chris_Johnson_(basketball,_born_1990)
+http://dbpedia.org/resource/Rudy_Gobert
+http://dbpedia.org/resource/Julyan_Stone
+http://dbpedia.org/resource/Marshall_Rogers_(basketball)
+http://dbpedia.org/resource/Shelvin_Mack
+http://dbpedia.org/resource/Chris_Wright_(basketball,_born_1988)
+http://dbpedia.org/resource/Reggie_Jackson_(basketball,_born_1990)
+http://dbpedia.org/resource/Brandon_Davies
+http://dbpedia.org/resource/Dorie_Murrey
+http://dbpedia.org/resource/Jack_Nies
+http://dbpedia.org/resource/Jorge_Gutierrez_(basketball)
+http://dbpedia.org/resource/Erik_Murphy
+http://dbpedia.org/resource/Dewayne_Dedmon
+http://dbpedia.org/resource/Marquis_Teague
+http://dbpedia.org/resource/Aron_Baynes
+http://dbpedia.org/resource/Bernard_James
+http://dbpedia.org/resource/Bernie_Fryer
+http://dbpedia.org/resource/David_Fizdale
+http://dbpedia.org/resource/Evan_Fournier
+http://dbpedia.org/resource/Dionte_Christmas
+http://dbpedia.org/resource/Scotty_Hopson
+http://dbpedia.org/resource/Jamaal_Franklin
+http://dbpedia.org/resource/Miroslav_Raduljica
+http://dbpedia.org/resource/Cecil_Exum
+http://dbpedia.org/resource/Cartier_Martin
+http://dbpedia.org/resource/Phil_Pressey
+http://dbpedia.org/resource/Ed_Leede
+http://dbpedia.org/resource/Casper_Ware
+http://dbpedia.org/resource/Diante_Garrett
+http://dbpedia.org/resource/V%C3%ADtor_Faverani
+http://dbpedia.org/resource/Jeff_Halliburton
+http://dbpedia.org/resource/Ricky_Ledo
+http://dbpedia.org/resource/Jack_Kerris
+http://dbpedia.org/resource/Andr%C3%A9_Roberson
+http://dbpedia.org/resource/Rodney_Mott
+http://dbpedia.org/resource/James_Southerland
+http://dbpedia.org/resource/Troy_Daniels
+http://dbpedia.org/resource/Bob_Duffy_(basketball,_born_1940)
+http://dbpedia.org/resource/Willie_Reed
+http://dbpedia.org/resource/Jimmy_Foster_(basketball)
+http://dbpedia.org/resource/Bob_Beyer
+http://dbpedia.org/resource/Hollis_Thompson
+http://dbpedia.org/resource/Chris_Babb
+http://dbpedia.org/resource/Walt_Gilmore
+http://dbpedia.org/resource/Adonis_Thomas
+http://dbpedia.org/resource/Jerry_DeGregorio
+http://dbpedia.org/resource/Michael_Dieng
+193
+sim: 0.42014140096929825
+relations: http://dbpedia.org/ontology/deathPlace
+true relations: dbo:deathPlace
+answers: 
+http://dbpedia.org/resource/Petersen_House_(Washington,_D.C.)
+http://dbpedia.org/resource/Washington,_D.C.
+194
+195
+sim: 1.0
+relations: http://dbpedia.org/ontology/headquarter
+true relations: dbo:headquarter
+answers: 
+http://dbpedia.org/resource/Beijing
+http://dbpedia.org/resource/Shunyi_District
+196
+197
+sim: 0.208974110058451
+relations: http://dbpedia.org/property/date
+true relations: dbp:date
+answers: 
+198
+sim: 0.3409616970578981
+relations: http://dbpedia.org/property/citizenship
+true relations: dbo:birthPlace dbo:country
+answers: 
+http://dbpedia.org/resource/Rosa_Luxemburg
+http://dbpedia.org/resource/Sevim_Da%C4%9Fdelen
+199
+sim: 1.0
+relations: http://dbpedia.org/ontology/diameter
+true relations: dbo:meanRadius
+answers: 
+1.2756E7
+200
+sim: 0.40225917670169486
+relations: http://dbpedia.org/ontology/knownFor
+true relations: dbo:spouse rdfs:label
+answers: 
+http://dbpedia.org/resource/Ann_Dunham
+http://dbpedia.org/resource/Barack_Obama,_Sr.
+http://dbpedia.org/resource/Madelyn_Dunham
+http://dbpedia.org/resource/Ann_Nixon_Cooper
+http://dbpedia.org/resource/Pete_Souza
+http://dbpedia.org/resource/Orly_Taitz
+http://dbpedia.org/resource/Sam_Kass
+201
+sim: 0.26910053210920154
+relations: http://www.w3.org/2002/07/owl#sameAs
+true relations: dbp:postalabbreviation
+answers: 
+http://fr.dbpedia.org/resource/Minnesota
+202
+sim: 0.3871597054002856
+relations: http://dbpedia.org/property/dateOfDeath
+true relations: dbo:deathDate
+answers: 
+203
+204
+sim: 0.5429296324186326
+relations: http://dbpedia.org/property/geborenIn
+true relations: dbp:governor
+answers: 
+http://dbpedia.org/resource/Dolph_Briscoe
+205
+sim: 0.2333519425614356
+relations: http://dbpedia.org/ontology/basedOn
+true relations: dbo:director
+answers: 
+http://dbpedia.org/resource/Runaway_Train_(film)
+206
+207
+208
+sim: 1.0
+relations: http://dbpedia.org/property/calories
+true relations: dbp:calories
+answers: 
+263.0
+209
+sim: 0.23568059807672107
+relations: http://dbpedia.org/ontology/position
+true relations: dbo:country
+answers: 
+http://dbpedia.org/resource/Flevopolder
+210
+211
+212
+sim: 0.13801789368587652
+relations: http://dbpedia.org/property/preceded
+true relations: dbp:presidentEnd dbp:presidentStart
+answers: 
+http://dbpedia.org/resource/Tip_O'Neill
+213
+214
+sim: 0.6479030054676267
+relations: http://dbpedia.org/ontology/novel
+true relations: dbp:author
+answers: 
+http://dbpedia.org/resource/Jon_Snow_(character)
+http://dbpedia.org/resource/Tyrion_Lannister
+http://dbpedia.org/resource/Arya_Stark
+http://dbpedia.org/resource/Daenerys_Targaryen
+http://dbpedia.org/resource/Sansa_Stark
+215
+216
+217
+sim: 0.8939501974476474
+relations: http://dbpedia.org/ontology/foundedBy
+true relations: dbp:founders
+answers: 
+http://dbpedia.org/resource/Robert_Noyce
+http://dbpedia.org/resource/Gordon_Moore
+218
+sim: 0.5868956358350057
+relations: http://dbpedia.org/ontology/soccerTournamentTopScorer
+true relations: dbo:team dbo:league dbo:birthDate
+answers: 
+http://dbpedia.org/resource/Jimmy_Greaves
+219
+sim: 0.1110121588478584
+relations: http://dbpedia.org/property/instrument
+true relations: dbo:instrument
+answers: 
+http://dbpedia.org/resource/Mandolin
+http://dbpedia.org/resource/Guitar
+http://dbpedia.org/resource/Harpsichord
+http://dbpedia.org/resource/Bass_guitar
+220
+sim: 0.3502103680564258
+relations: http://dbpedia.org/ontology/region
+true relations: dbo:location dct:subject
+answers: 
+http://dbpedia.org/resource/Savannah_River
+221
+222
+223
+224
+sim: 0.4359858931405101
+relations: http://dbpedia.org/ontology/country
+true relations: dct:subject dbo:areaTotal
+answers: 
+http://dbpedia.org/resource/Alabama
+http://dbpedia.org/resource/Illinois
+http://dbpedia.org/resource/Maine
+http://dbpedia.org/resource/Oklahoma
+http://dbpedia.org/resource/Texas
+http://dbpedia.org/resource/Tennessee
+http://dbpedia.org/resource/Georgia_(U.S._state)
+http://dbpedia.org/resource/Florida
+http://dbpedia.org/resource/Nevada
+http://dbpedia.org/resource/West_Virginia
+http://dbpedia.org/resource/Colorado
+http://dbpedia.org/resource/Alaska
+http://dbpedia.org/resource/California
+http://dbpedia.org/resource/Maryland
+http://dbpedia.org/resource/Missouri
+http://dbpedia.org/resource/New_Jersey
+http://dbpedia.org/resource/Ohio
+http://dbpedia.org/resource/Pennsylvania
+http://dbpedia.org/resource/Massachusetts
+http://dbpedia.org/resource/New_York
+http://dbpedia.org/resource/Indiana
+http://dbpedia.org/resource/New_Mexico
+http://dbpedia.org/resource/Arizona
+http://dbpedia.org/resource/Montana
+http://dbpedia.org/resource/North_Dakota
+http://dbpedia.org/resource/South_Dakota
+http://dbpedia.org/resource/Vermont
+http://dbpedia.org/resource/Wyoming
+http://dbpedia.org/resource/Washington_(state)
+http://dbpedia.org/resource/Kansas
+http://dbpedia.org/resource/Connecticut
+http://dbpedia.org/resource/Delaware
+http://dbpedia.org/resource/Michigan
+http://dbpedia.org/resource/Minnesota
+http://dbpedia.org/resource/New_Hampshire
+http://dbpedia.org/resource/North_Carolina
+http://dbpedia.org/resource/Rhode_Island
+http://dbpedia.org/resource/South_Carolina
+http://dbpedia.org/resource/Virginia
+http://dbpedia.org/resource/Wisconsin
+http://dbpedia.org/resource/Hawaii
+http://dbpedia.org/resource/Kentucky
+http://dbpedia.org/resource/Arkansas
+http://dbpedia.org/resource/Louisiana
+http://dbpedia.org/resource/Iowa
+http://dbpedia.org/resource/Oregon
+http://dbpedia.org/resource/Idaho
+http://dbpedia.org/resource/Utah
+http://dbpedia.org/resource/Nebraska
+http://dbpedia.org/resource/Jefferson_(proposed_Pacific_state)
+225
+sim: 0.8862897102056622
+relations: http://dbpedia.org/property/otherNames
+true relations: dct:subject
+answers: 
+Italian: Cristoforo Colombo
+Catalan: Cristòfor Colom
+Spanish: Cristóbal Colón
+Portuguese: Cristóvão Colombo
+Latin: Christophorus Columbus
+Genoese: Christoffa Corombo

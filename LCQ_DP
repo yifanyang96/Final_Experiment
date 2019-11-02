@@ -1,0 +1,196 @@
+[(['the', 'scientist', 'whose', 'doctoral', 'advisor', 'is', '<Entity>'], 'Scientist'), (['known', 'for', '<Entity>'], '')]|0
+[(['route', 'junction', 'of', 'the', '<E1>'], 'Place'), (['the', 'place', 'of', 'birth', 'of', 'the', '<E2>'], '')]|0
+[(['the', 'band', 'with', 'previous', 'members', '<Entity>'], ''), (['the', 'band', 'with', 'previous', 'members', '<Entity>'], 'Band')]|-1
+[(['the', 'winner', 'of', '<E1>'], ''), (['<E2>', 'as', 'doctoral', 'supervisor'], '')]|0
+[(['the', 'common', 'prime', 'minster', 'of', '<Entity>'], ''), (['the', 'common', 'prime', 'minster', 'of', '<Entity>'], 'Person')]|0
+[(['Which', 'currency', 'of', '<E1>'], 'Currency'), (['the', 'currency', 'of', 'the', '<E2>'], '')]|0
+[(['the', 'deathplace', 'of', 'the', '<Entity>'], 'Place'), (['the', 'death', 'place', 'of', '<Entity>'], '')]|0
+[(['known', 'for', 'are', '<Entity>'], ''), (['known', 'for', 'are', '<Entity>'], 'Person')]|0
+[(['Which', 'manufacturer', 'of', 'the', '<E1>'], ''), (['the', 'manager', 'of', '<E2>', 's'], '')]|0
+[(['study', 'at', 'the', '<Entity>'], '')]|0
+[(['the', 'software', 'whose', 'operating', 'system', 'is', '<Entity>'], 'Software'), (['programming', 'language', 'is', '<Entity>'], '')]|0
+[(['<Entity>', 'can', 'be', 'found', 'in', 'which', 'country'], ''), (['<Entity>', 'can', 'be', 'found', 'in', 'which', 'country'], 'Country')]|0
+[(['a', 'guest', 'on', '<Entity>'], '')]|0
+[(['a', 'television', 'show', 'hosted', 'by', '<Entity>'], 'TelevisionShow'), (['Judged', 'by', '<Entity>'], '')]|0
+[(['a', 'character', 'of', '<Entity>'], '')]|0
+[(['fly', 'to', '<Entity>'], '')]|0
+[(['born', 'in', '<Entity>'], '')]|0
+[(['the', 'river', 'whose', 'mouth', 'country', 'is', '<Entity>'], 'River'), (['Source', 'region', 'is', '<Entity>'], '')]|0
+[(['is', 'the', 'common', 'award', 'won', 'by', '<Entity>'], ''), (['is', 'the', 'common', 'award', 'won', 'by', '<Entity>'], 'Award')]|0
+[(['<Entity>', 'as', 'executive', 'producer'], ''), (['<Entity>', 'as', 'executive', 'producer'], 'Producer'), (['Which', 'show', 'network', 'is'], '')]|1
+[(['destination', 'of', 'the', '<E1>'], ''), (['the', 'predecessor', 'of', 'the', '<E2>'], '')]|0
+[(['In', 'Which', 'fields', 'are', 'both', '<Entity>', 'experts'], ''), (['In', 'Which', 'fields', 'are', 'both', '<Entity>', 'experts'], '')]|1
+[(['the', 'mountain', 'of', 'the', 'range', '<E1>'], 'Mountain'), (['located', 'in', '<E2>'], '')]|0
+[(['the', 'place', 'of', 'the', '<E2>'], 'Place')]|0
+[(['located', 'in', '<E2>'], '')]|0
+[(['What', 'common', 'relegion', 'affiliation', 'exists', 'for', '<Entity>'], ''), (['What', 'common', 'relegion', 'affiliation', 'exists', 'for', '<Entity>'], '')]|1
+[(['fly', 'to', '<Entity>'], '')]|0
+[(['play', 'the', '<Entity>'], ''), (['known', 'to'], '')]|-1
+[(['What', 'things', 'canonized', '<Entity>'], ''), (['venerated', 'the', '<Entity>'], '')]|0
+[(['conflicts', 'of', '<Entity>'], ''), (['conflicts', 'of', '<Entity>'], 'Person')]|0
+[(['missions', 'of', '<Entity>'], ''), (['missions', 'of', '<Entity>'], 'Person')]|0
+[(['What', 'sports', 'team', 'is', 'famous', 'for', '<Entity>'], 'SportsTeam'), (['debuting', 'sports', 'team', 'of', '<Entity>'], '')]|0
+[(['portrayed', 'in', '<E2>'], '')]|0
+[(['renowned', 'for', '<Entity>'], 'Poem'), (['poem', 'of', '<Entity>'], '')]|0
+[(['notable', 'commanders', 'of', 'the', '<E1>'], ''), (['the', 'leader', 'of', 'the', '<E2>'], '')]|0
+[(['play', 'as', '<Entity>'], 'Play')]|0
+[(['cinematographed', 'by', '<Entity>'], '')]|0
+[(['a', 'member', 'of', 'the', '<Entity>'], '')]|0
+[(['own', 'the', '<Entity>'], '')]|0
+[(['voiced', 'by', '<Entity>'], ''), (['the', 'television', 'program'], ''), (['Aired', 'on', '<Entity>'], '')]|1
+[(['Which', 'indian', 'political', 'party', 'has', 'won', 'the', '<Entity>'], ''), (['Which', 'indian', 'political', 'party', 'has', 'won', 'the', '<Entity>'], 'PoliticalParty')]|0
+[(['the', 'sea', 'whose', 'inflow', 'is', '<Entity>'], 'Sea'), (['Outflow', 'is', '<Entity>'], '')]|0
+[(['To', 'Which', 'university', 'did', '<Entity>', 'both', 'once', 'went'], ''), (['To', 'Which', 'university', 'did', '<Entity>', 'both', 'once', 'went'], 'University')]|0
+[(['<Entity>', 'style'], ''), (['of', 'architecture'], ''), (['made', 'in'], '')]|-1
+[(['were', '<Entity>', 'born'], ''), (['were', '<Entity>', 'born'], 'Place')]|0
+[(['study', 'at', 'the', '<Entity>'], '')]|0
+[(['a', 'former', 'member', 'of', '<Entity>'], '')]|0
+[(['covered', 'by', '<Entity>'], '')]|0
+[(['inventing', '<Entity>'], ''), (['the', 'scientist', 'who', 'is', 'known', 'for'], 'Scientist'), (['Was', 'a', 'member', 'of', '<Entity>'], '')]|1
+[(['the', 'office', 'holder', 'whose', 'governor', 'is', '<Entity>'], 'OfficeHolder'), (['resting', 'place', 'as', '<Entity>'], '')]|0
+[(['fly', 'to', 'the', '<Entity>'], '')]|0
+[(['ethinicity', 'of', '<E1>'], 'State'), (['the', 'state', 'of', 'origin', 'of', '<E2>'], '')]|0
+[(['What', 'magazine', 'published', '<Entity>'], 'Magazine'), (['employer', 'of', '<Entity>'], '')]|0
+[(['managed', '<Entity>'], ''), (['managed', '<Entity>'], 'Person')]|0
+[(['a', 'work', 'of', '<E2>'], 'Work')]|0
+[(['Which', 'governing', 'body', 'of', 'the', '<E1>'], ''), (['the', 'military', 'branch', 'of', 'the', '<E2>'], '')]|0
+[(['interested', 'in', '<Entity>'], '')]|0
+[(['the', '<Entity>', 'achipelago'], '')]|0
+[(['office', 'holder', 'successor', 'is', '<Entity>'], 'OfficeHolder'), (['person', 'named', '<Entity>'], '')]|0
+[(['the', 'builder', 'of', '<Entity>'], 'Person'), (['Also', 'location', 'of', '<Entity>'], '')]|0
+[(['youth', 'clubs', 'of', '<Entity>'], ''), (['youth', 'clubs', 'of', '<Entity>'], 'Person')]|0
+[(['the', 'common', 'managing', 'club', 'of', 'the', '<Entity>'], ''), (['the', 'common', 'managing', 'club', 'of', 'the', '<Entity>'], '')]|0
+[(['a', 'neighbouring', 'city', 'of', '<Entity>'], 'City')]|0
+[(['What', 'state', 'has', 'a', '<Entity>'], 'State'), (['birthplace', 'of', '<Entity>'], '')]|0
+[(['the', 'services', 'of', '<Entity>'], ''), (['the', 'services', 'of', '<Entity>'], ''), (['provides'], '')]|-1
+[(['work', 'institue', 'of', '<E1>'], ''), (['belongs', 'to', '<E2>'], '')]|0
+[(['a', '<Entity>'], '')]|0
+[(['<Entity>', 'is', 'broadcasted', 'in', 'what', 'area'], ''), (['Also', 'has', 'the', '<Entity>'], '')]|0
+[(['<Entity>', 'language'], 'Language'), (['written', 'in'], '')]|-1
+[(['Name', 'a', 'company', 'with', 'key', 'person', 'as', '<Entity>'], ''), (['Name', 'a', 'company', 'with', 'key', 'person', 'as', '<Entity>'], 'Company')]|0
+[(['the', 'person', 'of', '<Entity>'], 'Person')]|0
+[(['tomb', 'of', 'the', '<Entity>'], ''), (['tomb', 'of', 'the', '<Entity>'], ''), (['the', 'common', 'location', 'of'], '')]|-1
+[(['Which', 'US', 'state', 'gave', 'us', '<Entity>'], ''), (['Which', 'US', 'state', 'gave', 'us', '<Entity>'], 'State')]|0
+[(['What', 'television', 'show', 'had', '<Entity>', 'format'], 'TelevisionShow'), (['Theme', 'music'], ''), (['composed', 'by', '<Entity>'], '')]|0
+[(['is', 'the', 'sea', 'connected', 'to', '<Entity>'], ''), (['is', 'the', 'sea', 'connected', 'to', '<Entity>'], 'Sea')]|-1
+[(['Which', 'city', 'is', 'the', 'route', 'start', 'of', 'the', '<Entity>'], 'City'), (['Birth', 'place', 'of', 'the', '<Entity>'], '')]|0
+[(['fall', 'under', 'the', '<Entity>'], '')]|0
+[(['television', 'show', 'company', 'is', '<Entity>'], 'TelevisionShow'), (['produced', 'by', '<Entity>'], '')]|0
+[(['What', 'sports', 'team', 'did', '<Entity>', 'play', 'for'], ''), (['What', 'sports', 'team', 'did', '<Entity>', 'play', 'for'], 'SportsTeam')]|0
+[(['the', 'birth', 'palce', 'of', '<E2>'], '')]|0
+[(['the', 'lyrics', 'of', '<Entity>'], ''), (['write'], '')]|-1
+[(['<E1>', 'nd'], '')]|0
+[(['all', 'the', 'state', 'which', 'have', 'a', '<E1>', 'where', 'does'], 'State')]|0
+[(['the', 'college', 'of', '<Entity>'], 'College'), (['the', 'college', 'of', '<Entity>'], '')]|0
+[(['these', 'major', 'shrine', '<Entity>'], ''), (['these', 'major', 'shrine', '<Entity>'], 'Person')]|0
+[(['a', 'main', 'ingredient', 'of', '<Entity>'], '')]|0
+[(['academic', 'discipline', 'of', 'the', '<E1>'], 'RecordLabel'), (['the', 'record', 'label', 'of', 'the', '<E2>'], '')]|0
+[(['Which', 'mountain', 'is', 'located', 'in', '<Entity>'], 'Mountain'), (['Has', 'a', 'parent', 'peak', 'named', '<Entity>'], '')]|0
+[(['Which', 'artist', 'of', 'Madagascar', '<E1>'], 'Artist'), (['the', 'writer', 'of', '<E2>'], '')]|0
+[(['designed', 'by', '<Entity>'], '')]|0
+[(['the', 'nationality', 'of', 'the', '<Entity>'], ''), (['the', 'nationality', 'of', 'the', '<Entity>'], '')]|0
+[(['the', 'faith', 'of', 'the', '<Entity>'], ''), (['Religious', 'affiliation', 'of', 'the', '<Entity>'], '')]|0
+[(['a', 'nominee', 'of', 'the', '<Entity>'], '')]|0
+[(['sport', 'played', 'at', '<Entity>'], 'Sport'), (['common', 'between'], 'Genre'), (['The', 'genre', 'of', '<Entity>'], '')]|1
+[(['Whose', 'successors', 'are', '<Entity>'], ''), (['Whose', 'successors', 'are', '<Entity>'], 'Person')]|0
+[(['the', 'development', 'of', '<E1>'], 'Work'), (['<E2>', 'work'], '')]|0
+[(['What', 'country', 'is', '<Entity>', 'from'], 'Country'), (['Also', 'has', 'the', '<Entity>'], '')]|0
+[(['the', 'anthem', 'of', '<Entity>'], '')]|0
+[(['Which', 'famous', 'commander', 'led', 'the', '<Entity>'], ''), (['involved', 'in', 'the', '<Entity>'], '')]|0
+[(['Name', 'book', 'with', 'publisher', 'as', '<Entity>'], 'Book'), (['writer', 'as', '<Entity>'], '')]|0
+[(['relatives', 'of', '<Entity>'], ''), (['relatives', 'of', '<Entity>'], 'Person')]|0
+[(['Name', 'the', 'television', 'show', 'with', 'opening', 'theme', 'as', '<Entity>'], 'TelevisionShow'), (['composed', 'by', '<Entity>'], '')]|0
+[(['the', 'television', 'show', 'whose', 'subsequent', 'work', 'is', '<Entity>'], 'TelevisionShow'), (['Composer', 'is', '<Entity>'], '')]|0
+[(['What', 'company', 'brought', '<Entity>', 'to', 'the', 'market'], 'Company'), (['Developed', 'the', '<Entity>'], '')]|0
+[(['Which', 'college', 'has', 'been', 'attended', 'by', 'both', '<Entity>'], ''), (['Which', 'college', 'has', 'been', 'attended', 'by', 'both', '<Entity>'], 'College')]|0
+[(['Which', 'writer', 'of', 'the', '<E1>'], 'Writer'), (['the', 'writer', 'of', '<E2>'], '')]|0
+[(['What', 'race', 'of', '<E1>'], 'Race'), (['the', 'state', 'of', 'origin', 'of', 'the', '<E2>'], '')]|0
+[(['Whose', 'associate', 'is', '<Entity>'], 'Person'), (['Has', 'predecessor', 'as', '<Entity>'], '')]|0
+[(['a', 'office', 'holder', 'whose', 'predecessor', 'is', '<Entity>'], 'OfficeHolder'), (['Has', 'person', 'named', '<Entity>'], '')]|0
+[(['the', 'television', 'show', 'whose', 'company', 'is', '<Entity>'], 'TelevisionShow'), (['Written', 'by', '<Entity>'], '')]|0
+[(['the', 'chairman', 'of', '<Entity>'], '')]|0
+[(['Which', 'line', 'of', 'the', '<E1>'], ''), (['the', 'route', 'end', 'of', '<E2>'], '')]|0
+[(['the', 'river', 'whose', 'mouth', 'mountain', 'is', '<Entity>'], 'River'), (['Mouth', 'place', 'is', '<Entity>'], '')]|0
+[(['owned', 'by', '<Entity>'], '')]|0
+[(['partner', 'of', 'the', '<E1>'], 'PrimeMinister'), (['the', 'prime', 'minister', 'of', 'the', '<E2>'], '')]|0
+[(['Which', 'political', 'party', 'of', 'the', '<E1>'], 'PoliticalParty'), (['the', 'government', 'type', 'of', '<E2>'], '')]|0
+[(['create', '<Entity>'], '')]|0
+[(['the', 'person', 'who', 'was', 'educated', 'at', '<Entity>'], ''), (['the', 'person', 'who', 'was', 'educated', 'at', '<Entity>'], 'Person')]|-1
+[(['given', 'by', '<Entity>'], ''), (['the', 'film', 'whose', 'music', 'was'], 'Film'), (['Distributed', 'by', '<Entity>'], '')]|1
+[(['a', '<Entity>'], '')]|0
+[(['Which', 'university', 'of', '<E1>'], 'University'), (['the', 'place', 'of', 'death', 'of', '<E2>'], '')]|0
+[(['build', 'jointly', 'by', '<Entity>'], ''), (['build', 'jointly', 'by', '<Entity>'], ''), (['the', 'appliance'], '')]|-1
+[(['What', 'band', 'was', '<Entity>', 'a', 'part', 'of'], 'Band'), (['Often', 'performed', 'with', '<Entity>'], '')]|0
+[(['a', 'novel', 'of', 'the', '<Entity>'], 'Novel')]|0
+[(['the', 'common', 'sport', 'between', '<Entity>'], ''), (['the', 'common', 'sport', 'between', '<Entity>'], 'Sport')]|0
+[(['training', 'center', 'of', '<E1>'], ''), (['also', 'alumni', 'named', '<E2>'], '')]|0
+[(['play', 'for', '<Entity>'], ''), (['currently'], '')]|-1
+[(['the', 'film', 'directed', 'by', '<Entity>'], 'Film'), (['Edited', 'by', '<Entity>'], '')]|0
+[(['the', 'order', 'of', 'the', '<Entity>'], 'Profession'), (['profession', 'of', 'the', '<Entity>'], '')]|0
+[(['What', 'river', 'ends', 'in', '<Entity>'], 'River'), (['Also', 'starts'], ''), (['somewhere', 'in', '<Entity>'], '')]|0
+[(['the', 'sport', 'of', '<Entity>'], 'Sport'), (['interest', 'of', '<Entity>'], '')]|0
+[(['What', 'religion', 'does', '<Entity>', 'follow'], ''), (['What', 'religion', 'does', '<Entity>', 'follow'], '')]|1
+[(['Which', 'television', 'show', 'is', 'broadcasted', 'by', '<Entity>'], 'TelevisionShow'), (['Presented', 'by', '<Entity>'], '')]|0
+[(['study', 'at', 'the', '<Entity>'], '')]|0
+[(['lie', 'in', 'the', 'achipelago', 'of', 'the', '<Entity>'], '')]|0
+[(['the', 'country', 'of', 'the', '<Entity>'], ''), (['the', 'country', 'of', 'the', '<Entity>'], 'Country')]|0
+[(['Which', 'river', 'inflow', 'of', 'the', '<E1>'], 'River'), (['also', '<E2>', 'river'], '')]|0
+[(['Which', 'administrative', 'region', 'leader', 'is', '<Entity>'], 'AdministrativeRegion'), (['founded', 'by', '<Entity>'], '')]|0
+[(['work', 'of', '<E1>'], 'Work'), (['close', 'to'], ''), (['the', 'area', 'of', '<E2>'], '')]|0
+[(['the', 'flagbearer', 'of', '<Entity>'], '')]|0
+[(['Which', 'region', 'of', '<E1>'], 'Region'), (['the', 'origin', 'od', '<E2>'], '')]|0
+[(['did', '<Entity>', 'study'], ''), (['did', '<Entity>', 'study'], 'Place')]|0
+[(['Which', 'company', 'developed', 'both', '<Entity>'], ''), (['Which', 'company', 'developed', 'both', '<Entity>'], 'Company')]|0
+[(['railway', 'line', 'of', 'the', '<E1>'], 'RailwayLine'), (['serving'], 'Port'), (['the', 'home', 'port', 'of', '<E2>'], '')]|1
+[(['the', 'Location', 'of', 'the', '<Entity>'], ''), (['the', 'birthplace', 'of', 'the', '<Entity>'], '')]|0
+[(['the', 'demise', 'of', '<Entity>'], ''), (['the', 'demise', 'of', '<Entity>'], ''), (['What', 'disease', 'led', 'to'], 'Disease')]|1
+[(['playing', 'the', '<Entity>'], ''), (['famous', 'for'], '')]|-1
+[(['are', '<Entity>', 'located'], 'State'), (['the', 'state', 'of', 'origin', 'for', '<Entity>'], '')]|0
+[(['Whihc', 'birthpalce', 'of', '<E1>'], 'City'), (['the', 'largest', 'city', 'of', '<E2>'], '')]|0
+[(['the', 'birth', 'place', 'of', '<Entity>'], ''), (['the', 'birth', 'place', 'of', '<Entity>'], 'Place'), (['Which', 'country', 'is'], 'Country')]|1
+[(['sucessor', 'of', '<E1>'], ''), (['the', 'sucessor', 'of', '<E2>'], '')]|0
+[(['command', 'of', '<Entity>'], ''), (['the', 'structure', 'of'], '')]|-1
+[(['television', 'show', 'distributed', 'by', '<E1>'], 'Artist'), (['<E2>', 'as', 'one', 'of', 'the', 'artist'], '')]|0
+[(['broad', 'cast', 'area', 'od', '<E1>'], 'Country'), (['the', 'country', 'of', '<E2>'], '')]|0
+[(['Which', 'company', 'of', '<E1>'], 'Company'), (['the', 'owning', 'organisation', 'of', '<E2>'], '')]|0
+[(['the', '<Entity>', 'achipelago'], ''), (['a', 'part', 'of'], '')]|-1
+[(['Which', 'coach', 'of', '<E1>'], 'Coach'), (['the', 'head', 'coach', 'of', '<E2>'], '')]|0
+[(['genre', 'is', '<Entity>', 'from'], 'Genre'), (['Employes', '<Entity>'], '')]|0
+[(['married', 'to', 'both', '<Entity>'], ''), (['married', 'to', 'both', '<Entity>'], 'Person')]|0
+[(['Which', 'river', 'flows', 'through', '<Entity>'], ''), (['Which', 'river', 'flows', 'through', '<Entity>'], 'River')]|0
+[(['moto', 'of', '<E1>'], ''), (['the', 'academic', 'discipline', 'of', '<E2>'], '')]|0
+[(['assembled', 'in', '<Entity>'], '')]|0
+[(['<E2>', 'is', 'located', 'as', 'well'], '')]|0
+[(['film', 'directed', 'by', '<E1>'], 'MusicComposer'), (['<E2>', 'as', 'music', 'composer'], '')]|0
+[(['What', 'state', 'was', '<Entity>', 'born', 'in'], 'State'), (['the', 'famous', '<Entity>'], '')]|0
+[(['a', '<Entity>'], '')]|0
+[(['tenants', 'of', 'the', '<E1>'], 'SportsTeam'), (['th', 'draft', 'sports', 'team', 'of', '<E2>'], '')]|0
+[(['a', 'character', 'of', '<Entity>'], '')]|0
+[(['the', 'houses', 'of', 'the', '<Entity>'], ''), (['the', 'houses', 'of', 'the', '<Entity>'], '')]|0
+[(['the', 'total', 'number', 'of', 'bacterias', 'whose', 'division', 'is', '<Entity>'], ''), (['Domain', 'is', '<Entity>'], '')]|0
+[(['Which', 'destinations', 'of', 'the', '<E1>'], 'Continent'), (['the', 'location', 'continent', 'of', 'the', '<E2>'], '')]|0
+[(['route', 'start', 'of', '<E1>'], 'Stadium'), (['the', 'home', 'stadium', 'of', '<E2>'], '')]|0
+[(['Name', 'a', 'basketball', 'player', 'with', 'sports', 'team', 'as', '<Entity>'], ''), (['Name', 'a', 'basketball', 'player', 'with', 'sports', 'team', 'as', '<Entity>'], 'BasketballPlayer')]|0
+[(['given', 'by', '<Entity>'], ''), (['the', 'television', 'show', 'whose', 'voice', 'is'], 'MusicComposer'), (['Theme', 'music', 'composer', 'is', '<Entity>'], '')]|1
+[(['publisher', 'of', '<E1>'], 'Publisher'), (['known', 'for', '<E2>'], '')]|0
+[(['a', 'chairman', 'of', 'a', '<Entity>'], '')]|0
+[(['the', 'craft', 'of', 'the', '<Entity>'], 'Profession'), (['the', 'profession', 'of', '<Entity>'], '')]|0
+[(['the', 'mammal', 'whose', 'taxonomy', 'is', '<Entity>'], 'Mammal'), (['Phylum', 'is', '<Entity>'], '')]|0
+[(['Which', 'television', 'show', 'in', 'which', 'theme', 'music', 'is', 'composed', 'by', '<E1>'], 'TelevisionShow'), (['located', 'in', '<E2>'], '')]|0
+[(['foundation', 'palce', 'of', '<E1>'], ''), (['the', 'death', 'palce', 'of', '<E2>'], '')]|0
+[(['the', 'borough', 'of', 'the', '<Entity>'], ''), (['the', 'route', 'end', 'of', 'the', '<Entity>'], '')]|0
+[(['In', 'Which', 'war', 'did', '<Entity>', 'fight'], ''), (['In', 'Which', 'war', 'did', '<Entity>', 'fight'], '')]|1
+[(['For', 'Which', 'sports', 'team', 'did', '<Entity>', 'both', 'play', 'atleast', 'once'], ''), (['For', 'Which', 'sports', 'team', 'did', '<Entity>', 'both', 'play', 'atleast', 'once'], 'SportsTeam')]|0
+[(['venerated', 'in', '<Entity>'], ''), (['venerated', 'in', '<Entity>'], 'Person')]|0
+[(['executive', 'producer', 'of', '<E1>'], 'Producer'), (['also', 'produced', '<E2>'], '')]|0
+[(['follow', 'a', '<Entity>'], '')]|0
+[(['a', 'club', 'of', '<Entity>'], ''), (['manage'], '')]|-1
+[(['the', 'person', 'of', '<Entity>'], ''), (['the', 'person', 'of', '<Entity>'], 'Person')]|0
+[(['end', 'in', '<Entity>'], '')]|0
+[(['hometown', 'of', '<E1>'], 'Place'), (['the', 'place', 'of', 'birthplace', 'of', '<E2>'], '')]|0
+[(['given', 'by', '<Entity>'], ''), (['the', 'film', 'for', 'which', 'music', 'was'], 'Film'), (['Distributed', 'by', '<Entity>'], '')]|1
+[(['involved', 'both', '<Entity>'], ''), (['involved', 'both', '<Entity>'], ''), (['the', 'most', 'important', 'creation', 'which'], '')]|-1
+[(['belong', 'to', 'the', 'genre', '<Entity>'], '')]|-1
+[(['the', 'launch', 'site', 'of', 'the', '<Entity>'], ''), (['the', 'ground', 'of', '<Entity>'], '')]|0
+[(['the', 'common', 'sport', 'played', 'by', '<Entity>'], ''), (['the', 'common', 'sport', 'played', 'by', '<Entity>'], 'Sport')]|-1
+[(['architect', 'of', '<E1>'], 'Architect'), (['also', 'tenant', 'of', '<E2>'], '')]|0

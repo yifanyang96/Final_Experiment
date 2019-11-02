@@ -1,0 +1,97 @@
+[(['someone', 'working', 'in', '<Entity>'], 'Person'), (['developed', 'by'], '')]|-1
+[(['<Entity>', 'has', 'authored', 'which', 'book'], 'Book')]|0
+[(['built', 'the', '<Entity>'], 'Person')]|0
+[(['the', 'school', 'whose', 'one', 'of', 'the', 'president', 'is', '<Entity>'], 'School'), (['List', 'president', 'of'], 'President')]|1
+[(['the', 'sports', 'team', 'for', 'which', '<Entity>', 'played', 'for'], 'SportsTeam')]|-1
+[(['the', 'stadium', 'whose', 'tenants', 'was', '<Entity>'], 'Stadium'), (['the', 'total', 'number', 'of', 'tenants', 'of'], '')]|-1
+[(['followed', 'by', '<Entity>'], ''), (['the', 'television', 'show', 'related', 'to', 'the', 'which', 'was'], 'TelevisionShow')]|-1
+[(['The', 'authors', 'of', '<Entity>'], ''), (['was', 'influenced', 'by', 'whom'], '')]|-1
+[(['a', 'mountain', 'of', '<Entity>'], 'Mountain'), (['first', 'ascented'], 'Person')]|-1
+[(['The', 'successor', 'of', '<Entity>'], ''), (['belongs', 'to', 'which', 'religion'], '')]|-1
+[(['Which', 'country', 'is', 'the', 'origin', 'of', '<Entity>'], 'Country')]|0
+[(['Which', 'fictional', 'character', 'is', 'portrayed', 'by', '<Entity>'], 'FictionalCharacter')]|0
+[(['the', 'ones', 'who', 'died', 'of', '<Entity>'], 'Person'), (['How', 'many', 'award', 'have', 'been', 'given', 'to'], 'Award')]|1
+[(['manager', 'was', 'a', '<Entity>'], ''), (['all', 'the', 'baseball', 'team', 'whose', 'team'], 'BaseballTeam')]|-1
+[(['What', 'company', 'leader', 'is', '<Entity>'], '')]|0
+[(['the', 'book', 'whose', 'authors', 'are', 'in', '<Entity>'], 'Book')]|-1
+[(['the', 'operator', 'of', '<Entity>'], 'Person')]|0
+[(['the', 'rocket', 'launched', 'at', 'the', '<Entity>'], 'Rocket'), (['Which', 'company', 'had', 'built'], 'Company')]|1
+[(['flight', 'company', 'available', 'on', '<Entity>'], 'Company'), (['Which', 'continent', 'can', 'be', 'reached', 'by'], 'Continent')]|1
+[(['<Entity>', 'is', 'used', 'in', 'making', 'what'], '')]|0
+[(['<Entity>', 'television', 'show'], 'TelevisionShow'), (['How', 'many', 'people', 'have', 'been', 'presenter', 'for'], 'Presenter')]|2
+[(['What', 'water', 'bodies', 'have', 'primary', 'inflows', 'as', '<Entity>'], '')]|1
+[(['the', 'predecessor', 'of', '<Entity>'], ''), (['How', 'many', 'prime', 'minister', 'did', 'serve'], 'PrimeMinister')]|1
+[(['Which', 'colored', 'race', 'horse', 'have', 'won', 'the', '<Entity>'], 'Horse')]|0
+[(['everyone', 'who', 'died', 'in', '<Entity>'], 'Person'), (['In', 'how', 'many', 'place', 'are', 'the', 'tombs', 'of'], 'Place')]|-1
+[(['the', 'television', 'show', 'whose', 'previous', 'work', 'is', '<Entity>'], 'TelevisionShow')]|-1
+[(['has', '<Entity>', 'portrayed', 'someone'], 'Person'), (['In', 'Which', 'series'], '')]|1
+[(['How', 'many', 'artists', 'work', 'are', 'in', '<Entity>'], 'Work')]|0
+[(['written', 'in', 'the', '<Entity>'], '')]|0
+[(['place', 'which', 'are', 'under', 'the', '<Entity>'], 'Place'), (['How', 'many', 'different', 'people', 'have', 'been', 'in', 'any', 'political', 'seat', 'in'], '')]|2
+[(['the', 'television', 'show', 'which', 'has', 'artist', 'named', '<Entity>'], 'TelevisionShow')]|-1
+[(['are', 'there', 'of', 'the', 'adult', '-LRB-', 'pornographic', '-RRB-', 'actor', 'whose', 'ethnicity', 'is', '<Entity>'], 'Actor'), (['How', 'many', 'other', 'race'], 'Race')]|1
+[(['Whose', 'work', 'is', 'in', 'the', '<Entity>'], 'Person')]|0
+[(['the', 'incumbent', 'of', '<Entity>'], 'Person')]|0
+[(['the', 'distributor', 'of', '<Entity>'], ''), (['the', 'region', 'in', 'which', 'serves'], 'Region')]|-1
+[(['the', 'event', 'which', 'took', 'place', 'in', '<Entity>'], 'Event'), (['the', 'commanders', 'during'], 'Person')]|-1
+[(['the', 'military', 'conflict', 'whose', 'combatant', 'is', '<Entity>'], 'MilitaryConflict'), (['the', 'total', 'number', 'of', 'other', 'combatant', 'of'], '')]|-1
+[(['left', 'tributary', 'is', '<Entity>'], ''), (['In', 'Which', 'state', 'does', 'the', 'river', 'flow', 'whose'], 'State')]|1
+[(['the', 'broadcast', 'area', 'of', 'the', 'TV', 'station', 'which', 'also', 'serves', 'in', '<Entity>'], 'Station')]|-1
+[(['<Entity>', 'building'], 'Building'), (['In', 'how', 'many', 'different', 'place', 'can', 'I', 'find'], 'Place')]|-1
+[(['are', 'the', 'award', 'won', 'by', 'the', 'film', 'editor', 'of', '<Entity>'], 'Award')]|-1
+[(['the', 'result', 'of', '<Entity>'], '')]|0
+[(['a', 'company', 'whose', 'leader', 'is', '<Entity>'], 'Company'), (['built', 'by'], '')]|-1
+[(['the', 'licensee', 'of', '<Entity>'], 'Person')]|0
+[(['What', 'kind', 'of', 'game', 'can', 'I', 'find', 'for', '<Entity>'], 'Game')]|0
+[(['the', 'public', 'transit', 'system', 'which', 'operators', '<Entity>'], 'PublicTransitSystem'), (['the', 'headquarters', 'of'], 'Place')]|-1
+[(['the', 'soccer', 'club', 'for', 'which', '<Entity>', 'currently', 'plays'], 'SoccerClub'), (['the', 'chairman', 'of'], '')]|-1
+[(['Which', 'religion', 'do', 'the', 'people', 'follow', 'whose', 'constituency', 'is', '<Entity>'], '')]|0
+[(['the', 'source', 'country', 'of', '<Entity>'], 'Country')]|0
+[(['zone', 'is', '<Entity>'], ''), (['the', 'newspaper', 'whose', 'headquarters', 'time'], 'Newspaper')]|-1
+[(['the', 'american', 'football', 'player', 'at', '<Entity>', 'position'], 'AmericanFootballPlayer'), (['play', 'for', 'of'], 'Person')]|-1
+[(['the', 'race', 'in', 'which', '<Entity>', 'participated'], 'Race')]|-1
+[(['How', 'many', 'award', 'have', 'been', 'given', 'to', '<Entity>'], 'Award')]|0
+[(['By', 'What', 'style', 'was', '<Entity>', 'made'], '')]|1
+[(['politician', 'from', 'the', '<Entity>', 'served'], 'Politician'), (['Under', 'Which', 'president', 'have'], 'President')]|1
+[(['the', 'university', 'whose', 'affiliations', 'foundation', 'is', 'in', '<Entity>'], 'University')]|-1
+[(['<Entity>', 'as', 'a', 'deputy'], 'Deputy'), (['Whose', 'predecessor', 'had'], 'Person')]|1
+[(['whose', 'sports', 'team', 'are', 'headcoached', 'by', '<Entity>'], 'SportsTeam'), (['all', 'ice', 'hockey', 'player'], 'IceHockeyPlayer')]|-1
+[(['the', 'nominee', 'of', '<Entity>'], 'Person')]|0
+[(['was', '<Entity>', 'recorded'], 'Place')]|0
+[(['the', 'family', 'of', '<Entity>', 's'], 'Family'), (['people', 'in'], ''), (['Which', 'religion', 'is', 'followed', 'by'], '')]|3
+[(['other', 'genre', 'which', 'emphasize', '<Entity>', 's'], 'Genre'), (['How', 'many', 'genre', 'gave', 'birth', 'to'], 'Genre')]|1
+[(['born', 'in', '<Entity>'], ''), (['the', 'film', 'whose', 'editors', 'are'], 'Film')]|-1
+[(['the', 'famous', '<Entity>', 'scientist'], 'Scientist'), (['are', 'known', 'for'], '')]|-1
+[(['alumini', 'of', '<Entity>'], ''), (['Count', 'the', 'number', 'of', 'place', 'where', 'have', 'died'], 'Place')]|1
+[(['the', 'american', 'football', 'player', 'born', 'in', '<Entity>'], 'AmericanFootballPlayer'), (['the', 'former', 'sports', 'team', 'of'], 'SportsTeam')]|-1
+[(['<Entity>', 'constituency'], ''), (['the', 'politician', 'who', 'was', 'selected', 'in'], 'Politician'), (['From', 'Which', 'political', 'party', 'is'], 'PoliticalParty')]|2
+[(['the', 'airline', 'whose', 'one', 'of', 'the', 'hubs', 'is', '<Entity>'], 'Airline'), (['all', 'the', 'hubs', 'of'], '')]|-1
+[(['the', 'mountain', 'range', 'of', 'Le', '<Entity>'], 'MountainRange')]|-1
+[(['Cable', '<Entity>', 'bridge'], 'Bridge'), (['have', 'been', 'used', 'to', 'cross', 'over', 'how', 'many', 'things'], '')]|-1
+[(['given', 'by', '<Entity>'], ''), (['the', 'television', 'show', 'whose', 'voices', 'is'], 'TelevisionShow')]|-1
+[(['the', 'label', 'of', '<Entity>'], '')]|0
+[(['the', 'Pole', 'driver', 'of', '<Entity>'], 'Person')]|0
+[(['the', 'stadium', 'which', 'were', 'rented', 'by', 'the', '<Entity>'], 'Stadium'), (['built'], 'Person')]|-1
+[(['the', 'film', 'which', 'has', 'music', 'by', '<Entity>'], 'Film'), (['the', 'producer', 'of'], 'Producer')]|-1
+[(['the', 'participants', 'of', 'the', '<Entity>'], '')]|0
+[(['the', 'creator', 'of', '<Entity>'], ''), (['How', 'many', 'other', 'important', 'things', 'have', 'been', 'written', 'by'], '')]|2
+[(['did', '<Entity>', 'do', 'his', 'highschool'], 'Place')]|0
+[(['the', 'ethnicity', 'of', '<Entity>'], '')]|0
+[(['the', 'character', 'of', '<Entity>'], ''), (['To', 'Which', 'series', 'does', 'belong'], '')]|2
+[(['the', 'person', 'of', '<Entity>', 'Whiteley'], 'Person')]|-1
+[(['the', 'stadium', 'of', '<Entity>'], 'Stadium'), (['the', 'ones', 'who', 'own'], 'Person'), (['How', 'many', 'people', 'have', 'played', 'for'], '')]|3
+[(['employees', 'of', '<Entity>'], ''), (['do', 'live'], 'Place')]|-1
+[(['the', 'wrestler', 'who', 'has', 'also', 'billed', '<Entity>'], 'Wrestler'), (['the', 'state', 'which', 'have', 'been', 'billed', 'by'], 'State')]|-1
+[(['someone', 'who', 'a', '<Entity>'], 'Person'), (['canonized'], 'Person')]|-1
+[(['the', 'baseball', 'player', 'who', 'lives', 'in', '<Entity>'], 'BaseballPlayer'), (['the', 'college', 'of'], 'College')]|-1
+[(['VP', 'was', '<Entity>'], ''), (['the', 'president', 'study', 'whose'], 'Place')]|-1
+[(['the', 'developer', 'of', '<Entity>'], 'Person')]|0
+[(['awarded', 'by', 'the', '<Entity>'], '')]|0
+[(['the', 'website', 'which', 'has', 'the', 'label', '<Entity>'], 'Website'), (['the', 'owner', 'of'], 'Person')]|-1
+[(['the', 'writer', 'of', '<Entity>'], 'Writer'), (['the', 'associated', 'musical', 'artist', 'of'], 'MusicalArtist')]|-1
+[(['<Entity>', 'acted'], ''), (['How', 'many', 'fictional', 'character', 'are', 'there', 'in', 'a', 'series', 'in', 'which'], 'FictionalCharacter')]|1
+[(['the', 'airline', 'garrisoned', 'at', '<Entity>'], 'Airline'), (['fly', 'to'], 'Place')]|-1
+[(['Through', 'Which', 'label', 'has', '<Entity>', 'released', 'her', 'single'], 'Single')]|0
+[(['Which', 'football', 'sports', 'team', 'is', '<Entity>', 'proprietor', 'to'], 'SportsTeam')]|0
+[(['album', 'which', 'has', 'the', 'song', '<Entity>'], 'Album'), (['the', 'producer', 'of'], 'Producer')]|-1
+[(['How', 'many', 'movies', 'music', 'composer', 'are', 'associated', 'with', '<Entity>'], 'MusicComposer')]|0

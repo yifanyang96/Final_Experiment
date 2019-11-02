@@ -1,0 +1,388 @@
+0
+MaxSim: 0.9684257260739804
+FinalPreds: ['http://dbpedia.org/ontology/foundedBy', 'http://dbpedia.org/ontology/foundedBy']
+TruePreds: <dbp:employer> <dbp:author>
+1
+MaxSim: 0.6116317510604858
+FinalPreds: ['http://dbpedia.org/ontology/author']
+TruePreds: <dbp:author>
+2
+MaxSim: 0.23439015448093414
+FinalPreds: ['http://dbpedia.org/ontology/configuration']
+TruePreds: <dbo:manufacturer>
+3
+MaxSim: 1.1144970580935478
+FinalPreds: ['http://dbpedia.org/property/title', 'http://dbpedia.org/ontology/president']
+TruePreds: <dbo:president> <dbp:president>
+4
+MaxSim: 0.27972306314110756
+FinalPreds: ['http://dbpedia.org/property/heightIn']
+TruePreds: <dbp:playedFor>
+5
+MaxSim: 1.6360597610473633
+FinalPreds: ['http://dbpedia.org/ontology/tenant', 'http://dbpedia.org/ontology/tenant']
+TruePreds: <dbp:tenants> <dbp:tenants>
+6
+MaxSim: 1.2567659758776426
+FinalPreds: ['http://dbpedia.org/ontology/subsequentWork', 'http://dbpedia.org/ontology/related']
+TruePreds: <dbo:subsequentWork> <dbo:related>
+7
+MaxSim: 1.6823032928466797
+FinalPreds: ['http://dbpedia.org/ontology/author', 'http://dbpedia.org/ontology/influencedBy']
+TruePreds: <dbo:author> <dbo:influencedBy>
+8
+MaxSim: 0.8179780918478965
+FinalPreds: ['http://dbpedia.org/ontology/parentMountainPeak', 'http://dbpedia.org/ontology/firstAscentPerson']
+TruePreds: <dbo:firstAscentPerson>
+9
+MaxSim: 2.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/successor', 'http://dbpedia.org/ontology/religion']
+TruePreds: <dbo:successor> <dbo:region>
+10
+MaxSim: 1.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/origin']
+TruePreds: <dbp:nationalOrigin>
+11
+MaxSim: 0.20610034465789795
+FinalPreds: ['http://dbpedia.org/ontology/editing']
+TruePreds: <dbp:portrayer>
+12
+MaxSim: 1.3910436032235622
+FinalPreds: ['http://dbpedia.org/property/deathCause', 'http://dbpedia.org/property/award']
+TruePreds: <dbo:deathCause> <dbo:award>
+13
+MaxSim: 1.1069020256400108
+FinalPreds: ['http://dbpedia.org/ontology/position', 'http://dbpedia.org/ontology/team']
+TruePreds: <dbo:position> <dbo:manager>
+14
+MaxSim: 0.3557344079017639
+FinalPreds: ['http://dbpedia.org/ontology/producer']
+TruePreds: <dbp:keyPeople>
+15
+MaxSim: 0.2790731191635132
+FinalPreds: ['http://dbpedia.org/property/home']
+TruePreds: <dbo:birthPlace> <dbo:author>
+16
+MaxSim: 0.2683454155921936
+FinalPreds: ['http://dbpedia.org/ontology/engineer']
+TruePreds: <dbp:operator>
+17
+MaxSim: 1.016800488871336
+FinalPreds: ['http://dbpedia.org/ontology/launchSite', 'http://dbpedia.org/ontology/manufacturer']
+TruePreds: <dbo:launchSite> <dbo:manufacturer>
+18
+MaxSim: 0.5994461775422096
+FinalPreds: ['http://dbpedia.org/ontology/hubAirport', 'http://dbpedia.org/ontology/destination']
+TruePreds: <dbo:targetAirport> <dbp:destinations>
+19
+MaxSim: 0.22168537974357605
+FinalPreds: ['http://dbpedia.org/property/binomial']
+TruePreds: <dbo:ingredient>
+20
+MaxSim: 1.4552996158599854
+FinalPreds: ['http://dbpedia.org/ontology/channel', 'http://dbpedia.org/ontology/presenter']
+TruePreds: <dbo:channel> <dbp:presenter>
+21
+MaxSim: 0.8264696598052979
+FinalPreds: ['http://dbpedia.org/ontology/inflow']
+TruePreds: <dbo:inflow>
+22
+MaxSim: 1.167754739522934
+FinalPreds: ['http://dbpedia.org/property/predecessor', 'http://dbpedia.org/property/predecessor']
+TruePreds: <dbp:successor> <dbp:primeminister>
+23
+MaxSim: 1.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/race']
+TruePreds: <dbp:honours> <dbo:colour>
+24
+MaxSim: 1.3434017300605774
+FinalPreds: ['http://dbpedia.org/property/place', 'http://dbpedia.org/property/place']
+TruePreds: <dbp:placeOfDeath> <dbp:placeOfBurial>
+25
+MaxSim: 1.0001
+FinalPreds: ['http://dbpedia.org/ontology/previousWork']
+TruePreds: <dbo:previousWork>
+26
+MaxSim: 1.4244126677513123
+FinalPreds: ['http://dbpedia.org/ontology/portrayer', 'http://dbpedia.org/ontology/series']
+TruePreds: <dbo:portrayer> <dbo:series>
+27
+MaxSim: 0.3254629075527191
+FinalPreds: ['http://dbpedia.org/ontology/museum']
+TruePreds: <dbp:museum> <dbp:artist>
+28
+MaxSim: 0.589191997128725
+FinalPreds: ['http://dbpedia.org/property/programmedIn']
+TruePreds: <dbp:programmingLanguage>
+29
+MaxSim: 1.2199289317265154
+FinalPreds: ['http://dbpedia.org/ontology/timeZone', 'http://dbpedia.org/property/people']
+TruePreds: <dbo:timeZone> <dbo:leaderName>
+30
+MaxSim: 0.53805011510849
+FinalPreds: ['http://dbpedia.org/ontology/composer']
+TruePreds: <dbp:artist>
+31
+MaxSim: 0.4417430897936225
+FinalPreds: ['http://dbpedia.org/ontology/populationPlace', 'http://dbpedia.org/property/team']
+TruePreds: <dbo:ethnicity> <dbp:ethnicity>
+32
+MaxSim: 0.13893352448940277
+FinalPreds: ['http://dbpedia.org/ontology/museum']
+TruePreds: <dbp:museum> <dbp:artist>
+33
+MaxSim: -0.011595372035261243
+FinalPreds: ['http://dbpedia.org/ontology/knownFor']
+TruePreds: <dbo:incumbent>
+34
+MaxSim: 0.71356350928545
+FinalPreds: ['http://dbpedia.org/property/country', 'http://dbpedia.org/property/country']
+TruePreds: <dbo:distributor> <dbo:regionServed>
+35
+MaxSim: 1.691792905330658
+FinalPreds: ['http://dbpedia.org/ontology/place', 'http://dbpedia.org/ontology/commander']
+TruePreds: <dbo:place> <dbo:commander>
+36
+MaxSim: 1.1300786115929484
+FinalPreds: ['http://dbpedia.org/ontology/totalPopulation', 'http://dbpedia.org/property/total']
+TruePreds: <dbp:combatant> <dbp:combatant>
+37
+MaxSim: 2.0001001192092893
+FinalPreds: ['http://dbpedia.org/ontology/leftTributary', 'http://dbpedia.org/ontology/state']
+TruePreds: <dbo:leftTributary> <dbo:state>
+38
+MaxSim: 1.000100238442421
+FinalPreds: ['http://dbpedia.org/ontology/broadcastArea']
+TruePreds: <dbo:broadcastArea> <dbp:broadcastArea>
+39
+MaxSim: 0.6652406748399138
+FinalPreds: ['http://dbpedia.org/ontology/architecturalStyle', 'http://dbpedia.org/property/after']
+TruePreds: <dbp:architecturalStyle> <dbp:address>
+40
+MaxSim: 0.6185625791549683
+FinalPreds: ['http://dbpedia.org/ontology/writer']
+TruePreds: <dbo:editing> <dbo:award>
+41
+MaxSim: 1.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/result']
+TruePreds: <dbp:result>
+42
+MaxSim: 0.8660224258452653
+FinalPreds: ['http://dbpedia.org/ontology/keyPerson', 'http://dbpedia.org/ontology/foundedBy']
+TruePreds: <dbp:keyPeople> <dbo:manufacturer>
+43
+MaxSim: 1.0
+FinalPreds: ['http://dbpedia.org/ontology/licensee']
+TruePreds: <dbp:licensee>
+44
+MaxSim: 0.14320380879044534
+FinalPreds: ['http://dbpedia.org/ontology/computingPlatform']
+TruePreds: <dbo:computingPlatform> <dbp:genre>
+45
+MaxSim: 1.4847214221954346
+FinalPreds: ['http://dbpedia.org/ontology/operator', 'http://dbpedia.org/ontology/headquarter']
+TruePreds: <dbp:operator> <dbp:headquarters>
+46
+MaxSim: 1.5982482787191867
+FinalPreds: ['http://dbpedia.org/ontology/managerClub', 'http://dbpedia.org/ontology/chairman']
+TruePreds: <dbp:currentclub> <dbp:chairman>
+47
+MaxSim: 0.5903528928756714
+FinalPreds: ['http://dbpedia.org/property/electorate']
+TruePreds: <dbp:constituency> <dbp:religion>
+48
+MaxSim: 1.0001
+FinalPreds: ['http://dbpedia.org/ontology/sourceCountry']
+TruePreds: <dbo:sourceCountry>
+49
+MaxSim: 1.3385225166797636
+FinalPreds: ['http://dbpedia.org/ontology/timeZone', 'http://dbpedia.org/ontology/headquarter']
+TruePreds: <dbo:timeZone> <dbp:headquarters>
+50
+MaxSim: 1.367015928030014
+FinalPreds: ['http://dbpedia.org/ontology/position', 'http://dbpedia.org/property/after']
+TruePreds: <dbp:position> <dbo:team>
+51
+MaxSim: 1.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/race']
+TruePreds: <dbo:race>
+52
+MaxSim: 0.13833965361118317
+FinalPreds: ['http://dbpedia.org/ontology/nationality']
+TruePreds: <dbp:birthPlace> <dbp:awards>
+53
+MaxSim: 0.6263593883275985
+FinalPreds: ['http://dbpedia.org/ontology/architecturalStyle']
+TruePreds: <dbp:style>
+54
+MaxSim: 1.1731121781349183
+FinalPreds: ['http://dbpedia.org/ontology/militaryBranch', 'http://dbpedia.org/property/president']
+TruePreds: <dbp:branch> <dbp:president>
+55
+MaxSim: 0.6434986591339111
+FinalPreds: ['http://dbpedia.org/ontology/campus']
+TruePreds: <dbp:foundation> <dbp:affiliations>
+56
+MaxSim: 2.0000003576278687
+FinalPreds: ['http://dbpedia.org/ontology/deputy', 'http://dbpedia.org/ontology/predecessor']
+TruePreds: <dbp:deputy> <dbp:predecessor>
+57
+MaxSim: 1.016095131635666
+FinalPreds: ['http://dbpedia.org/property/coach', 'http://dbpedia.org/property/coach']
+TruePreds: <dbp:headCoach> <dbo:team>
+58
+MaxSim: 0.23025968670845032
+FinalPreds: ['http://dbpedia.org/ontology/spouse']
+TruePreds: <dbo:nominee>
+59
+MaxSim: 0.63956826390028
+FinalPreds: ['http://dbpedia.org/ontology/recordedIn']
+TruePreds: <dbo:recordedIn>
+60
+MaxSim: 1.077106773853302
+FinalPreds: ['http://dbpedia.org/ontology/relative', 'http://dbpedia.org/ontology/relative', 'http://dbpedia.org/property/ethnicity']
+TruePreds: <dbp:family> <dbo:religion>
+61
+MaxSim: 0.832183594352007
+FinalPreds: ['http://dbpedia.org/ontology/instrument', 'http://dbpedia.org/ontology/musicSubgenre']
+TruePreds: <dbp:instruments> <dbo:stylisticOrigin>
+62
+MaxSim: 1.0864371347516775
+FinalPreds: ['http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/ontology/editor']
+TruePreds: <dbp:placeOfBirth> <dbo:editing>
+63
+MaxSim: 1.104171666945517
+FinalPreds: ['http://dbpedia.org/ontology/almaMater', 'http://dbpedia.org/ontology/knownFor']
+TruePreds: <dbo:almaMater> <dbo:knownFor>
+64
+MaxSim: 1.1853657320916653
+FinalPreds: ['http://dbpedia.org/ontology/university', 'http://dbpedia.org/ontology/deathPlace']
+TruePreds: <dbp:education> <dbo:deathPlace>
+65
+MaxSim: 1.4376301289767026
+FinalPreds: ['http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/ontology/formerTeam']
+TruePreds: <dbo:birthPlace> <dbo:formerTeam>
+66
+MaxSim: 1.8157303128361701
+FinalPreds: ['http://dbpedia.org/property/party', 'http://dbpedia.org/property/partyElection', 'http://dbpedia.org/ontology/party']
+TruePreds: <dbp:constituency> <dbo:party>
+67
+MaxSim: 1.2371859220266344
+FinalPreds: ['http://dbpedia.org/ontology/hubAirport', 'http://dbpedia.org/ontology/hubAirport']
+TruePreds: <dbp:hubs> <dbp:hubs>
+68
+MaxSim: 1.0001
+FinalPreds: ['http://dbpedia.org/ontology/mountainRange']
+TruePreds: <dbo:mountainRange>
+69
+MaxSim: 0.6984314173460007
+FinalPreds: ['http://dbpedia.org/ontology/type', 'http://dbpedia.org/ontology/crosses']
+TruePreds: <dbp:design> <dbp:crosses>
+70
+MaxSim: 0.7586502581834793
+FinalPreds: ['http://dbpedia.org/ontology/voice', 'http://dbpedia.org/ontology/voice']
+TruePreds: <dbp:voices>
+71
+MaxSim: 0.6444770780205726
+FinalPreds: ['http://dbpedia.org/ontology/recordLabel']
+TruePreds: <dbo:recordLabel>
+72
+MaxSim: 1.0001001192212104
+FinalPreds: ['http://dbpedia.org/ontology/poleDriver']
+TruePreds: <dbp:poleDriver>
+73
+MaxSim: 1.163496494293213
+FinalPreds: ['http://dbpedia.org/property/stadium', 'http://dbpedia.org/property/stadium']
+TruePreds: <dbo:tenant> <dbo:builder>
+74
+MaxSim: 2.0000001192092896
+FinalPreds: ['http://dbpedia.org/property/music', 'http://dbpedia.org/ontology/producer']
+TruePreds: <dbp:music> <dbp:producer>
+75
+MaxSim: 0.6343339085578918
+FinalPreds: ['http://dbpedia.org/ontology/participant']
+TruePreds: <dbo:league>
+76
+MaxSim: 1.638733000099659
+FinalPreds: ['http://dbpedia.org/ontology/creator', 'http://dbpedia.org/ontology/influencedBy']
+TruePreds: <dbo:creator> <dbo:notableWork>
+77
+MaxSim: 1.0
+FinalPreds: ['http://dbpedia.org/ontology/highschool']
+TruePreds: <dbp:highschool>
+78
+MaxSim: 1.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/ethnicity']
+TruePreds: <dbp:ethnicity>
+79
+MaxSim: 1.2589125037193298
+FinalPreds: ['http://dbpedia.org/ontology/series', 'http://dbpedia.org/ontology/series']
+TruePreds: <dbo:series>
+80
+MaxSim: 0.14844419062137604
+FinalPreds: ['http://dbpedia.org/ontology/portrayer']
+TruePreds: <dbo:partner>
+81
+MaxSim: 0.8271981632649898
+FinalPreds: ['http://dbpedia.org/property/after', 'http://dbpedia.org/ontology/occupation', 'http://dbpedia.org/property/keyPeople']
+TruePreds: <dbp:arena> <dbp:team>
+82
+MaxSim: 0.7524062518268824
+FinalPreds: ['http://dbpedia.org/ontology/employer', 'http://dbpedia.org/ontology/birthPlace']
+TruePreds: <dbp:employer> <dbo:residence>
+83
+MaxSim: 1.1246597020603717
+FinalPreds: ['http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/ontology/billed']
+TruePreds: <dbp:billed> <dbp:billed>
+84
+MaxSim: 0.21590218134224415
+FinalPreds: ['http://dbpedia.org/ontology/thumbnail', 'http://dbpedia.org/ontology/thumbnail']
+TruePreds: <dbp:titles> <dbo:canonizedBy>
+85
+MaxSim: 0.5439906907767058
+FinalPreds: ['http://dbpedia.org/ontology/area', 'http://dbpedia.org/ontology/campusSize']
+TruePreds: <dbp:birthPlace> <dbp:college>
+86
+MaxSim: 0.42830500779822467
+FinalPreds: ['http://dbpedia.org/ontology/vicePresident', 'http://dbpedia.org/ontology/birthPlace']
+TruePreds: <dbo:vicePresident> <dbo:almaMater>
+87
+MaxSim: 1.0
+FinalPreds: ['http://dbpedia.org/ontology/developer']
+TruePreds: <dbp:developer>
+88
+MaxSim: 0.52174973487854
+FinalPreds: ['http://dbpedia.org/ontology/award']
+TruePreds: <dbp:awards>
+89
+MaxSim: 0.3811629367679358
+FinalPreds: ['http://dbpedia.org/ontology/releaseDate', 'http://dbpedia.org/property/clubUpdate']
+TruePreds: <dbp:label> <dbp:owner>
+90
+MaxSim: 2.0002001192331313
+FinalPreds: ['http://dbpedia.org/ontology/writer', 'http://dbpedia.org/ontology/associatedMusicalArtist']
+TruePreds: <dbp:writer> <dbo:associatedMusicalArtist>
+91
+MaxSim: 1.1518899649381638
+FinalPreds: ['http://dbpedia.org/ontology/starring', 'http://dbpedia.org/ontology/series']
+TruePreds: <dbo:starring> <dbo:series>
+92
+MaxSim: 0.6562348675325513
+FinalPreds: ['http://dbpedia.org/ontology/hubAirport', 'http://dbpedia.org/ontology/targetAirport']
+TruePreds: <dbo:headquarter> <dbp:destinations>
+93
+MaxSim: 0.23393614235371352
+FinalPreds: ['http://dbpedia.org/ontology/musicalBand']
+TruePreds: <dbo:writer> <dbo:recordLabel>
+94
+MaxSim: 0.7049922943115234
+FinalPreds: ['http://dbpedia.org/ontology/owner']
+TruePreds: <dbo:owner>
+95
+MaxSim: 2.0000001192092896
+FinalPreds: ['http://dbpedia.org/ontology/album', 'http://dbpedia.org/ontology/producer']
+TruePreds: <dbp:album> <dbp:producer>
+96
+MaxSim: 1.0001001192212104
+FinalPreds: ['http://dbpedia.org/ontology/musicComposer']
+TruePreds: <dbp:associatedActs> <dbo:musicComposer>

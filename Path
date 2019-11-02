@@ -1,0 +1,50 @@
+[(['architect'], 'Architect'), (['also', 'tenant'], '')]|0
+[(['parent', 'is', '<Entity>'], 'Person'), (['a', 'queen', 'whose'], 'Royalty'), (['consort', 'is', '<Entity>'], '')]|-1
+[(['developed', 'by', 'of', 'the', '<Entity>'], ''), (['List', 'common', 'systems', 'are'], ''), (['written', 'by', 'of', 'the', '<Entity>'], '')]|1
+[(['are', '<Entity>', 'both', 'famous'], 'Game'), (['are', '<Entity>', 'both', 'famous'], 'Game')]|0
+[(['the', 'industry'], '')]|-1
+[(['made', '<Entity>'], 'Artist'), (['associated', 'with', '<Entity>'], '')]|-1
+[(['deputies', 'as', '<Entity>'], 'Deputy'), (['the', 'office', 'holder', 'with'], 'OfficeHolder'), (['deputies', 'as', '<Entity>'], 'Deputy')]|-1
+[(['these', 'popular'], ''), (['did', 'originate'], 'Place'), (['these', 'popular'], '')]|-1
+[(['television', 'show', 'producer', 'is', '<Entity>'], 'TelevisionShow'), (['written', 'by', '<Entity>'], '')]|-1
+[(['created', 'the', '<Entity>'], 'Person'), (['created', 'the', '<Entity>'], 'Person')]|-1
+[(['seen', 'both', '<Entity>'], 'HorseRace'), (['the', 'illustrious', '<Entity>'], '')]|-1
+[(['TV', 'show'], 'Artist'), (['Artist'], '')]|0
+[(['buried'], '')]|-1
+[(['the', 'missions', 'of', '<Entity>'], 'Person'), (['the', 'missions', 'of', '<Entity>'], 'Person')]|-1
+[(['the', 'branch'], '')]|-1
+[(['Which', 'location', 'city'], 'City'), (['birth'], '')]|0
+[(['the', 'managers', 'of', '<Entity>'], ''), (['the', 'managers', 'of', '<Entity>'], '')]|-1
+[(['a', 'part'], ''), (['achipelago'], '')]|-1
+[(['distributed', 'by', '<Entity>'], 'Film'), (['composer', 'as', '<Entity>'], ''), (['has', 'music'], '')]|-1
+[(['the', 'party'], 'PoliticalParty'), (['merge'], ''), (['the', 'party'], 'PoliticalParty')]|0
+[(['the', 'Ship', 'builder'], 'Ship')]|-1
+[(['the', 'largest', 'city'], 'City')]|-1
+[(['mouth', 'locations', 'are', '<Entity>'], 'River'), (['mouth', 'locations', 'are', '<Entity>'], 'River')]|-1
+[(['the', 'faith', 'of', 'the', '<Entity>'], ''), (['religious', 'affiliation', 'of', 'the', '<Entity>'], '')]|-1
+[(['originate'], '')]|-1
+[(['die', 'at'], ''), (['gave', 'birth'], '')]|-1
+[(['Which', 'designer'], ''), (['also', 'owns'], '')]|0
+[(['guest'], '')]|0
+[(['did', 'both', 'the', '<Entity>', 'go'], 'University'), (['did', 'both', 'the', '<Entity>', 'go'], 'University')]|0
+[(['the', 'owning', 'organisation', 'of', 'the', '<Entity>'], 'Organisation'), (['also', 'the', 'builder', 'of', 'the', '<Entity>'], '')]|-1
+[(['related', 'to', '<Entity>'], 'Person'), (['related', 'to', '<Entity>'], 'Person')]|-1
+[(['railway', 'line'], 'RailwayLine'), (['serving'], 'Place'), (['was', 'recorded'], '')]|1
+[(['<Entity>', 'are', 'leaders', 'of', 'which', 'place'], 'Place'), (['<Entity>', 'are', 'leaders', 'of', 'which', 'place'], 'Place')]|0
+[(['the', 'garrison', 'of', 'the', '<Entity>'], ''), (['line', 'of', 'the', '<Entity>'], '')]|-1
+[(['Which', 'city', 'located'], 'Stadium'), (['the', 'stadium'], '')]|0
+[(['recorded'], '')]|-1
+[(['given', 'by', '<Entity>'], ''), (['music', 'was'], 'Film'), (['distributed', 'by', '<Entity>'], '')]|1
+[(['interested'], '')]|-1
+[(['a', 'key', 'person'], '')]|-1
+[(['shows', 'with', 'network', 'as', '<Entity>'], ''), (['the', 'TV'], ''), (['company', 'as', '<Entity>'], 'Company')]|-1
+[(['license', 'provider'], ''), (['the', 'designer'], '')]|0
+[(['used', 'in'], ''), (['is', 'a', 'common', 'ingredient'], ''), (['used', 'in'], '')]|-1
+[(['architect'], 'Architect'), (['branch'], '')]|0
+[(['an', 'important', 'role', 'in', 'both', 'the', '<Entity>'], ''), (['all', 'commanders', 'which', 'had'], ''), (['an', 'important', 'role', 'in', 'both', 'the', '<Entity>'], '')]|1
+[(['surrounded', 'by', '<Entity>'], 'Sea'), (['surrounded', 'by', '<Entity>'], 'Sea')]|0
+[(['television', 'show', 'developer', 'is', '<Entity>'], 'TelevisionShow'), (['voices', 'to', 'the', 'character', 'is', 'by', '<Entity>'], '')]|-1
+[(['serve'], '')]|-1
+[(['one'], ''), (['spoken'], 'Language')]|-1
+[(['source', 'as', '<Entity>'], 'River'), (['located', 'in', '<Entity>'], ''), (['its', 'mouth', 'is'], '')]|0
+[(['purposes', 'are', '<Entity>'], 'Organisation'), (['purposes', 'are', '<Entity>'], 'Organisation')]|-1

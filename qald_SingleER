@@ -1,0 +1,226 @@
+dbo:country 
+dbo:award dbo:birthDate 
+dbo:birthPlace 
+dbo:almaMater 
+dbo:influencedBy dbo:influenced 
+dbo:party 
+dbp:children 
+dbo:child dbo:birthDate 
+dbp:conviction 
+dbo:headquarter 
+dbp:dateOfBirth 
+dbo:almaMater dbo:affiliation 
+dbo:growingGrape 
+dbo:manager 
+dbo:currency 
+dbo:foundedBy 
+dbo:foundingYear 
+dbo:alliance 
+dbp:planet 
+dbo:birthDate dbp:birthDate dbp:date 
+dbo:locationCountry dbo:location dbo:country 
+dbo:country 
+dbo:netIncome 
+dbp:name 
+dbo:dissolutionDate 
+dbo:location dbo:numberOfVisitors 
+dbo:locatedInArea dbo:elevation 
+dbo:architect dbp:almaMater 
+dbo:country dbo:ideology 
+dbo:leaderName 
+dbo:height 
+dbo:ethnicGroup 
+dbp:title 
+dbo:parent 
+dbo:weight dbp:team dbp:draftTeam dbo:draftTeam 
+dbo:locatedInArea dbo:eruptionYear 
+dbo:birthPlace 
+dbo:architect 
+dbo:relative dbo:birthPlace 
+dbo:country dbo:depth 
+dct:subject 
+dct:subject dbp:museum dbo:location 
+dbo:productionEndYear dbo:productionStartYear 
+dct:subject dbp:termEnd 
+dbo:knownFor 
+dbo:spouse 
+dbo:governmentType 
+dct:subject dbo:areaTotal 
+dbo:floorCount 
+dbo:wavelength 
+dbo:place dbo:date 
+dct:subject 
+dbo:deathDate 
+dbo:foundingYear 
+dbo:birthDate 
+dct:subject 
+dbo:discoverer 
+dct:subject 
+dbo:restingPlace 
+dbo:activeYearsStartYear 
+dbp:editor 
+dbo:meanRadius 
+dbp:establishedDate 
+dbo:populationTotal 
+dbo:runtime 
+dbo:alias 
+dbo:birthPlace 
+dbo:almaMater 
+dbo:almaMater 
+dbo:areaTotal 
+dbo:author 
+dbo:birthName 
+dct:subject dbo:equity dbo:netIncome dbo:production dbo:revenue 
+dbp:awards 
+dbp:date 
+dbo:elevation 
+dbo:populationTotal 
+dbo:foundingDate 
+dbp:founders 
+dbp:speakers 
+dbo:birthPlace 
+dbo:origin 
+dbo:populationTotal 
+foaf:nick 
+dbp:author 
+dbo:percentageOfAreaWater 
+dbo:populationTotal 
+dbo:populationTotal 
+dbp:populationDensityRank 
+dbo:areaTotal 
+foaf:name 
+dbo:deathDate 
+dbp:borders 
+skos:broader dct:subject dbo:areaTotal 
+dct:subject 
+dbo:largestCity 
+dbo:leader 
+dbp:highest 
+dbo:wikiPageRedirects dbp:name 
+dbo:state 
+dbp:species 
+dbo:owner 
+dbo:author dbp:releaseDate dbo:publicationDate 
+dbo:author 
+dbo:completionDate 
+dbo:timeZone 
+dct:subject 
+dbo:elevation dbo:locatedInArea 
+dbo:birthDate 
+dbpedia2:occupation 
+dbo:capacity dbo:ground dbp:capacity 
+foaf:nick 
+dbp:birthName 
+dbp:leader 
+dbo:currency dbp:currencyCode 
+dbo:publisher 
+dbo:country dbo:birthPlace dbo:isPartOf 
+dbo:child 
+dbo:birthPlace dbo:country 
+dbo:country dbp:country 
+dbp:deathCause 
+dct:subject dbp:admittancedate 
+dbp:taxon 
+foaf:homepage 
+dbo:spouse 
+dbo:author 
+dbp:highest 
+dbo:starring 
+dbo:field dbo:award 
+dbp:author 
+dbo:award 
+foaf:nick 
+dbp:title dbo:birthPlace 
+dbo:country dbo:capital dbp:densityrank 
+dbo:country dbp:length 
+dbo:areaCode 
+dbo:almaMater dbo:affiliation 
+dbo:birthPlace dbo:occupation dbo:country 
+dbo:country 
+dbp:satellites 
+foaf:name 
+dbo:knownFor 
+dbo:author 
+dbo:region 
+dbo:productionEndYear dbo:productionStartYear 
+dbo:deathDate 
+dbo:spouse 
+dbp:awards 
+dct:subject 
+dbo:child dbo:spouse 
+dbo:numberOfStudents 
+dbo:revenue 
+dct:subject 
+dbp:voiceactor 
+dbo:spouse 
+dbo:country 
+dbo:assembly dbp:assembly dbo:manufacturer dbp:manufacturer dbo:locationCountry dbo:location 
+dbo:deathDate 
+dbo:locatedInArea dct:subject dbo:elevation 
+dct:subject 
+dbo:country 
+prop:starring dbo:starring rdfs:label 
+dbo:creator dbo:deathDate 
+dbo:author 
+dbp:incumbent 
+dbp:founders 
+dbo:author 
+dbo:influencedBy 
+dbo:maximumDepth 
+dbo:occupation dbo:birthPlace 
+dbo:parent 
+dct:subject 
+dbo:spokenIn 
+dbo:country dbp:country 
+dbo:parent foaf:gender 
+dct:subject dbo:activeYearsEndDate 
+dbo:releaseDate 
+dbo:spouse 
+dbo:language 
+dbo:child dbo:spouse rdfs:label 
+dbp:crewMembers 
+dbo:wavelength 
+dbo:musicalArtist dbo:bSide 
+dbo:alias 
+dbo:riverMouth 
+dbo:location 
+dbo:birthPlace dbo:deathPlace 
+dbp:title 
+dbp:members foaf:givenName 
+dbo:routeStart 
+dbo:spouse dbo:almaMater 
+dbo:foundingDate 
+dbo:league dbo:height dbo:activeYearsEndYear 
+dbo:deathPlace 
+dbo:foundingYear 
+dbo:headquarter 
+dbp:brewery dbo:foundingYear 
+dbp:date 
+dbo:birthPlace dbo:country 
+dbo:meanRadius 
+dbo:spouse rdfs:label 
+dbp:postalabbreviation 
+dbo:deathDate 
+dbp:atmosphereComposition 
+dbp:governor 
+dbo:director 
+dbo:place dbo:date 
+dbo:starring foaf:homepage 
+dbp:calories 
+dbo:country 
+dbo:museum 
+dbo:foundingYear 
+dbp:presidentEnd dbp:presidentStart 
+dbo:spouse dbo:parent 
+dbp:author 
+dbo:artist dbo:releaseDate dbp:studio 
+dct:subject 
+dbp:founders 
+dbo:team dbo:league dbo:birthDate 
+dbo:instrument 
+dbo:location dct:subject 
+dct:subject dbo:capital 
+dbo:foundedBy 
+dbp:trailheads dbp:hazards 
+dct:subject dbo:areaTotal 
+dct:subject 

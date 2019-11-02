@@ -1,0 +1,386 @@
+nohup: jupyter: No such file or directory
+[I 11:44:19.942 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 11:44:19.944 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 11:44:19.945 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 11:44:19.946 NotebookApp] 本程序运行在: http://localhost:8888/?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+[I 11:44:19.946 NotebookApp]  or http://127.0.0.1:8888/?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+[I 11:44:19.946 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 11:44:19.956 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-10260-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+     or http://127.0.0.1:8888/?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+[E 11:44:21.948 NotebookApp] Could not open static file ''
+[W 11:44:22.016 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 11.28ms referer=http://localhost:8888/tree?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+[W 11:44:22.030 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.87ms referer=http://localhost:8888/tree?token=b7ab840f6337c3662b727ad28f055b7a5c65cbcc0bc445f0
+[W 11:44:24.924 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 3.11ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 11:44:24.955 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.31ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 11:44:25.333 NotebookApp] Kernel started: 83370638-6d0a-41ab-9925-3f47a1d2db16
+[I 11:44:25.864 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 11:46:25.433 NotebookApp] Saving file at /未命名.ipynb
+[I 11:48:25.300 NotebookApp] Saving file at /未命名.ipynb
+[I 12:06:25.309 NotebookApp] Saving file at /未命名.ipynb
+[I 12:10:25.307 NotebookApp] Saving file at /未命名.ipynb
+[I 12:12:25.426 NotebookApp] Saving file at /未命名.ipynb
+[I 12:14:26.867 NotebookApp] Saving file at /未命名.ipynb
+[I 12:17:54.514 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 12:17:57.396 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 12:17:57.397 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 12:31:29.277 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 12:31:30.674 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 12:31:30.675 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 16:08:08.701 NotebookApp] Saving file at /未命名.ipynb
+[I 16:10:09.696 NotebookApp] Saving file at /未命名.ipynb
+[I 16:12:08.693 NotebookApp] Saving file at /未命名.ipynb
+[I 16:14:08.815 NotebookApp] Saving file at /未命名.ipynb
+[I 16:18:08.691 NotebookApp] Saving file at /未命名.ipynb
+[I 16:20:07.317 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 16:20:08.848 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 16:20:08.854 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 16:20:08.858 NotebookApp] Saving file at /未命名.ipynb
+[I 16:30:32.614 NotebookApp] Saving file at /未命名.ipynb
+[I 17:11:12.558 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 17:11:14.288 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 17:11:14.291 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 17:34:24.619 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 17:34:25.980 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 17:34:25.982 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 18:06:16.465 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 18:06:18.046 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 18:06:18.047 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 20:11:21.200 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 20:11:23.152 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 20:11:23.155 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 09:49:58.880 NotebookApp] Starting buffering for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 09:50:00.802 NotebookApp] Adapting from protocol version 5.1 (kernel 83370638-6d0a-41ab-9925-3f47a1d2db16) to 5.3 (client).
+[I 09:50:00.806 NotebookApp] Restoring connection for 83370638-6d0a-41ab-9925-3f47a1d2db16:7da726648aaa45058b51e196c9263ae7
+[I 10:08:14.679 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 10:08:14.680 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 10:08:14.682 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 10:08:14.682 NotebookApp] 本程序运行在: http://localhost:8888/?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+[I 10:08:14.682 NotebookApp]  or http://127.0.0.1:8888/?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+[I 10:08:14.682 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 10:08:14.694 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-1763-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+     or http://127.0.0.1:8888/?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+[E 10:08:16.235 NotebookApp] Could not open static file ''
+[W 10:08:16.313 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 10.43ms referer=http://localhost:8888/tree?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+[W 10:08:16.330 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.81ms referer=http://localhost:8888/tree?token=2450db781b9af7c76593a549931d1fab863a6dd0e471d513
+[W 10:08:18.370 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.05ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 10:08:18.403 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.85ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 10:08:18.915 NotebookApp] Kernel started: f74fc96a-258d-4f36-9228-49ffc4750d23
+[I 10:08:19.465 NotebookApp] Adapting from protocol version 5.1 (kernel f74fc96a-258d-4f36-9228-49ffc4750d23) to 5.3 (client).
+[I 10:10:19.677 NotebookApp] Saving file at /未命名.ipynb
+[I 10:12:19.655 NotebookApp] Saving file at /未命名.ipynb
+[I 10:16:19.651 NotebookApp] Saving file at /未命名.ipynb
+[I 10:18:19.786 NotebookApp] Saving file at /未命名.ipynb
+[I 10:46:18.906 NotebookApp] Saving file at /未命名.ipynb
+[I 10:48:18.882 NotebookApp] Saving file at /未命名.ipynb
+[I 10:50:19.635 NotebookApp] Saving file at /未命名.ipynb
+[I 10:52:18.873 NotebookApp] Saving file at /未命名.ipynb
+[I 10:54:18.902 NotebookApp] Saving file at /未命名.ipynb
+[I 10:56:19.776 NotebookApp] Saving file at /未命名.ipynb
+[I 11:54:20.667 NotebookApp] Starting buffering for f74fc96a-258d-4f36-9228-49ffc4750d23:6f2190f5d87d4c6a88b390aba1a7682b
+[I 11:54:23.033 NotebookApp] Adapting from protocol version 5.1 (kernel f74fc96a-258d-4f36-9228-49ffc4750d23) to 5.3 (client).
+[I 11:54:23.035 NotebookApp] Restoring connection for f74fc96a-258d-4f36-9228-49ffc4750d23:6f2190f5d87d4c6a88b390aba1a7682b
+[I 16:41:06.953 NotebookApp] Saving file at /未命名.ipynb
+[I 18:51:07.229 NotebookApp] Saving file at /未命名.ipynb
+[I 18:51:41.110 NotebookApp] Saving file at /未命名.ipynb
+[I 18:51:43.497 NotebookApp] Starting buffering for f74fc96a-258d-4f36-9228-49ffc4750d23:6f2190f5d87d4c6a88b390aba1a7682b
+[W 18:51:50.647 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 3.64ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 18:51:50.677 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.59ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 18:51:51.413 NotebookApp] Adapting from protocol version 5.1 (kernel f74fc96a-258d-4f36-9228-49ffc4750d23) to 5.3 (client).
+[I 18:52:51.904 NotebookApp] Starting buffering for f74fc96a-258d-4f36-9228-49ffc4750d23:a9ee2a79a7cf425c976622fcd3d96b2c
+[I 19:10:37.613 NotebookApp] Discarding 2 buffered messages for f74fc96a-258d-4f36-9228-49ffc4750d23:a9ee2a79a7cf425c976622fcd3d96b2c
+[I 19:10:43.052 NotebookApp] Kernel shutdown: f74fc96a-258d-4f36-9228-49ffc4750d23
+[I 20:23:56.010 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 20:23:56.010 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 20:23:56.012 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 20:23:56.012 NotebookApp] 本程序运行在: http://localhost:8888/?token=945fc5a60030935b1f582cc1fdd979495c45ed479b07a443
+[I 20:23:56.012 NotebookApp]  or http://127.0.0.1:8888/?token=945fc5a60030935b1f582cc1fdd979495c45ed479b07a443
+[I 20:23:56.012 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 20:23:56.019 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-1678-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=945fc5a60030935b1f582cc1fdd979495c45ed479b07a443
+     or http://127.0.0.1:8888/?token=945fc5a60030935b1f582cc1fdd979495c45ed479b07a443
+[E 20:23:57.782 NotebookApp] Could not open static file ''
+[W 20:23:57.936 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 23.27ms referer=http://localhost:8888/tree?token=945fc5a60030935b1f582cc1fdd979495c45ed479b07a443
+[W 20:24:00.780 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.67ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 20:24:00.812 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.70ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 20:24:01.939 NotebookApp] Kernel started: 6181589e-d138-471f-b3bd-b0f72e1525f5
+[I 20:24:03.569 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 20:26:02.089 NotebookApp] Saving file at /未命名.ipynb
+[I 21:01:18.817 NotebookApp] Starting buffering for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:01:20.444 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 21:01:20.456 NotebookApp] Restoring connection for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:13:44.025 NotebookApp] Starting buffering for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:13:45.585 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 21:13:45.590 NotebookApp] Restoring connection for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:16:13.665 NotebookApp] Starting buffering for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:16:16.465 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 21:16:16.467 NotebookApp] Restoring connection for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:18:41.591 NotebookApp] Starting buffering for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 21:18:44.380 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 21:18:44.381 NotebookApp] Restoring connection for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 11:44:24.499 NotebookApp] Starting buffering for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 11:44:26.171 NotebookApp] Adapting from protocol version 5.1 (kernel 6181589e-d138-471f-b3bd-b0f72e1525f5) to 5.3 (client).
+[I 11:44:26.173 NotebookApp] Restoring connection for 6181589e-d138-471f-b3bd-b0f72e1525f5:d0b86a711ec94b0294ccfd7cfa15b230
+[I 13:12:05.687 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 13:12:05.688 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 13:12:05.690 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 13:12:05.690 NotebookApp] 本程序运行在: http://localhost:8888/?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+[I 13:12:05.690 NotebookApp]  or http://127.0.0.1:8888/?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+[I 13:12:05.690 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 13:12:05.705 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-2441-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+     or http://127.0.0.1:8888/?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+[E 13:12:07.086 NotebookApp] Could not open static file ''
+[W 13:12:07.155 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 10.13ms referer=http://localhost:8888/tree?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+[W 13:12:07.167 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 3.04ms referer=http://localhost:8888/tree?token=928cb8a960048b29768a346f9e9c7fc113b416b9976e4947
+[W 13:12:09.055 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.07ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 13:12:09.080 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.81ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 13:12:09.793 NotebookApp] Kernel started: 4506c57a-5232-4ba2-add0-69390ec5e8b3
+[I 13:12:10.520 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 13:14:09.771 NotebookApp] Saving file at /未命名.ipynb
+[I 13:14:14.000 NotebookApp] Saving file at /未命名.ipynb
+[I 13:16:10.103 NotebookApp] Saving file at /未命名.ipynb
+[I 13:21:54.011 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 13:21:55.143 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 13:21:55.144 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 14:08:11.715 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 14:08:13.718 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 14:08:13.719 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:00:24.527 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:00:26.183 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 15:00:26.185 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:21:37.031 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:21:38.354 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 15:21:38.355 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:27:00.300 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 15:27:02.570 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 15:27:02.570 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:24:09.127 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:24:10.697 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 16:24:10.699 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:54:00.290 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:54:01.920 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 16:54:01.921 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:55:29.658 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 16:55:31.603 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 16:55:31.604 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 20:48:21.496 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 20:48:23.171 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 20:48:23.174 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:28:24.461 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:28:26.292 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 10:28:26.294 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:29:51.428 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:29:54.179 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 10:29:54.180 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:57:36.416 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:57:37.729 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 10:57:37.730 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:10:40.600 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:10:41.963 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 11:10:41.964 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:19:56.715 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:19:57.781 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 11:19:57.783 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:33:42.399 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 11:33:43.878 NotebookApp] Adapting from protocol version 5.1 (kernel 4506c57a-5232-4ba2-add0-69390ec5e8b3) to 5.3 (client).
+[I 11:33:43.879 NotebookApp] Restoring connection for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 12:54:05.124 NotebookApp] Starting buffering for 4506c57a-5232-4ba2-add0-69390ec5e8b3:03cc7cd684824cab8d460a43f55ffd82
+[I 10:23:25.586 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 10:23:25.587 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 10:23:25.589 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 10:23:25.589 NotebookApp] 本程序运行在: http://localhost:8888/?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+[I 10:23:25.589 NotebookApp]  or http://127.0.0.1:8888/?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+[I 10:23:25.589 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 10:23:25.603 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-5810-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+     or http://127.0.0.1:8888/?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+[E 10:23:27.066 NotebookApp] Could not open static file ''
+[W 10:23:27.137 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 11.94ms referer=http://localhost:8888/tree?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+[W 10:23:27.152 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.51ms referer=http://localhost:8888/tree?token=46608b8cc2174178ba5c45a90a5964266645a565d2cc0a44
+[W 10:23:29.323 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 4.57ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 10:23:29.351 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 3.09ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 10:23:30.068 NotebookApp] Kernel started: 35205dea-f3a7-43af-a8ba-2678d4ada26e
+[I 10:23:30.696 NotebookApp] Adapting from protocol version 5.1 (kernel 35205dea-f3a7-43af-a8ba-2678d4ada26e) to 5.3 (client).
+[I 10:25:30.106 NotebookApp] Saving file at /未命名.ipynb
+[I 10:27:30.095 NotebookApp] Saving file at /未命名.ipynb
+[I 10:29:30.041 NotebookApp] Saving file at /未命名.ipynb
+[I 10:31:30.029 NotebookApp] Saving file at /未命名.ipynb
+[I 10:41:30.097 NotebookApp] Saving file at /未命名.ipynb
+[I 14:08:18.206 NotebookApp] Starting buffering for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:08:19.909 NotebookApp] Adapting from protocol version 5.1 (kernel 35205dea-f3a7-43af-a8ba-2678d4ada26e) to 5.3 (client).
+[I 14:08:19.914 NotebookApp] Restoring connection for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:38:12.506 NotebookApp] Starting buffering for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:38:14.053 NotebookApp] Adapting from protocol version 5.1 (kernel 35205dea-f3a7-43af-a8ba-2678d4ada26e) to 5.3 (client).
+[I 14:38:14.054 NotebookApp] Restoring connection for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:43:55.903 NotebookApp] Starting buffering for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:43:57.241 NotebookApp] Adapting from protocol version 5.1 (kernel 35205dea-f3a7-43af-a8ba-2678d4ada26e) to 5.3 (client).
+[I 14:43:57.245 NotebookApp] Restoring connection for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:45:01.201 NotebookApp] Starting buffering for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 14:45:03.057 NotebookApp] Adapting from protocol version 5.1 (kernel 35205dea-f3a7-43af-a8ba-2678d4ada26e) to 5.3 (client).
+[I 14:45:03.059 NotebookApp] Restoring connection for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[I 19:17:57.534 NotebookApp] Starting buffering for 35205dea-f3a7-43af-a8ba-2678d4ada26e:e9550f42dc304716983733da1ae84591
+[C 19:18:01.289 NotebookApp] 接受信号 15, 正在停止
+[I 19:18:01.806 NotebookApp] 关闭 1 服务
+[I 19:18:02.740 NotebookApp] Kernel shutdown: 35205dea-f3a7-43af-a8ba-2678d4ada26e
+[I 14:40:20.251 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:40:20.253 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 14:40:20.255 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 14:40:20.255 NotebookApp] 本程序运行在: http://localhost:8888/?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+[I 14:40:20.255 NotebookApp]  or http://127.0.0.1:8888/?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+[I 14:40:20.255 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 14:40:20.272 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-8081-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+     or http://127.0.0.1:8888/?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+[E 14:40:22.461 NotebookApp] Could not open static file ''
+[W 14:40:22.535 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 10.08ms referer=http://localhost:8888/tree?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+[W 14:40:22.548 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.79ms referer=http://localhost:8888/tree?token=ffeace74cf412fe43745ff6cfa45dab9b116308a98d47743
+[W 14:40:24.931 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 4.20ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 14:40:24.955 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.33ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 14:40:25.669 NotebookApp] Kernel started: 139f774f-6eb9-46a0-b78e-dfab401d4ace
+[I 14:40:26.443 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 14:42:26.123 NotebookApp] Saving file at /未命名.ipynb
+[I 14:50:26.256 NotebookApp] Saving file at /未命名.ipynb
+[I 14:54:26.141 NotebookApp] Saving file at /未命名.ipynb
+[I 14:56:26.130 NotebookApp] Saving file at /未命名.ipynb
+[I 15:22:25.678 NotebookApp] Saving file at /未命名.ipynb
+[I 15:27:16.381 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 15:27:18.163 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 15:27:18.164 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 15:48:08.181 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 15:48:10.110 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 15:48:10.112 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 18:55:45.018 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 18:55:46.975 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 18:55:46.976 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 19:02:04.898 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 19:02:06.165 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 19:02:06.169 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 19:52:03.460 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 19:52:05.400 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 19:52:05.401 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 20:44:28.555 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 20:44:30.433 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 20:44:30.434 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 20:57:51.123 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 20:57:53.008 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 20:57:53.008 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 09:31:55.641 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 09:31:57.693 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 09:31:57.695 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:10:07.881 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:10:10.312 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 10:10:10.315 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:24:32.801 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:24:34.499 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 10:24:34.500 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:38:55.705 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:38:57.493 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 14:38:57.495 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:49:19.187 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:49:20.905 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 14:49:20.906 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 17:05:32.451 NotebookApp] Saving file at /未命名.ipynb
+[I 19:55:32.669 NotebookApp] Saving file at /未命名.ipynb
+[I 19:59:34.496 NotebookApp] Saving file at /未命名.ipynb
+[I 20:01:32.171 NotebookApp] Saving file at /未命名.ipynb
+[I 20:03:32.623 NotebookApp] Saving file at /未命名.ipynb
+[I 20:13:32.647 NotebookApp] Saving file at /未命名.ipynb
+[I 20:17:32.642 NotebookApp] Saving file at /未命名.ipynb
+[I 20:19:32.655 NotebookApp] Saving file at /未命名.ipynb
+[I 20:42:48.618 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 20:42:49.861 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 20:42:49.864 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 09:27:01.733 NotebookApp] Saving file at /未命名.ipynb
+[I 09:29:05.008 NotebookApp] Saving file at /未命名.ipynb
+[I 09:43:47.156 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 09:43:50.107 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 09:43:50.108 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:39:34.246 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:39:35.633 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 10:39:35.637 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:58:20.300 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 10:58:21.997 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 10:58:21.999 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 11:32:50.649 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 11:32:51.971 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 11:32:51.973 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 11:38:48.986 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 11:38:50.885 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 11:38:50.886 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:35:06.274 NotebookApp] Saving file at /未命名.ipynb
+[I 14:45:05.309 NotebookApp] Saving file at /未命名.ipynb
+[I 14:47:05.770 NotebookApp] Saving file at /未命名.ipynb
+[I 14:49:05.769 NotebookApp] Saving file at /未命名.ipynb
+[I 15:15:05.848 NotebookApp] Saving file at /未命名.ipynb
+[I 15:43:35.028 NotebookApp] Starting buffering for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 15:43:36.870 NotebookApp] Adapting from protocol version 5.1 (kernel 139f774f-6eb9-46a0-b78e-dfab401d4ace) to 5.3 (client).
+[I 15:43:36.872 NotebookApp] Restoring connection for 139f774f-6eb9-46a0-b78e-dfab401d4ace:de190f25ef9d4b5287d50ae2962965cb
+[I 14:08:25.456 NotebookApp] JupyterLab extension loaded from /Users/yangyifan/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 14:08:25.457 NotebookApp] JupyterLab application directory is /Users/yangyifan/anaconda3/share/jupyter/lab
+[I 14:08:25.458 NotebookApp] 启动notebooks 在本地路径: /Users/yangyifan/Desktop/Knowledge Graph/Final Experiment
+[I 14:08:25.459 NotebookApp] 本程序运行在: http://localhost:8888/?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+[I 14:08:25.459 NotebookApp]  or http://127.0.0.1:8888/?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+[I 14:08:25.459 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 14:08:25.465 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/yangyifan/Library/Jupyter/runtime/nbserver-7997-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+     or http://127.0.0.1:8888/?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+[E 14:08:26.855 NotebookApp] Could not open static file ''
+[W 14:08:26.930 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 11.94ms referer=http://localhost:8888/tree?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+[W 14:08:26.939 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.05ms referer=http://localhost:8888/tree?token=6aebe20053267d456f0d62f1430e5a601311578142bf25f2
+[W 14:08:28.866 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 3.09ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[W 14:08:28.891 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.89ms referer=http://localhost:8888/notebooks/%E6%9C%AA%E5%91%BD%E5%90%8D.ipynb
+[I 14:08:29.820 NotebookApp] Kernel started: 73b7f604-e8f9-4bd3-932d-99f337431c05
+[I 14:08:30.510 NotebookApp] Adapting from protocol version 5.1 (kernel 73b7f604-e8f9-4bd3-932d-99f337431c05) to 5.3 (client).
+[I 14:10:30.491 NotebookApp] Saving file at /未命名.ipynb
+[I 15:16:30.515 NotebookApp] Saving file at /未命名.ipynb
+[I 15:18:30.501 NotebookApp] Saving file at /未命名.ipynb
+[I 15:20:30.498 NotebookApp] Saving file at /未命名.ipynb
+[I 17:50:31.603 NotebookApp] Saving file at /未命名.ipynb
+[I 17:52:30.729 NotebookApp] Saving file at /未命名.ipynb
+[I 18:29:47.486 NotebookApp] Starting buffering for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 18:29:49.355 NotebookApp] Adapting from protocol version 5.1 (kernel 73b7f604-e8f9-4bd3-932d-99f337431c05) to 5.3 (client).
+[I 18:29:49.357 NotebookApp] Restoring connection for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 19:07:14.394 NotebookApp] Starting buffering for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 19:07:17.339 NotebookApp] Adapting from protocol version 5.1 (kernel 73b7f604-e8f9-4bd3-932d-99f337431c05) to 5.3 (client).
+[I 19:07:17.340 NotebookApp] Restoring connection for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 21:45:29.339 NotebookApp] Starting buffering for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 21:45:31.614 NotebookApp] Adapting from protocol version 5.1 (kernel 73b7f604-e8f9-4bd3-932d-99f337431c05) to 5.3 (client).
+[I 21:45:31.616 NotebookApp] Restoring connection for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[W 10:06:12.852 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 2.94ms referer=http://localhost:8888/tree
+[W 10:06:12.863 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 1.51ms referer=http://localhost:8888/tree
+[I 10:06:19.104 NotebookApp] Starting buffering for 73b7f604-e8f9-4bd3-932d-99f337431c05:155d4c2dd17a42c082706c140d822cf6
+[I 17:34:42.779 NotebookApp] 302 GET / (::1) 19.51ms
+[W 17:34:42.889 NotebookApp] 404 GET /static/components/react/react-dom.production.min.js (::1) 10.45ms referer=http://localhost:8888/tree?
+[C 17:37:05.090 NotebookApp] 接受信号 15, 正在停止
+[I 17:37:05.106 NotebookApp] 关闭 1 服务
+[I 17:37:05.846 NotebookApp] Kernel shutdown: 73b7f604-e8f9-4bd3-932d-99f337431c05
