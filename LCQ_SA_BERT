@@ -1,0 +1,29 @@
+0
+MaxSim: 0.11081217338964343
+FinalPreds: ['http://dbpedia.org/ontology/keyPerson', 'http://dbpedia.org/ontology/foundedBy']
+TruePreds: <dbp:employer> <dbp:author>
+1
+MaxSim: 0.04547662287950516
+FinalPreds: ['http://dbpedia.org/ontology/author']
+TruePreds: <dbp:author>
+2
+MaxSim: 0.08550903876721859
+FinalPreds: ['http://dbpedia.org/ontology/productionEndYear']
+TruePreds: <dbo:manufacturer>
+3
+MaxSim: 0.12844295412786305
+FinalPreds: ['http://dbpedia.org/ontology/birthPlace', 'http://dbpedia.org/ontology/county', 'http://dbpedia.org/ontology/almaMater']
+TruePreds: <dbo:president> <dbp:president>
+4
+MaxSim: 0.044064353127777574
+FinalPreds: ['http://dbpedia.org/property/heightIn']
+TruePreds: <dbp:playedFor>
+5
+MaxSim: 0.1158932512536645
+FinalPreds: ['http://dbpedia.org/property/arena', 'http://dbpedia.org/ontology/buildingStartDate']
+TruePreds: <dbp:tenants> <dbp:tenants>
+6
+MaxSim: 0.14830417345315217
+FinalPreds: ['http://dbpedia.org/ontology/numberOfEpisodes', 'http://dbpedia.org/property/maxSpeedKmh']
+TruePreds: <dbo:subsequentWork> <dbo:related>
+7

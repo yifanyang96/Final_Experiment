@@ -1,0 +1,5 @@
+<http://www.University0.edu>	<rdf:type>	<ub:University>.
+<http://www.University0.edu>	<ub:name>	<University0>.
+<http://www.Department0.University0.edu>	<rdf:type>	<ub:Department>.
+<http://www.Department0.University0.edu>	<ub:name>	<Department0>.
+<http://www.Department0.University0.edu>	<ub:subOrganizationOf>	<http://www.University0.edu>.

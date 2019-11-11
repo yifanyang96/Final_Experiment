@@ -12,7 +12,160 @@
 
 using namespace std;
 
+string Util::profile = "init.conf";
 string Util::tmp_path = ".tmp/";
+map<string, string> Util::global_config;
+
+Util::Util()
+{
+    Util::configure();
+#ifdef DEBUG_KVSTORE
+    if(this->debug_kvstore == NULL)
+    {
+        string s = this->debug_path + "kv.log";
+        this->debug_kvstore = fopen(s.c_str(), "w+");
+        if(this->debug_kvstore == NULL)
+        {
+            cerr << "open error: kv.log\n";
+            this->debug_kvstore = stderr;
+        }
+    }
+#endif
+#ifdef DEBUG_DATABASE
+    if(this->debug_database == NULL)
+    {
+        string s = this->debug_path + "db.log";
+        this->debug_database = fopen(s.c_str(), "w+");
+        if(this->debug_database == NULL)
+        {
+            cerr << "open error: db.log\n";
+            this->debug_database = stderr;
+        }
+    }
+#endif
+#ifdef DEBUG_VSTREE
+    if(this->debug_vstree == NULL)
+    {
+        string s = this->debug_path + "vs.log";
+        this->debug_vstree = fopen(s.c_str(), "w+");
+        if(this->debug_vstree == NULL)
+        {
+            cerr << "open error: vs.log\n";
+            this->debug_vstree = stderr;
+        }
+    }
+#endif
+}
+
+char*
+Util::l_trim(char* szOutput, const char* szInput)
+{
+    assert(szInput != NULL);
+    assert(szOutput != NULL);
+    assert(szOutput != szInput);
+    for   (; *szInput != '\0' && isspace(*szInput); ++szInput);
+    return strcpy(szOutput, szInput);
+}
+
+char*
+Util::a_trim(char * szOutput, const char * szInput)
+{
+    char *p = NULL;
+    assert(szInput != NULL);
+    assert(szOutput != NULL);
+    l_trim(szOutput, szInput);
+    for   (p = szOutput + strlen(szOutput) - 1; p >= szOutput && isspace(*p); --p);
+    *(++p) = '\0';
+    return szOutput;
+}
+
+bool
+Util::configure()
+{
+    const unsigned len = 505;
+    char *buf, *c;
+    char buf_i[len], buf_o[len];
+    FILE *fp = NULL;
+	char keyname[len];
+	char keyval[len];
+
+	//initialize the settings
+	Util::global_config["gstore_mode"] = "single";
+	//NOTICE+BETTER+TODO:use macro is better to avoid too many judging on this variable(add a DEBUG macro at the outer)
+	Util::global_config["debug_level"] = "simple";
+	Util::global_config["db_home"] = ".";
+	Util::global_config["db_suffix"] = ".db";
+	Util::global_config["buffer_maxium"] = "100";
+	Util::global_config["thread_maxium"] = "1000";
+	//TODO:to be recoverable
+	Util::global_config["operation_logs"] = "true";
+
+#ifdef DEBUG
+	fprintf(stderr, "profile: %s\n", profile.c_str());
+#endif
+    if((fp = fopen(profile.c_str(), "r")) == NULL)  //NOTICE: this is not a binary file
+    {
+#ifdef DEBUG
+        fprintf(stderr, "openfile [%s] error [%s]\n", profile.c_str(), strerror(errno));
+#endif
+        return false;
+    }
+    fseek(fp, 0, SEEK_SET);
+
+    while(!feof(fp) && fgets(buf_i, len, fp) != NULL)
+    {
+		//fprintf(stderr, "buffer: %s\n", buf_i);
+        Util::l_trim(buf_o, buf_i);
+        if(strlen(buf_o) <= 0)
+            continue;
+        buf = NULL;
+        buf = buf_o;
+		if(buf[0] == '#')
+		{
+			continue;
+		}
+		else if(buf[0] == '[') 
+		{
+			continue;
+		} 
+		if((c = (char*)strchr(buf, '=')) == NULL)
+			continue;
+		memset(keyname, 0, sizeof(keyname));
+		sscanf(buf, "%[^=|^ |^\t]", keyname);
+#ifdef DEBUG
+				//fprintf(stderr, "keyname: %s\n", keyname);
+#endif
+		sscanf(++c, "%[^\n]", keyval);
+		char *keyval_o = (char *)calloc(strlen(keyval) + 1, sizeof(char));
+		if(keyval_o != NULL) 
+		{
+			Util::a_trim(keyval_o, keyval);
+#ifdef DEBUG
+			//fprintf(stderr, "keyval: %s\n", keyval_o);
+#endif
+			if(keyval_o && strlen(keyval_o) > 0)
+			{
+				//strcpy(keyval, keyval_o);
+				global_config[string(keyname)] = string(keyval_o);
+			}
+			xfree(keyval_o);
+		}
+	}
+
+    fclose(fp);
+	//display all settings here
+	cout<<"the current settings are as below: "<<endl;
+	cout<<"key : value"<<endl;
+	cout<<"------------------------------------------------------------"<<endl;
+	for(map<string, string>::iterator it = global_config.begin(); it != global_config.end(); ++it)
+	{
+		cout<<it->first<<" : "<<it->second<<endl;
+	}
+	cout<<endl;
+
+	return true;
+	//return Util::config_setting() && Util::config_debug() && Util::config_advanced();
+}
 
 int
 Util::memoryLeft()
@@ -404,4 +557,120 @@ Util::equal(const ID_TUPLE& a, const ID_TUPLE& b)
 		return true;
 	}
 	return false;
+}
+
+string
+Util::node2string(const char* _raw_str) {
+	string _output;
+	unsigned _first_quote = 0;
+	unsigned _last_quote = 0;
+	bool _has_quote = false;
+	for (unsigned i = 0; _raw_str[i] != '\0'; i++) {
+		if (_raw_str[i] == '\"') {
+			if (!_has_quote) {
+				_first_quote = i;
+				_last_quote = i;
+				_has_quote = true;
+			}
+			else {
+				_last_quote = i;
+			}
+		}
+	}
+	if (_first_quote==_last_quote) {
+		_output += _raw_str;
+		return _output;
+	}
+	for (unsigned i = 0; i <= _first_quote; i++) {
+		_output += _raw_str[i];
+	}
+	for (unsigned i = _first_quote + 1; i < _last_quote; i++) {
+		switch (_raw_str[i]) {
+		case '\n':
+			_output += "\\n";
+			break;
+		case '\r':
+			_output += "\\r";
+			break;
+		case '\t':
+			_output += "\\t";
+			break;
+		case '\"':
+			_output += "\\\"";
+			break;
+		case '\\':
+			_output += "\\\\";
+			break;
+		default:
+			_output += _raw_str[i];
+		}
+	}
+	for (unsigned i = _last_quote; _raw_str[i] != 0; i++) {
+		_output += _raw_str[i];
+	}
+	return _output;
+}
+
+unsigned
+Util::bsearch_int_uporder(unsigned _key, const unsigned* _array, unsigned _array_num)
+{
+    if (_array_num == 0)
+    {
+        //return -1;
+		return INVALID;
+    }
+    if (_array == NULL)
+    {
+        //return -1;
+		return INVALID;
+    }
+
+    unsigned _first = _array[0];
+    unsigned _last = _array[_array_num - 1];
+
+    if (_last == _key)
+    {
+        return _array_num - 1;
+    }
+
+    if (_last < _key || _first > _key)
+    {
+        //return -1;
+		return INVALID;
+    }
+
+    unsigned low = 0;
+    unsigned high = _array_num - 1;
+
+    unsigned mid;
+    while (low <= high)
+    {
+        mid = (high - low) / 2 + low;
+        if (_array[mid] == _key)
+        {
+            return mid;
+        }
+        if (_array[mid] > _key)
+        {
+            high = mid - 1;
+        }
+        else
+        {
+            low = mid + 1;
+        }
+    }
+
+    //return -1;
+	return INVALID;
+}
+
+void
+Util::split(const string& s, vector<string>& sv, const char* delim) {
+    sv.clear();
+	char* buffer = new char[s.size() + 1];
+    copy(s.begin(), s.end(), buffer);
+    char* p = strtok(buffer, delim);
+    do {
+        sv.push_back(p);
+    } while ((p = strtok(NULL, delim)));   // 6.
 }

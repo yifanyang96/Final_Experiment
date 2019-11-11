@@ -363,7 +363,6 @@ IVArray::insert(unsigned _key, char *_str, unsigned _len)
 
 		for(int i = 0; i < OldEntryNum; i++)
 			newp[i].Copy(array[i]);
-
 		delete [] array;
 		array = newp;
 

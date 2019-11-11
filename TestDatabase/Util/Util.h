@@ -22,6 +22,9 @@ in the sparql query can point to the same node in data graph)
 #include <limits.h>
 #include <unistd.h>
 #include <dirent.h>
+#include <string.h>
+#include <assert.h>
+#include <bitset>
 #include <sys/time.h>
 #include <sys/file.h>
 #include <sys/stat.h>
@@ -36,6 +39,8 @@ in the sparql query can point to the same node in data graph)
 #include <vector>
 #include <queue>
 #include <thread> 
+#include <mutex> 
+#include <algorithm>
 
 typedef unsigned TYPE_TRIPLE_NUM;
 typedef unsigned TYPE_ENTITY_LITERAL_ID;
@@ -44,6 +49,13 @@ static const unsigned INVALID = UINT_MAX;
 static const TYPE_ENTITY_LITERAL_ID INVALID_ENTITY_LITERAL_ID = UINT_MAX;
 static const TYPE_PREDICATE_ID INVALID_PREDICATE_ID = -1;
 
+#define THREAD_ON 1			
+
+#define xfree(x) free(x); x = NULL;
+
+#define K 3
+
+#define N 3
 
 typedef struct TYPE_ID_TUPLE
 {
@@ -57,12 +69,19 @@ class Util
 public:
 	static const unsigned MB = 1048576;
 	static const unsigned GB = 1073741824;
+	static const char EDGE_OUT= 'o';
 	static const unsigned LITERAL_FIRST_ID = 2 * 1000*1000*1000;
 	static const unsigned TRANSFER_SIZE = 1 << 20;
 	static const unsigned long long MAX_BUFFER_SIZE = 1 << 30;
 	static const unsigned STORAGE_BLOCK_SIZE = 1 << 12;	//fixed size of disk-block in B+ tree storage
 	static const TYPE_TRIPLE_NUM TRIPLE_NUM_MAX = INVALID;
 	static std::string tmp_path;
+	static std::string profile;
+
+	Util();
+	static char* l_trim(char *szOutput, const char *szInput);
+	static char* a_trim(char *szOutput, const char * szInput);
+	static bool configure();  //read init.conf and set the parameters for this system
 	static int memoryLeft();
 	static std::string getThreadID();
 	static long get_cur_time();
@@ -88,7 +107,11 @@ public:
 	static bool ops_cmp_idtuple(const ID_TUPLE& a, const ID_TUPLE& b);
 	static bool pso_cmp_idtuple(const ID_TUPLE& a, const ID_TUPLE& b);
 	static bool equal(const ID_TUPLE& a, const ID_TUPLE& b);
+	static std::map<std::string, std::string> global_config;
 
+	static std::string node2string(const char* _raw_str);
+	static unsigned bsearch_int_uporder(unsigned _key, const unsigned* _array, unsigned _array_num);
+	static void split(const std::string& s, std::vector<std::string>& sv, const char* delim = " ");
 };
 
 class BlockInfo

@@ -12,6 +12,9 @@ from PyDictionary import PyDictionary
 import string
 import ast
 import json
+from bert_serving.client import BertClient
+
+bc = BertClient()
 
 nlp = StanfordCoreNLP('http://localhost', port=9000)
 sparql = SPARQLWrapper("https://dbpedia.org/sparql")
@@ -29,14 +32,14 @@ timetypes = {'Time','Year'}
 literaltypes = {'Population', 'Name'}
 timexmltypes = {'duration', 'dateTime', 'time', 'date', 'gYearMonth', 'gYear', 'gMonthDay', 'gDay', 'gMonth'}
 
-model = KeyedVectors.load_word2vec_format('~/word2vec/GoogleNews-vectors-negative300.bin',binary=True)
+#model = KeyedVectors.load_word2vec_format('~/word2vec/GoogleNews-vectors-negative300.bin',binary=True)
 lemmatizer = WordNetLemmatizer()
 table = dict.fromkeys(string.punctuation)
 del table['<']
 del table['>']
 table = str.maketrans(table)
 newstopwords = {line.strip() for line in open('stopwords').readlines()}
-otherwords = {'<Entity>', '<E1>', '<E2>', 'someone', 'everyone'}
+otherwords = {'Entity', '<E1>', '<E2>', 'someone', 'everyone'}
 totalstopwords = newstopwords | otherwords | specificStopWords
 bigtotalstopwords = set(stopwords.words('english')) | otherwords | specificStopWords
 
@@ -199,7 +202,7 @@ def singleEMain(line, h):
     entitySubTrees = []
     for subtree in ptree.subtrees():
         stl = subtree.leaves()
-        if '<Entity>' in stl:
+        if 'Entity' in stl:
             stl = [l for l in stl if l.translate(table) != '' and l != '\'s']
             if len(entitySubTrees) == 0 or len(stl) != len(entitySubTrees[-1]):
                 entitySubTrees.append(stl)
@@ -228,10 +231,10 @@ def singleEMain(line, h):
     if qt == 'Time' or (qt != '' and not h.isChild(final[-1][1], qt)):
         final[-1] = (final[-1][0], qt)
     final = remove(final, ptree, linetypes)
-    return final, answerp, set(linetypes.values())
+    return final, answerp
 
 def singleE(line, entity, h):
-    line = line.replace(entity, '<Entity>')
+    line = line.replace(entity, 'Entity')
     return singleEMain(line, h)
 
 def doubleE(line, entity, h):
@@ -555,20 +558,11 @@ def removeType(pline, h):
     pline[maxId] = (pline[maxId][0],'')
     return pline
 
-def dicReplace(path, linetypes):
-    newpath = {for w in path if w not in bigtotalstopwords and w not in linetypes}
-
-
-def dicReplaceSimVec(lineSplit, predSplit, linetypes):
-
-
-def computeSimVecNew(lineSplit, predSplit, linetypes):
+def computeSimVecNew(lineSplit, predSplit):
     print(lineSplit)
     print(predSplit)
     lvs = np.transpose(normalize(np.stack([model[ls] for ls in lineSplit])))
     final = np.array([np.average(np.max(np.dot(normalize(np.stack([model[ps] for ps in pred])), lvs), axis=1))*(1+(len(pred)-1)*epsilon) for pred in predSplit])
-    if max(final) < 0.3:
-        final = dicReplaceSimVec(lineSplit, predSplit, linetypes)
     return final
 
 def generateAnswerSPARQL(resource, typeL, finalPreds):
@@ -603,7 +597,7 @@ def singleEMultiRQuick(qline, eline, pline, rline, sline, answerp, h, af):
     qline = qline.replace(sf, '')
     results, pathL, typeL = generateSPARQL(pline, resource, len(pline))
     if len(pline) != 1:
-        predL, predSplitL, idL = generatePreds(results)
+        predL, predSplitL, idL = generatePreds(results, len(pline))
         while len(predL[0]) == 0:
             pline = removeType(pline, h)
             results, pathL, typeL = generateSPARQL(pline, resource, len(pline))
@@ -658,6 +652,187 @@ def singleEMultiRQuick(qline, eline, pline, rline, sline, answerp, h, af):
     # sparql.setReturnFormat(JSON)
     # results = sparql.query().convert()
 
+def generatePathsBERT(path, qline):
+    lineSplit = []
+    for x in path:
+        x = x.translate(str.maketrans({key: " {0} ".format(key) for key in string.punctuation}))
+        x = x.split()
+        for xs in x:
+            xsid = findIndex(qline, xs) + 1
+            if xsid != 0 and xsid not in lineSplit and xs!='' and xs not in totalstopwords and xs.lower() not in totalstopwords:
+                lineSplit.append(xsid)
+    return np.array(lineSplit)
+
+def generateSPARQLBERT(pline, qline, resource, resource2p, resource2=''):
+    qstart = 'SELECT DISTINCT '
+    qmiddle1 = 'WHERE {'
+    qmiddle2 = '} UNION {'
+    qend2 = '}. FILTER (isLiteral('
+    prevE = resource
+    query = qmiddle1
+    qstart1 = qstart
+    pathL = []
+    flag = False
+    for pi in range(len(pline)):
+        pv = '?p' + str(pi)
+        if pi == resource2p:
+            if resource2 != '':
+                ev = resource2
+                flag = True
+            else:
+                ev = '?x' + str(pi)
+        else:
+            ev = '?x' + str(pi)
+        path, answerT = pline[pi]
+        newpath = generatePathsBERT(path, qline)
+        if len(newpath) == 0:
+            if len(pathL) != 0:
+                pathL.append(pathL[-1])
+            else:
+                newpath = np.array([findIndex(qline, p) + 1 for p in path])
+                pathL.append(newpath[newpath!=0])
+        else:
+            pathL.append(newpath)
+        qstart1 += pv + ' '
+        query += '{' + prevE + ' ' + pv + ' ' + ev + qmiddle2 + ev + ' ' + pv + ' ' + prevE
+        if flag:
+            query += '}.'
+            flag = False
+        else:
+            if answerT in literaltypes or answerT in timetypes:
+                query += qend2 + ev + ')).'
+            elif answerT == '':
+                query += '}.'
+            else:
+                query += '}.' + ev + ' a <http://dbpedia.org/ontology/' + answerT + '>.'
+            prevE = ev
+    query = qstart1 + query + '}'
+    print(query)
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return results, pathL
+
+def findIndex(l, w):
+    try:
+        return l.index(w)
+    except:
+        return -1
+
+def splitPreBERT(pre):
+    ind = 0
+    preList = []
+    for i in range(len(pre)):
+        if pre[i].isupper():
+            if i - ind>1:
+                preList.append(pre[ind:i].lower())
+                ind = i
+    if len(preList)==0:
+        preList.append(pre)
+    else:
+        preList.append(pre[ind:].lower())
+    return preList
+
+def generatePredsBERT(results, plen):
+    predL = [[] for i in range(plen)]
+    predSplitL = [[] for i in range(plen)]
+    idL = [[] for i in range(1, plen)]
+    # print(len(results['results']['bindings']))
+    for t in results['results']['bindings']:
+        flag = False
+        currPreds = []
+        currPredSplits = []
+        for i in range(plen):
+            currPred = t['p'+str(i)]['value']
+            if 'dbpedia.org' not in currPred or 'wikiPage' in currPred:
+                flag = True
+                break
+            currPredSplit = splitPreBERT(currPred.split('/')[-1].split('#')[-1])
+            if len(currPredSplit) == 0:
+                flag = True
+                break
+            currPreds.append(currPred)
+            currPredSplits.append(currPredSplit)
+        if flag:
+            continue
+        prevId = -1
+        flag = False
+        for i in range(plen):
+            if currPreds[i] not in predL[i]:
+                if prevId != -1:
+                    idL[i-1].append((prevId, len(predL[i])))
+                prevId = len(predL[i])
+                predL[i].append(currPreds[i])
+                predSplitL[i].append(currPredSplits[i])
+                # pvsL[i].append(splitVec(splitPre(currPreds[i].split('/')[-1].split('#')[-1])))
+            else:
+                currId = (prevId, predL[i].index(currPreds[i]))
+                if prevId != -1 and currId not in idL[i-1]:
+                    idL[i-1].append(currId)
+                prevId = currId[1]
+    return predL, predSplitL, idL
+
+def computeSimVecBERT(vec, lineSplit, predSplit):
+    print(lineSplit)
+    print(predSplit)
+    lvs = np.transpose(normalize(vec[lineSplit]))
+    final = np.array([np.average(np.max(np.dot(normalize(bc.encode([pred], is_tokenized=True)[0]), lvs), axis=1))*(1+(len(pred)-1)*epsilon) for pred in predSplit])
+    return final
+
+def singleEMultiRQuickBERT(qline, eline, pline, rline, sline, answerp, h, af):
+    sf, resource = tuple(eline.split('|'))
+    pline, answerp = singleE(qline, sf, h)
+    print(pline, answerp)
+    qline = qline.replace(sf, 'Entity')
+    qline = qline.translate(str.maketrans({key: " {0} ".format(key) for key in string.punctuation}))
+    qline = qline.split()
+    vec = bc.encode([qline], is_tokenized=True)[0]
+    results, pathL = generateSPARQLBERT(pline, qline, resource, len(pline))
+    if len(pline) != 1:
+        predL, predSplitL, idL = generatePredsBERT(results, len(pline))
+        while len(predL[0]) == 0:
+            pline = removeType(pline, h)
+            results, pathL = generateSPARQLBERT(pline, qline, resource, len(pline))
+            predL, predSplitL, idL = generatePredsBERT(results, len(pline))
+        simVecL = [computeSimVecBERT(vec, pathL[i], predSplitL[i]) for i in range(len(pline))]
+        adjMats = [np.zeros((len(predL[i]), len(predL[i+1]))) for i in range(len(pline)-1)]
+        # print(predL)
+        for i in range(len(pline)-1):
+            for index in idL[i]:
+                adjMats[i][index] = 1
+        # print(adjMats)
+        result = TA(simVecL, adjMats)
+        maxSim = result[0]
+        result = result[1:]
+        finalPreds = [predL[i][j] for i,j in enumerate(result)]
+    else:
+        currPreds = []
+        currPredSplits = []
+        for t in results['results']['bindings']:
+            currPred = t['p0']['value']
+            currPredSplit = splitPreBERT(currPred.split('/')[-1].split('#')[-1])
+            if 'dbpedia.org' in currPred and 'wikiPage' not in currPred and len(currPredSplit) != 0:
+                currPreds.append(currPred)
+                currPredSplits.append(currPredSplit)
+        while len(currPreds) == 0:
+            pline = [(pline[0][0], '')]
+            results, pathL = generateSPARQLBERT(pline, qline, resource, len(pline))
+            for t in results['results']['bindings']:
+                currPred = t['p0']['value']
+                currPredSplit = splitPreBERT(currPred.split('/')[-1].split('#')[-1])
+                if 'dbpedia.org' in currPred and 'wikiPage' not in currPred and len(currPredSplit) != 0:
+                    currPreds.append(currPred)
+                    currPredSplits.append(currPredSplit)
+        simMat = computeSimVecBERT(vec, pathL[0],currPredSplits)
+        maxSingleInd = np.argmax(simMat)
+        maxSim = simMat[maxSingleInd]
+        finalPreds = [currPreds[maxSingleInd]]
+    print('MaxSim:', maxSim)
+    af.write('MaxSim: ' + str(maxSim) + '\n')
+    print('FinalPreds:', finalPreds)
+    af.write('FinalPreds: ' + str(finalPreds) + '\n')
+    print('TruePreds:', rline)
+    af.write('TruePreds: ' + str(rline) + '\n')
 
 def doubleEMultiR(qline, eline, pline, rline, answerp, resource2p, h, af):
     e1, e2 = tuple(eline)
@@ -669,7 +844,7 @@ def doubleEMultiR(qline, eline, pline, rline, answerp, resource2p, h, af):
             sf2, resource2 = tuple(e2.split('|'))
             qline = qline.replace(sf1, '').replace(sf2, '')
             results, pathL, typeL = generateSPARQL(pline, resource, resource2p, resource2)
-            predL, predSplitL, idL = generatePreds(results)
+            predL, predSplitL, idL = generatePreds(results, len(pline))
             while len(predL[0]) == 0:
                 pline = removeType(pline, h)
                 results, pathL, typeL = generateSPARQL(pline, resource, resource2p, resource2)
@@ -715,7 +890,7 @@ h = Hierarchy('./hierarchy.txt')
 # rline = rlines[38].strip()
 # answerp = int(answerp)
 # singleEMultiRQuick(qline, eline, pline, rline, answerp)
-af = open('LCQ_SA', 'w')
+af = open('LCQ_SA_BERT', 'w')
 
 for i in range(len(qlines)):
     print(i)
@@ -730,4 +905,4 @@ for i in range(len(qlines)):
     sline = slines[i].strip()
     af.write(str(i)+'\n')
     # doubleEMultiR(qline, eline, pline, rline, answerp, resource2p, h, af)
-    singleEMultiRQuick(qline, eline, pline, rline, sline, answerp, h, af)
+    singleEMultiRQuickBERT(qline, eline, pline, rline, sline, answerp, h, af)

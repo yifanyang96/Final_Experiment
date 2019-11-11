@@ -1,20 +1,39 @@
 CC = g++
 CFLAGS = -c -Wall -O2 -pthread -std=c++11
+EXEFLAG = -O2 -pthread -std=c++11
 objdir = ./objs/
+exedir = ./bin/
 def64IO = -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE
 
-utilobj = $(objdir)Util.o $(objdir)Bstr.o $(objdir)Triple.o $(objdir)VList.o 
+utilobj = $(objdir)Util.o $(objdir)Bstr.o $(objdir)Stream.o $(objdir)Triple.o $(objdir)VList.o 
+trieobj = $(objdir)Trie.o $(objdir)TrieNode.o 
 parserobj = $(objdir)RDFParser.o $(objdir)TurtleParser.o
 sitreeobj = $(objdir)SITree.o $(objdir)SIStorage.o $(objdir)SINode.o $(objdir)SIIntlNode.o $(objdir)SILeafNode.o $(objdir)SIHeap.o 
 ivtreeobj = $(objdir)IVTree.o $(objdir)IVStorage.o $(objdir)IVNode.o $(objdir)IVIntlNode.o $(objdir)IVLeafNode.o $(objdir)IVHeap.o 
 ivarrayobj = $(objdir)IVArray.o $(objdir)IVEntry.o $(objdir)IVBlockManager.o
 isarrayobj = $(objdir)ISArray.o $(objdir)ISEntry.o $(objdir)ISBlockManager.o
-kvstoreobj = $(objdir)KVstore.o $(sitreeobj) $(istreeobj) $(ivtreeobj) $(ivarrayobj) $(isarrayobj) #$(sstreeobj)
+kvstoreobj = $(objdir)KVstore.o $(sitreeobj) $(ivtreeobj) $(ivarrayobj) $(isarrayobj)
 stringindexobj = $(objdir)StringIndex.o
+signatureobj = $(objdir)SigEntry.o $(objdir)Signature.o
+vstreeobj = $(objdir)LRUCache.o $(objdir)VNode.o
 databaseobj = $(objdir)Database.o
 
-all: $(utilobj) $(parserobj) $(sitreeobj) $(ivtreeobj) $(ivarrayobj) $(isarrayobj) $(kvstoreobj) $(stringindexobj) $(databaseobj)
+objfile = $(kvstoreobj) $(vstreeobj) $(stringindexobj) $(parserobj) $(databaseobj) $(utilobj) $(signatureobj) $(trieobj)
+
+all: $(exedir)Build $(exedir)Add $(exedir)AddUB $(exedir)Test
 	@echo "Compilation ends successfully!"
+
+$(exedir)Test: $(objfile) $(objdir)Test.o
+	$(CC) $(EXEFLAG) -o $(exedir)Test $(objfile) $(objdir)Test.o
+
+$(exedir)Build: $(objfile) $(objdir)Build.o
+	$(CC) $(EXEFLAG) -o $(exedir)Build $(objfile) $(objdir)Build.o
+
+$(exedir)Add: $(objfile) $(objdir)Add.o
+	$(CC) $(EXEFLAG) -o $(exedir)Add $(objfile) $(objdir)Add.o
+
+$(exedir)AddUB: $(objfile) $(objdir)AddUB.o
+	$(CC) $(EXEFLAG) -o $(exedir)AddUB $(objfile) $(objdir)AddUB.o
 
 $(objdir)Util.o:  Util/Util.cpp Util/Util.h
 	$(CC) $(CFLAGS) Util/Util.cpp -o $(objdir)Util.o
@@ -103,9 +122,35 @@ $(objdir)KVstore.o: KVstore/KVstore.cpp KVstore/KVstore.h KVstore/Tree.h
 $(objdir)StringIndex.o: StringIndex/StringIndex.cpp StringIndex/StringIndex.h $(objdir)KVstore.o $(objdir)Util.o
 	$(CC) $(CFLAGS) StringIndex/StringIndex.cpp -o $(objdir)StringIndex.o $(def64IO)
 
+$(objdir)SigEntry.o: Signature/SigEntry.cpp Signature/SigEntry.h $(objdir)Signature.o
+	$(CC) $(CFLAGS) Signature/SigEntry.cpp -o $(objdir)SigEntry.o
+
+$(objdir)Signature.o: Signature/Signature.cpp Signature/Signature.h
+	$(CC) $(CFLAGS) Signature/Signature.cpp -o $(objdir)Signature.o
+
+$(objdir)LRUCache.o: VSTree/LRUCache.cpp  VSTree/LRUCache.h VSTree/VNode.h
+	$(CC) $(CFLAGS) VSTree/LRUCache.cpp -o $(objdir)LRUCache.o $(def64IO)
+
+$(objdir)VNode.o: VSTree/VNode.cpp VSTree/VNode.h
+	$(CC) $(CFLAGS) VSTree/VNode.cpp -o $(objdir)VNode.o $(def64IO)
+
 $(objdir)Database.o: Database/Database.cpp Database/Database.h $(objdir)Triple.o \
 	$(objdir)KVstore.o $(objdir)Util.o $(objdir)RDFParser.o $(objdir)StringIndex.o
-	$(CC) $(CFLAGS) Database/Database.cpp $(inc) -o $(objdir)Database.o
+	$(CC) $(CFLAGS) Database/Database.cpp -o $(objdir)Database.o
 
+$(objdir)Build.o: Main/Build.cpp Database/Database.h
+	$(CC) $(CFLAGS) Main/Build.cpp -o $(objdir)Build.o
+
+$(objdir)Add.o: Main/Add.cpp Database/Database.h
+	$(CC) $(CFLAGS) Main/Add.cpp -o $(objdir)Add.o
+
+$(objdir)AddUB.o: Main/AddUB.cpp Database/Database.h
+	$(CC) $(CFLAGS) Main/AddUB.cpp -o $(objdir)AddUB.o
+
+$(objdir)Test.o: Main/Test.cpp Database/Database.h
+	$(CC) $(CFLAGS) Main/Test.cpp -o $(objdir)Test.o
+	
 clean:
 	rm -f $(objdir)*.o
+	rm -f $(exedir)*
+	rm -rf ./*.db

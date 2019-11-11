@@ -1,0 +1,9 @@
+<http://www.Department0.University0.edu/FullProfessor0>	<rdf:type>	<ub:FullProfessor>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:name>	<FullProfessor0>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:teacherOf>	<http://www.Department0.University0.edu/Course0>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:teacherOf>	<http://www.Department0.University0.edu/GraduateCourse0>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:teacherOf>	<http://www.Department0.University0.edu/GraduateCourse1>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:undergraduateDegreeFrom>	<http://www.University84.edu>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:mastersDegreeFrom>	<http://www.University7875.edu>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:doctoralDegreeFrom>	<http://www.University7241.edu>.
+<http://www.Department0.University0.edu/FullProfessor0>	<ub:worksFor>	<http://www.Department0.University0.edu>.

@@ -310,8 +310,8 @@ def newTAPre(e1, R1, e2, R2, t):
 def search(ent1, ents2, entst):
     try:
         ent2id = ents2.index(ent1)
-        enttid = entst.index(ent1)
-        return ent2id
+        if ent1 in entst:
+            return ent2id
     except:
         return -1
 

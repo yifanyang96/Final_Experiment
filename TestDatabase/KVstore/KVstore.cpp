@@ -32,6 +32,8 @@ KVstore::KVstore(string _store_path)
 	this->preID2values = NULL;
 	this->objID2values = NULL;
 	this->objID2values_literal = NULL;
+	this->entityID2UBvalues = NULL;
+	this->entityID2Hashvalues = NULL;
 }
 
 //Release all the memory used in this KVstore before destruction
@@ -59,6 +61,8 @@ KVstore::flush()
 	this->flush(this->preID2values);
 	this->flush(this->objID2values);
 	this->flush(this->objID2values_literal);
+	this->flush(this->entityID2UBvalues);
+	this->flush(this->entityID2Hashvalues);
 }
 
 void 
@@ -97,6 +101,11 @@ KVstore::release()
 	delete this->objID2values_literal;
 	this->objID2values_literal = NULL;
 
+	delete this->entityID2UBvalues;
+	this->entityID2UBvalues = NULL;
+
+	delete this->entityID2Hashvalues;
+	this->entityID2Hashvalues = NULL;
 	if (trie != NULL)
 	{
 		trie->SetStorePath(dictionary_store_path);
@@ -122,7 +131,8 @@ KVstore::open()
 	this->open_subID2values(KVstore::READ_WRITE_MODE);
 	this->open_objID2values(KVstore::READ_WRITE_MODE);
 	this->open_preID2values(KVstore::READ_WRITE_MODE);
-
+	this->open_entityID2UBvalues(KVstore::READ_WRITE_MODE);
+	this->open_entityID2Hashvalues(KVstore::READ_WRITE_MODE);
 	if(trie==NULL)
 		this->trie = new Trie;
 
@@ -443,7 +453,9 @@ KVstore::updateTupleslist_insert(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_PREDICATE_
 	//return flag;
 	return this->updateInsert_s2values(_sub_id, _pre_id, _obj_id)
 		&& this->updateInsert_o2values(_sub_id, _pre_id, _obj_id)
-		&& this->updateInsert_p2values(_sub_id, _pre_id, _obj_id);
+		&& this->updateInsert_p2values(_sub_id, _pre_id, _obj_id)
+		&& this->updateInsert_e2UBvalues(_sub_id, _obj_id)
+		&& this->updateInsert_e2Hashvalues(_sub_id, _obj_id);
 }
 
 bool 
@@ -1077,6 +1089,76 @@ KVstore::updateRemove_p2values(TYPE_PREDICATE_ID _preid, const std::vector<unsig
 	return true;
 }
 
+bool 
+KVstore::updateInsert_e2UBvalues(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_ENTITY_LITERAL_ID _obj_id) 
+{
+	unsigned* _tmp_sub = NULL;
+	unsigned _len_sub = 0;
+	bool _get_sub = this->getValueByKey(this->entityID2UBvalues, _sub_id, (char*&)_tmp_sub, _len_sub);
+	//subID doesn't exist
+	if (!_get_sub) 
+	{
+		//unsigned _values[6];
+		float* _values = new float[K];
+		for (unsigned k = 0; k < K; k++)
+			_values[k] = (float)(k+k*0.1);
+		//NOTICE: not use array in stack here, otherwise it will be freed, and data in B+Tree, too
+		this->addValueByKey(this->entityID2UBvalues, _sub_id, (char*)_values, sizeof(float) * K);
+	}
+
+	bool _is_entity = Util::is_entity_ele(_obj_id);
+	if (_is_entity) {
+		unsigned* _tmp_obj = NULL;
+		unsigned _len_obj = 0;
+		bool _get_obj = this->getValueByKey(this->entityID2UBvalues, _obj_id, (char*&)_tmp_obj, _len_obj);
+		if (!_get_obj) 
+		{
+			//unsigned _values[6];
+			float* _values = new float[K];
+			for (unsigned k = 0; k < K; k++)
+				_values[k] = (float)(k+k*0.1);
+			//NOTICE: not use array in stack here, otherwise it will be freed, and data in B+Tree, too
+			this->addValueByKey(this->entityID2UBvalues, _obj_id, (char*)_values, sizeof(float) * K);
+		}
+	}
+	return true;
+}
+
+bool 
+KVstore::updateInsert_e2Hashvalues(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_ENTITY_LITERAL_ID _obj_id) 
+{
+	unsigned* _tmp_sub = NULL;
+	unsigned _len_sub = 0;
+	bool _get_sub = this->getValueByKey(this->entityID2Hashvalues, _sub_id, (char*&)_tmp_sub, _len_sub);
+	//subID doesn't exist
+	if (!_get_sub) 
+	{
+		//unsigned _values[6];
+		unsigned* _values = new unsigned[N];
+		for (unsigned k = 0; k < N; k++)
+			_values[k] = k;
+		//NOTICE: not use array in stack here, otherwise it will be freed, and data in B+Tree, too
+		this->addValueByKey(this->entityID2Hashvalues, _sub_id, (char*)_values, sizeof(unsigned) * N);
+	}
+
+	bool _is_entity = Util::is_entity_ele(_obj_id);
+	if (_is_entity) {
+		unsigned* _tmp_obj = NULL;
+		unsigned _len_obj = 0;
+		bool _get_obj = this->getValueByKey(this->entityID2Hashvalues, _obj_id, (char*&)_tmp_obj, _len_obj);
+		if (!_get_obj) 
+		{
+			//unsigned _values[6];
+			unsigned* _values = new unsigned[N];
+			for (unsigned k = 0; k < N; k++)
+				_values[k] = k;
+			//NOTICE: not use array in stack here, otherwise it will be freed, and data in B+Tree, too
+			this->addValueByKey(this->entityID2Hashvalues, _obj_id, (char*)_values, sizeof(unsigned) * N);
+		}
+	}
+	return true;
+}
+
 //for entity2id
 //_mode is either KVstore::CREATE_MODE or KVstore::READ_WRITE_MODE
 bool 
@@ -1612,7 +1694,6 @@ KVstore::build_subID2values(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num
 	bool _pre_change = true;
 
 	this->open_subID2values(KVstore::CREATE_MODE, total_entity_num);
-
 	//NOTICE: i*3 + j maybe break the unsigned limit
 	//for (unsigned long i = 0; i < _triples_num; i++) 
 	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
@@ -1673,6 +1754,7 @@ KVstore::build_subID2values(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num
 				}
 
 				this->addValueByKey(this->subID2values, _sub_id, (char*)_entrylist_s, sizeof(unsigned) * j);
+				// cout << "Add finish" << endl;
 				//delete[] _entrylist_s;
 			}
 		}
@@ -1858,6 +1940,70 @@ KVstore::getpreIDobjIDlistBysubID(TYPE_ENTITY_LITERAL_ID _subid, unsigned*& _pre
 }
 
 bool 
+KVstore::getUBlistByentityID(TYPE_ENTITY_LITERAL_ID _entityid, float*& _UBlist, bool _no_duplicate) const 
+{
+	//cout << "In getpreIDlistBysubID " << _subid << endl;
+	if (!Util::is_entity_ele(_entityid)) {
+		_UBlist = NULL;
+		return false;
+	}
+	float* _tmp = NULL;
+	unsigned _len = 0;
+	bool _get = this->getValueByKey(this->entityID2UBvalues, _entityid, (char*&)_tmp, _len);
+
+	if (!_get) 
+	{
+		_UBlist = NULL;
+		return false;
+	}
+
+	_UBlist = new float[K];
+	memcpy(_UBlist, _tmp, sizeof(float)*K);
+
+	//if this is a long list, then we should remove itself after copying
+	//otherwise, we should not free the list memory
+//	if(VList::listNeedDelete(_len))
+//	{
+		delete[] _tmp;
+		//_tmp = NULL;
+//	}
+
+	return true;
+}
+
+bool 
+KVstore::getHashlistByentityID(TYPE_ENTITY_LITERAL_ID _entityid, unsigned*& _Hashlist, bool _no_duplicate) const 
+{
+	//cout << "In getpreIDlistBysubID " << _subid << endl;
+	if (!Util::is_entity_ele(_entityid)) {
+		_Hashlist = NULL;
+		return false;
+	}
+	unsigned* _tmp = NULL;
+	unsigned _len = 0;
+	bool _get = this->getValueByKey(this->entityID2Hashvalues, _entityid, (char*&)_tmp, _len);
+
+	if (!_get) 
+	{
+		_Hashlist = NULL;
+		return false;
+	}
+
+	_Hashlist = new unsigned[N];
+	memcpy(_Hashlist, _tmp, sizeof(unsigned)*N);
+
+	//if this is a long list, then we should remove itself after copying
+	//otherwise, we should not free the list memory
+//	if(VList::listNeedDelete(_len))
+//	{
+		delete[] _tmp;
+		//_tmp = NULL;
+//	}
+
+	return true;
+}
+
+bool 
 KVstore::open_objID2values(int _mode, TYPE_ENTITY_LITERAL_ID _entity_num, TYPE_ENTITY_LITERAL_ID _literal_num) 
 {
 	unsigned long long buffer_size;
@@ -1923,7 +2069,6 @@ KVstore::build_objID2values(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num
 	bool _pre_change = true;
 
 	this->open_objID2values(KVstore::CREATE_MODE, total_entity_num, total_literal_num);
-
 	//for (unsigned long i = 0; i < _triples_num; i++) 
 	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
 	{
@@ -1969,7 +2114,6 @@ KVstore::build_objID2values(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num
 				}
 				
 				this->addValueByKey(this->objID2values, _obj_id, (char*)_entrylist_o, sizeof(unsigned) * j);
-				
 				//delete[] _entrylist_o;
 			}
 		}
@@ -2404,6 +2548,210 @@ KVstore::getpreIDlistBysubIDobjID(TYPE_ENTITY_LITERAL_ID _subid, TYPE_ENTITY_LIT
 	return true;
 }
 
+bool 
+KVstore::open_entityID2UBvalues(int _mode, TYPE_ENTITY_LITERAL_ID _entity_num) 
+{
+	unsigned long long buffer_size;
+	if (_mode == KVstore::CREATE_MODE) 
+	{
+		buffer_size = Util::MAX_BUFFER_SIZE * buffer_eID2UBvalues_build;
+	}
+	else if (_mode == KVstore::READ_WRITE_MODE) 
+	{
+		buffer_size = Util::MAX_BUFFER_SIZE * buffer_eID2UBvalues_query;
+	}
+	else 
+	{
+		cerr << "Invalid open mode in open_entityID2UBvalues, mode = " << _mode << endl;
+		return false;
+	}
+
+	return this->open(this->entityID2UBvalues, KVstore::s_eID2UBvalues, _mode, buffer_size, _entity_num);
+}
+
+bool 
+KVstore::close_entityID2UBvalues() 
+{
+	if (this->entityID2UBvalues == NULL) 
+	{
+		return true;
+	}
+
+	this->entityID2UBvalues->save();
+	delete this->entityID2UBvalues;
+	this->entityID2UBvalues = NULL;
+	cout << "Done closing entityID2UBvalues" << endl;
+
+	return true;
+}
+
+//STRUCT of s2xx: triple_number pre_num entity_border p1 offset1 p2 offset2 ... pn offsetn
+//p1-list(in offset1) p2-list(in offset2) ... pn-list(in offsetn)
+//(the final whole list is a unsorted olist)
+bool 
+KVstore::build_subID2UBvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num, TYPE_ENTITY_LITERAL_ID total_entity_num) 
+{
+	cout << "Begin building subID2UBvalues..." << endl;
+
+	this->open_entityID2UBvalues(KVstore::CREATE_MODE, total_entity_num);
+
+	cout << "Open Finished" << endl;
+	//NOTICE: i*3 + j maybe break the unsigned limit
+	//for (unsigned long i = 0; i < _triples_num; i++) 
+	float* _entrylist_s = new float[K];
+	for (unsigned k = 0; k < K; k++)
+		_entrylist_s[k] = (float)(k+k*0.1);
+	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
+	{
+		if (i + 1 == _triples_num || _p_id_tuples[i].subid != _p_id_tuples[i+1].subid) 
+		{
+			TYPE_ENTITY_LITERAL_ID _sub_id = _p_id_tuples[i].subid;
+			float* _subdumb = new float[K];
+			memcpy(_subdumb, _entrylist_s, sizeof(float) * K);
+			this->addValueByKey(this->entityID2UBvalues, _sub_id, (char*)_subdumb, sizeof(float) * K);
+			//delete[] _entrylist_s;
+		}
+	}
+
+	this->close_entityID2UBvalues();
+	cout << "Finished building subID2UBvalues" << endl;
+
+	return true;
+}
+
+bool 
+KVstore::build_objID2UBvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num) 
+{
+	cout << "Begin building objID2UBvalues..." << endl;
+
+	this->open_entityID2UBvalues(KVstore::READ_WRITE_MODE);
+
+	cout << "Open Finished" << endl;
+	//NOTICE: i*3 + j maybe break the unsigned limit
+	//for (unsigned long i = 0; i < _triples_num; i++) 
+	float* _entrylist_s = new float[K];
+	for (unsigned k = 0; k < K; k++)
+		_entrylist_s[k] = (float)(k+k*0.1);
+	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
+	{
+		if (i + 1 == _triples_num || _p_id_tuples[i].objid != _p_id_tuples[i+1].objid) 
+		{
+			TYPE_ENTITY_LITERAL_ID _obj_id = _p_id_tuples[i].objid;
+			if (!Util::is_literal_ele(_obj_id)) {
+				float* _objdumb = new float[K];
+				memcpy(_objdumb, _entrylist_s, sizeof(float) * K);
+				this->addValueByKey(this->entityID2UBvalues, _obj_id, (char*)_objdumb, sizeof(float) * K);
+			}
+			//delete[] _entrylist_s;
+		}
+	}
+
+	this->close_entityID2UBvalues();
+	cout << "Finished building objID2UBvalues" << endl;
+
+	return true;
+}
+
+bool 
+KVstore::open_entityID2Hashvalues(int _mode, TYPE_ENTITY_LITERAL_ID _entity_num) 
+{
+	unsigned long long buffer_size;
+	if (_mode == KVstore::CREATE_MODE) 
+	{
+		buffer_size = Util::MAX_BUFFER_SIZE * buffer_eID2Hashvalues_build;
+	}
+	else if (_mode == KVstore::READ_WRITE_MODE) 
+	{
+		buffer_size = Util::MAX_BUFFER_SIZE * buffer_eID2Hashvalues_query;
+	}
+	else 
+	{
+		cerr << "Invalid open mode in open_entityID2Hashvalues, mode = " << _mode << endl;
+		return false;
+	}
+
+	return this->open(this->entityID2Hashvalues, KVstore::s_eID2Hashvalues, _mode, buffer_size, _entity_num);
+}
+
+bool 
+KVstore::close_entityID2Hashvalues() 
+{
+	if (this->entityID2Hashvalues == NULL) 
+	{
+		return true;
+	}
+
+	this->entityID2Hashvalues->save();
+	delete this->entityID2Hashvalues;
+	this->entityID2Hashvalues = NULL;
+	cout << "Done closing entityID2Hashvalues" << endl;
+
+	return true;
+}
+
+bool 
+KVstore::build_subID2Hashvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num, TYPE_ENTITY_LITERAL_ID total_entity_num) 
+{
+	cout << "Begin building subID2Hashvalues..." << endl;
+
+	this->open_entityID2Hashvalues(KVstore::CREATE_MODE, total_entity_num);
+
+	cout << "Open Finished" << endl;
+	//NOTICE: i*3 + j maybe break the unsigned limit
+	//for (unsigned long i = 0; i < _triples_num; i++) 
+	unsigned* _entrylist_s = new unsigned[N];
+	for (unsigned k = 0; k < N; k++)
+		_entrylist_s[k] = k;
+	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
+	{
+		if (i + 1 == _triples_num || _p_id_tuples[i].subid != _p_id_tuples[i+1].subid) 
+		{
+			TYPE_ENTITY_LITERAL_ID _sub_id = _p_id_tuples[i].subid;
+			unsigned* _subdumb = new unsigned[N];
+			memcpy(_subdumb, _entrylist_s, sizeof(unsigned) * N);
+			this->addValueByKey(this->entityID2Hashvalues, _sub_id, (char*)_subdumb, sizeof(unsigned) * N);
+			//delete[] _entrylist_s;
+		}
+	}
+
+	this->close_entityID2Hashvalues();
+	cout << "Finished building subID2Hashvalues" << endl;
+
+	return true;
+}
+
+bool 
+KVstore::build_objID2Hashvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num) 
+{
+	cout << "Begin building objID2Hashvalues..." << endl;
+
+	this->open_entityID2Hashvalues(KVstore::READ_WRITE_MODE);
+
+	cout << "Open Finished" << endl;
+	//NOTICE: i*3 + j maybe break the unsigned limit
+	//for (unsigned long i = 0; i < _triples_num; i++) 
+	unsigned* _entrylist_s = new unsigned[N];
+	for (unsigned k = 0; k < N; k++)
+		_entrylist_s[k] = k;
+	for (TYPE_TRIPLE_NUM i = 0; i < _triples_num; i++) 
+	{
+		if (i + 1 == _triples_num || _p_id_tuples[i].objid != _p_id_tuples[i+1].objid) 
+		{
+			TYPE_ENTITY_LITERAL_ID _obj_id = _p_id_tuples[i].objid;
+			if (!Util::is_literal_ele(_obj_id)) {
+				unsigned* _objdumb = new unsigned[N];
+				memcpy(_objdumb, _entrylist_s, sizeof(unsigned) * N);
+				this->addValueByKey(this->entityID2Hashvalues, _obj_id, (char*)_objdumb, sizeof(unsigned) * N);
+			}
+			//delete[] _entrylist_s;
+		}
+	}
+
+	this->close_entityID2Hashvalues();
+	cout << "Finished building objID2Hashvalues" << endl;
+
+	return true;
+}
 
 bool 
 KVstore::open(SITree*& _p_btree, string _tree_name, int _mode, unsigned long long _buffer_size) 
@@ -2815,6 +3163,20 @@ KVstore::AddIntoObjCache(TYPE_ENTITY_LITERAL_ID _entity_literal_id)
 	this->objID2values->PinCache(_entity_literal_id);
 }
 
+void 
+KVstore::AddIntoEntityUBCache(TYPE_ENTITY_LITERAL_ID _entity_id)
+{
+	if (!Util::is_literal_ele(_entity_id))
+		this->entityID2UBvalues->PinCache(_entity_id);
+}
+
+void 
+KVstore::AddIntoEntityHashCache(TYPE_ENTITY_LITERAL_ID _entity_id)
+{
+	if (!Util::is_literal_ele(_entity_id))
+		this->entityID2Hashvalues->PinCache(_entity_id);
+}
+
 unsigned
 KVstore::getSubListSize(TYPE_ENTITY_LITERAL_ID _sub_id)
 {
@@ -2845,6 +3207,20 @@ KVstore::getPreListSize(TYPE_PREDICATE_ID _pre_id)
 	return _ret;
 }
 
+bool
+KVstore::insertUB(string entity, float* currUB) {
+	TYPE_ENTITY_LITERAL_ID _entity_id = this->getIDByEntity(entity);
+	this->setValueByKey(this->entityID2UBvalues, _entity_id, (char*)currUB, sizeof(float) * K);
+	return true;
+}
+
+bool
+KVstore::insertHash(string entity, unsigned* currHash) {
+	TYPE_ENTITY_LITERAL_ID _entity_id = this->getIDByEntity(entity);
+	this->setValueByKey(this->entityID2Hashvalues, _entity_id, (char*)currHash, sizeof(unsigned) * N);
+	return true;
+}
+
 //TODO+BETTER: adjust the buffer size according to current memory usage(global memory manager)
 //better to adjust these parameters according to memory usage and entity num
 //need a memory manager first
@@ -2872,10 +3248,15 @@ unsigned short KVstore::buffer_id2literal_query = 1;
 string KVstore::s_sID2values = "s_sID2values";
 string KVstore::s_oID2values = "s_oID2values";
 string KVstore::s_pID2values = "s_pID2values";
+string KVstore::s_eID2UBvalues = "s_eID2UBvalues";
+string KVstore::s_eID2Hashvalues = "s_eID2Hashvalues";
 unsigned short KVstore::buffer_sID2values_build = 16;
 unsigned short KVstore::buffer_oID2values_build = 16;
 unsigned short KVstore::buffer_pID2values_build = 8;
+unsigned short KVstore::buffer_eID2UBvalues_build = 16;
+unsigned short KVstore::buffer_eID2Hashvalues_build = 16;
 unsigned short KVstore::buffer_sID2values_query = 16;
 unsigned short KVstore::buffer_oID2values_query = 16;
 unsigned short KVstore::buffer_pID2values_query = 8;
-
+unsigned short KVstore::buffer_eID2UBvalues_query = 16;
+unsigned short KVstore::buffer_eID2Hashvalues_query = 16;

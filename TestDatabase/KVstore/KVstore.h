@@ -54,6 +54,8 @@ public:
 	// functions to load Vlist's cache
 	void AddIntoSubCache(TYPE_ENTITY_LITERAL_ID _entity_id);
 	void AddIntoObjCache(TYPE_ENTITY_LITERAL_ID _entity_literal_id);
+	void AddIntoEntityUBCache(TYPE_ENTITY_LITERAL_ID _entity_id);
+	void AddIntoEntityHashCache(TYPE_ENTITY_LITERAL_ID _entity_id);
 	void AddIntoPreCache(TYPE_PREDICATE_ID _pre_id);
 	unsigned getPreListSize(TYPE_PREDICATE_ID _pre_id);
 	unsigned getSubListSize(TYPE_ENTITY_LITERAL_ID _sub_id);
@@ -92,6 +94,10 @@ public:
 	bool updateRemove_p2values(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_PREDICATE_ID _pre_id, TYPE_ENTITY_LITERAL_ID _obj_id);
 	bool updateInsert_p2values(TYPE_PREDICATE_ID _preid, const std::vector<unsigned>& _sidoidlist);
 	bool updateRemove_p2values(TYPE_PREDICATE_ID _preid, const std::vector<unsigned>& _sidoidlist);
+
+	bool updateInsert_e2UBvalues(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_ENTITY_LITERAL_ID _obj_id);
+
+	bool updateInsert_e2Hashvalues(TYPE_ENTITY_LITERAL_ID _sub_id, TYPE_ENTITY_LITERAL_ID _obj_id);
 
 	//===============================================================================
 
@@ -144,6 +150,8 @@ public:
 	bool close_subID2values();
 	bool build_subID2values(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num, TYPE_ENTITY_LITERAL_ID total_entity_num);
 	bool getpreIDlistBysubID(TYPE_ENTITY_LITERAL_ID _subid, unsigned*& _preidlist, unsigned& _list_len, bool _no_duplicate = false) const;
+	bool getUBlistByentityID(TYPE_ENTITY_LITERAL_ID _entityid, float*& _UBlist, bool _no_duplicate = false) const;
+	bool getHashlistByentityID(TYPE_ENTITY_LITERAL_ID _entityid, unsigned*& _Hashlist, bool _no_duplicate = false) const;
 	bool getobjIDlistBysubID(TYPE_ENTITY_LITERAL_ID _subid, unsigned*& _objidlist, unsigned& _list_len, bool _no_duplicate = false) const;
 	bool getobjIDlistBysubIDpreID(TYPE_ENTITY_LITERAL_ID _subid, TYPE_PREDICATE_ID _preid, unsigned*& _objidlist, unsigned& _list_len, bool _no_duplicate = false) const;
 	bool getpreIDobjIDlistBysubID(TYPE_ENTITY_LITERAL_ID _subid, unsigned*& _preid_objidlist, unsigned& _list_len, bool _no_duplicate = false) const;
@@ -165,12 +173,28 @@ public:
 	bool getobjIDlistBypreID(TYPE_PREDICATE_ID _preid, unsigned*& _objidlist, unsigned& _list_len, bool _no_duplicate = false) const;
 	bool getsubIDobjIDlistBypreID(TYPE_PREDICATE_ID _preid, unsigned*& _subid_objidlist, unsigned& _list_len, bool _no_duplicate = false) const;
 
+	//for eID2UBvalues
+	bool open_entityID2UBvalues(int _mode, TYPE_ENTITY_LITERAL_ID _entitynum = 0);
+	bool close_entityID2UBvalues();
+	bool build_subID2UBvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num, TYPE_ENTITY_LITERAL_ID total_entity_num);
+	bool build_objID2UBvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num);
+
+	//for eID2Hashvalues
+	bool open_entityID2Hashvalues(int _mode, TYPE_ENTITY_LITERAL_ID _entitynum = 0);
+	bool close_entityID2Hashvalues();
+	bool build_subID2Hashvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num, TYPE_ENTITY_LITERAL_ID total_entity_num);
+	bool build_objID2Hashvalues(ID_TUPLE* _p_id_tuples, TYPE_TRIPLE_NUM _triples_num);
+
 	//for so2p
 	bool getpreIDlistBysubIDobjID(TYPE_ENTITY_LITERAL_ID _subID, TYPE_ENTITY_LITERAL_ID _objID, unsigned*& _preidlist, unsigned& _list_len, bool _no_duplicate = false) const;
 
 	bool load_trie(int _mode);
 
 	Trie *getTrie();
+
+	bool insertUB(string entity, float* currUB);
+	bool insertHash(string entity, unsigned* currHash);
+
 private:
 	std::string store_path;
 
@@ -216,15 +240,23 @@ private:
 	IVArray* objID2values;
 	IVArray* objID2values_literal;
 	IVArray* preID2values;
+	IVArray* entityID2UBvalues;
+	IVArray* entityID2Hashvalues;
 	static std::string s_sID2values;
 	static std::string s_oID2values;
 	static std::string s_pID2values;
+	static std::string s_eID2UBvalues;
+	static std::string s_eID2Hashvalues;
 	static unsigned short buffer_sID2values_build;
 	static unsigned short buffer_oID2values_build;
 	static unsigned short buffer_pID2values_build;
+	static unsigned short buffer_eID2UBvalues_build;
+	static unsigned short buffer_eID2Hashvalues_build;
 	static unsigned short buffer_sID2values_query;
 	static unsigned short buffer_oID2values_query;
 	static unsigned short buffer_pID2values_query;
+	static unsigned short buffer_eID2UBvalues_query;
+	static unsigned short buffer_eID2Hashvalues_query;
 
 
 	//===============================================================================
